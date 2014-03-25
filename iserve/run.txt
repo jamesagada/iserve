@@ -1,0 +1,1242 @@
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com.ixzdore:iserve-webapp:war:1.0-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-war-plugin is missing. @ line 92, column 21
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] Quickstart Wicket/Restful/JDO App
+[INFO] Quickstart Wicket/Restful/JDO DOM
+[INFO] Quickstart Wicket/Restful/JDO Fixtures
+[INFO] Quickstart Wicket/Restful/JDO Integration Tests
+[INFO] Quickstart Wicket/Restful/JDO Webapp
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Quickstart Wicket/Restful/JDO App 1.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-antrun-plugin:1.6:run (default-cli) @ iserve ---
+[INFO] No ant target defined - SKIPPED
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Quickstart Wicket/Restful/JDO DOM 1.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-antrun-plugin:1.6:run (default-cli) @ iserve-dom ---
+[INFO] No ant target defined - SKIPPED
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Quickstart Wicket/Restful/JDO Fixtures 1.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-antrun-plugin:1.6:run (default-cli) @ iserve-fixture ---
+[INFO] No ant target defined - SKIPPED
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Quickstart Wicket/Restful/JDO Integration Tests 1.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-antrun-plugin:1.6:run (default-cli) @ iserve-integtests ---
+[INFO] No ant target defined - SKIPPED
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Quickstart Wicket/Restful/JDO Webapp 1.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-antrun-plugin:1.6:run (default-cli) @ iserve-webapp ---
+[WARNING] Parameter tasks is deprecated, use target instead
+[INFO] Executing tasks
+
+main:
+     [exec] 8017 [Thread-7] INFO org.simplericity.jettyconsole.DefaultJettyManager - Added web application on path / from war /Users/jamesagada/iserve/iserve/webapp/target/iserve-webapp-1.0-SNAPSHOT-jetty-console.war
+     [exec] 8019 [Thread-7] INFO org.simplericity.jettyconsole.DefaultJettyManager - Starting web application on port 8080
+     [exec] 8025 [Thread-7] INFO org.eclipse.jetty.server.Server - jetty-7.5.1.v20110908
+     [exec] 8149 [Thread-7] INFO org.eclipse.jetty.webapp.WebInfConfiguration - Extract jar:file:/Users/jamesagada/iserve/iserve/webapp/target/iserve-webapp-1.0-SNAPSHOT-jetty-console.war!/ to /private/var/folders/_j/xsgymcmd1lsc5zqtg65ctlsm0000gn/T/jetty-0.0.0.0-8080-iserve-webapp-1.0-SNAPSHOT-jetty-console.war-_-any-/webapp
+     [exec] 13038 [Thread-7] INFO org.eclipse.jetty.webapp.StandardDescriptorProcessor - NO JSP Support for /, did not find org.apache.jasper.servlet.JspServlet
+     [exec] SLF4J: Class path contains multiple SLF4J bindings.
+     [exec] SLF4J: Found binding in [jar:file:/private/var/folders/_j/xsgymcmd1lsc5zqtg65ctlsm0000gn/T/jetty-0.0.0.0-8080-iserve-webapp-1.0-SNAPSHOT-jetty-console.war-_-any-/webapp/WEB-INF/lib/slf4j-log4j12-1.7.5.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+     [exec] SLF4J: Found binding in [jar:file:/Users/jamesagada/iserve/iserve/webapp/target/iserve-webapp-1.0-SNAPSHOT-jetty-console.war!/META-INF/jettyconsole/lib/slf4j-simple-1.6.1.jar/org/slf4j/impl/StaticLoggerBinder.class]
+     [exec] SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+     [exec] SLF4J: Actual binding is of type [org.slf4j.impl.Log4jLoggerFactory]
+     [exec] INFO  - EnvironmentLoader          - Starting Shiro environment initialization.
+     [exec] 13281 [Thread-7] INFO / - Initializing Shiro environment
+     [exec] INFO  - IniSecurityManagerFactory  - Realms have been explicitly set on the SecurityManager instance - auto-setting of realms will not occur.
+     [exec] INFO  - AuthorizingRealm           - No cache or cacheManager properties have been set.  Authorization cache cannot be obtained.
+     [exec] INFO  - EnvironmentLoader          - Shiro environment initialized in 473 ms.
+     [exec] INFO  - ResteasyDeployment         - Deploying javax.ws.rs.core.Application: class org.apache.isis.viewer.restfulobjects.server.RestfulObjectsApplication
+     [exec] 14245 [Thread-7] INFO org.eclipse.jetty.server.handler.ContextHandler - started o.e.j.w.WebAppContext{/,file:/private/var/folders/_j/xsgymcmd1lsc5zqtg65ctlsm0000gn/T/jetty-0.0.0.0-8080-iserve-webapp-1.0-SNAPSHOT-jetty-console.war-_-any-/webapp/},/Users/jamesagada/iserve/iserve/webapp/target/iserve-webapp-1.0-SNAPSHOT-jetty-console.war
+     [exec] INFO  - WebXmlFile                 - web.xml: url mapping found for filter with name WicketFilter: [/wicket/*]
+     [exec] INFO  - IsisWicketApplication      - Config override location: No override location configured!
+     [exec] INFO  - tionBuilderResourceStreams - loading properties from isis.properties
+     [exec] INFO  - IsisConfigurationDefault   - adding isis.value.format.date=dd-MM-yyyy
+     [exec] INFO  - IsisConfigurationDefault   - adding isis.services=10:dom.todo.Partytypes,20:dom.todo.Inventory,30:dom.todo.Transactions,40:dom.todo.Reports,50:dom.todo.UserManager,60:app.ToDoItemAnalysis,70:dom.todo.ToDoItems,dom.todo.ToDoItemContributions,app.ToDoAppDashboardService,app.ToDoItemAnalysisContributions,services.ClockService,90:webapp.prototyping.ToDoItemsFixturesService,99:webapp.prototyping.DeveloperUtilities,org.apache.isis.core.metamodel.services.bookmarks.BookmarkServiceDefault,org.apache.isis.objectstore.jdo.service.RegisterEntities,org.apache.isis.objectstore.jdo.datanucleus.service.support.IsisJdoSupportImpl,org.apache.isis.objectstore.jdo.applib.service.exceprecog.ExceptionRecognizerCompositeForJdoObjectStore,org.apache.isis.viewer.restfulobjects.rendering.eventserializer.RestfulObjectsSpecEventSerializer,org.apache.isis.applib.services.audit.AuditingService$Stderr,org.apache.isis.applib.services.publish.PublishingService$Stderr
+     [exec] INFO  - IsisConfigurationDefault   - adding isis.fixtures=fixture.todo.ToDoItemsFixture 
+     [exec] INFO  - IsisConfigurationDefault   - adding isis.reflector.facet-decorators=org.apache.isis.core.progmodel.facetdecorators.i18n.resourcebundle.I18nDecoratorUsingResourceBundleInstaller
+     [exec] INFO  - IsisConfigurationDefault   - adding isis.persistor=datanucleus
+     [exec] INFO  - IsisConfigurationDefault   - adding isis.authentication=shiro
+     [exec] INFO  - IsisConfigurationDefault   - adding isis.user-profile-store=in-memory
+     [exec] INFO  - IsisConfigurationDefault   - adding isis.authorization=shiro
+     [exec] INFO  - tionBuilderResourceStreams - loading properties from viewer_wicket.properties
+     [exec] INFO  - IsisConfigurationDefault   - adding isis.viewer.wicket.datePickerPattern=dd-mm-yy
+     [exec] INFO  - IsisConfigurationDefault   - adding isis.viewer.wicket.dateTimePattern=dd-MM-yyyy HH:mm
+     [exec] INFO  - IsisConfigurationDefault   - adding isis.viewer.wicket.maxTitleLengthInStandaloneTables=0
+     [exec] INFO  - IsisConfigurationDefault   - adding isis.viewer.wicket.datePattern=dd-MM-yyyy
+     [exec] INFO  - IsisConfigurationDefault   - adding isis.viewer.wicket.maxTitleLengthInParentedTables=0
+     [exec] INFO  - tionBuilderResourceStreams - loading properties from viewer_restfulobjects.properties
+     [exec] INFO  - IsisConfigurationDefault   - adding isis.viewer.restfulobjects.RestfulObjectsSpecEventSerializer.baseUrl=http://localhost:8080/restful/
+     [exec] INFO  - Application                - [WicketFilter] init: Wicket core library initializer
+     [exec] INFO  - RequestListenerInterface   - registered listener interface [RequestListenerInterface name=IBehaviorListener, method=public abstract void org.apache.wicket.behavior.IBehaviorListener.onRequest()]
+     [exec] INFO  - RequestListenerInterface   - registered listener interface [RequestListenerInterface name=IFormSubmitListener, method=public abstract void org.apache.wicket.markup.html.form.IFormSubmitListener.onFormSubmitted()]
+     [exec] INFO  - RequestListenerInterface   - registered listener interface [RequestListenerInterface name=ILinkListener, method=public abstract void org.apache.wicket.markup.html.link.ILinkListener.onLinkClicked()]
+     [exec] INFO  - RequestListenerInterface   - registered listener interface [RequestListenerInterface name=IOnChangeListener, method=public abstract void org.apache.wicket.markup.html.form.IOnChangeListener.onSelectionChanged()]
+     [exec] INFO  - RequestListenerInterface   - registered listener interface [RequestListenerInterface name=IRedirectListener, method=public abstract void org.apache.wicket.IRedirectListener.onRedirect()]
+     [exec] INFO  - RequestListenerInterface   - registered listener interface [RequestListenerInterface name=IResourceListener, method=public abstract void org.apache.wicket.IResourceListener.onResourceRequested()]
+     [exec] INFO  - Application                - [WicketFilter] init: Wicket extensions initializer
+     [exec] 01:30:48,490  [IsisWicketApplication Thread-7   INFO ]  Config override location: No override location configured!
+     [exec] 01:30:48,496  [IsisConfigurationBuilderResourceStreams Thread-7   INFO ]  loading properties from isis.properties
+     [exec] 01:30:48,496  [IsisConfigurationDefault Thread-7   INFO ]  adding isis.value.format.date=dd-MM-yyyy
+     [exec] 01:30:48,496  [IsisConfigurationDefault Thread-7   INFO ]  adding isis.services=10:dom.todo.Partytypes,20:dom.todo.Inventory,30:dom.todo.Transactions,40:dom.todo.Reports,50:dom.todo.UserManager,60:app.ToDoItemAnalysis,70:dom.todo.ToDoItems,dom.todo.ToDoItemContributions,app.ToDoAppDashboardService,app.ToDoItemAnalysisContributions,services.ClockService,90:webapp.prototyping.ToDoItemsFixturesService,99:webapp.prototyping.DeveloperUtilities,org.apache.isis.core.metamodel.services.bookmarks.BookmarkServiceDefault,org.apache.isis.objectstore.jdo.service.RegisterEntities,org.apache.isis.objectstore.jdo.datanucleus.service.support.IsisJdoSupportImpl,org.apache.isis.objectstore.jdo.applib.service.exceprecog.ExceptionRecognizerCompositeForJdoObjectStore,org.apache.isis.viewer.restfulobjects.rendering.eventserializer.RestfulObjectsSpecEventSerializer,org.apache.isis.applib.services.audit.AuditingService$Stderr,org.apache.isis.applib.services.publish.PublishingService$Stderr
+     [exec] 01:30:48,556  [IsisConfigurationDefault Thread-7   INFO ]  adding isis.fixtures=fixture.todo.ToDoItemsFixture 
+     [exec] 01:30:48,556  [IsisConfigurationDefault Thread-7   INFO ]  adding isis.reflector.facet-decorators=org.apache.isis.core.progmodel.facetdecorators.i18n.resourcebundle.I18nDecoratorUsingResourceBundleInstaller
+     [exec] 01:30:48,556  [IsisConfigurationDefault Thread-7   INFO ]  adding isis.persistor=datanucleus
+     [exec] 01:30:48,557  [IsisConfigurationDefault Thread-7   INFO ]  adding isis.authentication=shiro
+     [exec] 01:30:48,557  [IsisConfigurationDefault Thread-7   INFO ]  adding isis.user-profile-store=in-memory
+     [exec] 01:30:48,557  [IsisConfigurationDefault Thread-7   INFO ]  adding isis.authorization=shiro
+     [exec] 01:30:48,563  [IsisConfigurationBuilderResourceStreams Thread-7   INFO ]  loading properties from viewer_wicket.properties
+     [exec] 01:30:48,564  [IsisConfigurationDefault Thread-7   INFO ]  adding isis.viewer.wicket.datePickerPattern=dd-mm-yy
+     [exec] 01:30:48,564  [IsisConfigurationDefault Thread-7   INFO ]  adding isis.viewer.wicket.dateTimePattern=dd-MM-yyyy HH:mm
+     [exec] 01:30:48,564  [IsisConfigurationDefault Thread-7   INFO ]  adding isis.viewer.wicket.maxTitleLengthInStandaloneTables=0
+     [exec] 01:30:48,564  [IsisConfigurationDefault Thread-7   INFO ]  adding isis.viewer.wicket.datePattern=dd-MM-yyyy
+     [exec] 01:30:48,564  [IsisConfigurationDefault Thread-7   INFO ]  adding isis.viewer.wicket.maxTitleLengthInParentedTables=0
+     [exec] 01:30:48,568  [IsisConfigurationBuilderResourceStreams Thread-7   INFO ]  loading properties from viewer_restfulobjects.properties
+     [exec] 01:30:48,568  [IsisConfigurationDefault Thread-7   INFO ]  adding isis.viewer.restfulobjects.RestfulObjectsSpecEventSerializer.baseUrl=http://localhost:8080/restful/
+     [exec] 01:30:48,592  [InstallerLookupDefault Thread-7   INFO ]  component installer not found; it will not be available: org.apache.isis.security.file.authentication.FileAuthenticationManagerInstaller
+     [exec] 01:30:48,594  [InstallerLookupDefault Thread-7   INFO ]  component installer not found; it will not be available: org.apache.isis.security.file.authorization.FileAuthorizationManagerInstaller
+     [exec] 01:30:48,595  [InstallerLookupDefault Thread-7   INFO ]  component installer not found; it will not be available: org.apache.isis.security.ldap.authorization.LdapAuthorizationManagerInstaller
+     [exec] 01:30:48,597  [InstallerLookupDefault Thread-7   INFO ]  component installer not found; it will not be available: org.apache.isis.security.ldap.authentication.LdapAuthenticationManagerInstaller
+     [exec] 01:30:48,629  [InstallerLookupDefault Thread-7   INFO ]  component installer not found; it will not be available: org.apache.isis.viewer.dnd.DndViewerInstaller
+     [exec] 01:30:48,631  [InstallerLookupDefault Thread-7   INFO ]  component installer not found; it will not be available: org.apache.isis.viewer.restfulobjects.viewer.embedded.RestfulObjectsViewerInstaller
+     [exec] 01:30:48,666  [InstallerLookupDefault Thread-7   INFO ]  component installer not found; it will not be available: org.apache.isis.core.objectstore.InMemoryPersistenceMechanismInstaller
+     [exec] 01:30:48,671  [InstallerLookupDefault Thread-7   INFO ]  component installer not found; it will not be available: org.apache.isis.objectstore.xml.XmlPersistenceMechanismInstaller
+     [exec] 01:30:48,673  [InstallerLookupDefault Thread-7   INFO ]  component installer not found; it will not be available: org.apache.isis.objectstore.nosql.db.mongo.MongoPersistorMechanismInstaller
+     [exec] 01:30:48,695  [InstallerLookupDefault Thread-7   INFO ]  component installer not found; it will not be available: org.apache.isis.objectstore.nosql.db.file.FileServerPersistorMechanismInstaller
+     [exec] 01:30:48,714  [InstallerLookupDefault Thread-7   INFO ]  component installer not found; it will not be available: org.apache.isis.profilestore.xml.XmlUserProfileStoreInstaller
+     [exec] 01:30:48,720  [InstallerLookupDefault Thread-7   INFO ]  component installer not found; it will not be available: org.apache.isis.core.webserver.embedded.jetty.JettyEmbeddedWebServerInstaller
+     [exec] 01:30:49,299  [IsisSystemFixturesHookAbstract Thread-7   INFO ]  initialising Isis System
+     [exec] 01:30:49,300  [IsisSystemFixturesHookAbstract Thread-7   INFO ]  working directory: /Users/jamesagada/iserve/iserve/webapp/.
+     [exec] 01:30:49,300  [IsisSystemFixturesHookAbstract Thread-7   INFO ]  resource stream source: composite [servlet context ('/WEB-INF'), context loader classpath, current class' classpath]
+     [exec] 01:30:49,309  [TemplateImageLoaderAwt Thread-7   INFO ]  images to be loaded from images/
+     [exec] 01:30:49,315  [IsisConfigurationBuilderResourceStreams Thread-7   INFO ]  loading properties from persistor_datanucleus.properties
+     [exec] 01:30:49,315  [IsisConfigurationDefault Thread-7   INFO ]  adding isis.persistor.datanucleus.impl.javax.jdo.option.ConnectionPassword=
+     [exec] 01:30:49,315  [IsisConfigurationDefault Thread-7   INFO ]  adding isis.persistor.datanucleus.impl.datanucleus.cache.level2.mode=ENABLE_SELECTIVE
+     [exec] 01:30:49,315  [IsisConfigurationDefault Thread-7   INFO ]  adding isis.persistor.datanucleus.impl.javax.jdo.option.ConnectionUserName=root
+     [exec] 01:30:49,315  [IsisConfigurationDefault Thread-7   INFO ]  adding isis.persistor.datanucleus.impl.datanucleus.autoCreateSchema=true
+     [exec] 01:30:49,315  [IsisConfigurationDefault Thread-7   INFO ]  adding isis.persistor.datanucleus.impl.datanucleus.cache.level2.type=none
+     [exec] 01:30:49,315  [IsisConfigurationDefault Thread-7   INFO ]  adding isis.persistor.datanucleus.impl.javax.jdo.option.ConnectionURL=jdbc:mysql://localhost:3306/myticket
+     [exec] 01:30:49,315  [IsisConfigurationDefault Thread-7   INFO ]  adding isis.persistor.datanucleus.impl.datanucleus.persistenceByReachabilityAtCommit=false
+     [exec] 01:30:49,315  [IsisConfigurationDefault Thread-7   INFO ]  adding isis.persistor.datanucleus.impl.datanucleus.validateTables=true
+     [exec] 01:30:49,315  [IsisConfigurationDefault Thread-7   INFO ]  adding isis.persistor.datanucleus.impl.datanucleus.validateConstraints=true
+     [exec] 01:30:49,315  [IsisConfigurationDefault Thread-7   INFO ]  adding isis.persistor.datanucleus.RegisterEntities.packagePrefix=dom
+     [exec] 01:30:49,315  [IsisConfigurationDefault Thread-7   INFO ]  adding isis.persistor.datanucleus.impl.javax.jdo.option.ConnectionDriverName=net.sf.log4jdbc.DriverSpy
+     [exec] 01:30:49,319  [IsisConfigurationBuilderResourceStreams Thread-7   INFO ]  loading properties from persistor.properties
+     [exec] 01:30:49,319  [IsisConfigurationDefault Thread-7   INFO ]  skipping isis.persistor.datanucleus.impl.javax.jdo.option.ConnectionPassword= as value already set (with )
+     [exec] 01:30:49,320  [IsisConfigurationDefault Thread-7   INFO ]  skipping isis.persistor.datanucleus.impl.javax.jdo.option.ConnectionURL=jdbc:hsqldb:mem:test as value already set (with jdbc:mysql://localhost:3306/myticket)
+     [exec] 01:30:49,320  [IsisConfigurationDefault Thread-7   INFO ]  skipping isis.persistor.datanucleus.impl.javax.jdo.option.ConnectionUserName=sa as value already set (with root)
+     [exec] 01:30:49,320  [IsisConfigurationDefault Thread-7   INFO ]  skipping isis.persistor.datanucleus.impl.javax.jdo.option.ConnectionDriverName=org.hsqldb.jdbcDriver as value already set (with net.sf.log4jdbc.DriverSpy)
+     [exec] 01:30:49,460  [JavaReflectorInstaller Thread-7   INFO ]  adding reflector facet decorator from configuration org.apache.isis.core.progmodel.facetdecorators.i18n.resourcebundle.I18nDecoratorUsingResourceBundleInstaller
+     [exec] 01:30:49,481  [I18nManagerUsingResourceBundle Thread-7   WARN ]  Missing resource bundle: Can't find bundle for base name i18n, locale en_US
+     [exec] 01:30:49,633  [ServicesInstallerFromConfiguration Thread-7   INFO ]  installing org.apache.isis.core.runtime.services.ServicesInstallerFromConfiguration
+     [exec] 01:30:49,633  [ServicesInstallerFromConfiguration Thread-7   INFO ]  creating service dom.todo.Partytypes at position 10
+     [exec] 01:30:49,637  [ServicesInstallerFromConfiguration Thread-7   INFO ]  creating service dom.todo.Inventory at position 20
+     [exec] 01:30:49,640  [ServicesInstallerFromConfiguration Thread-7   INFO ]  creating service dom.todo.Transactions at position 30
+     [exec] 01:30:49,641  [ServicesInstallerFromConfiguration Thread-7   INFO ]  creating service dom.todo.Reports at position 40
+     [exec] 01:30:49,642  [ServicesInstallerFromConfiguration Thread-7   INFO ]  creating service dom.todo.UserManager at position 50
+     [exec] 01:30:49,642  [ServicesInstallerFromConfiguration Thread-7   INFO ]  creating service app.ToDoItemAnalysis at position 60
+     [exec] 01:30:49,643  [ServicesInstallerFromConfiguration Thread-7   INFO ]  creating service dom.todo.ToDoItems at position 70
+     [exec] 01:30:49,644  [ServicesInstallerFromConfiguration Thread-7   INFO ]  creating service dom.todo.ToDoItemContributions
+     [exec] 01:30:49,653  [ServicesInstallerFromConfiguration Thread-7   INFO ]  creating service app.ToDoAppDashboardService
+     [exec] 01:30:49,653  [ServicesInstallerFromConfiguration Thread-7   INFO ]  creating service app.ToDoItemAnalysisContributions
+     [exec] 01:30:49,654  [ServicesInstallerFromConfiguration Thread-7   INFO ]  creating service services.ClockService
+     [exec] 01:30:49,661  [ServicesInstallerFromConfiguration Thread-7   INFO ]  creating service webapp.prototyping.ToDoItemsFixturesService at position 90
+     [exec] 01:30:49,667  [ServicesInstallerFromConfiguration Thread-7   INFO ]  creating service webapp.prototyping.DeveloperUtilities at position 99
+     [exec] 01:30:49,672  [ServicesInstallerFromConfiguration Thread-7   INFO ]  creating service org.apache.isis.core.metamodel.services.bookmarks.BookmarkServiceDefault
+     [exec] 01:30:49,674  [ServicesInstallerFromConfiguration Thread-7   INFO ]  creating service org.apache.isis.objectstore.jdo.service.RegisterEntities
+     [exec] 01:30:49,674  [ServicesInstallerFromConfiguration Thread-7   INFO ]  creating service org.apache.isis.objectstore.jdo.datanucleus.service.support.IsisJdoSupportImpl
+     [exec] 01:30:49,677  [ServicesInstallerFromConfiguration Thread-7   INFO ]  creating service org.apache.isis.objectstore.jdo.applib.service.exceprecog.ExceptionRecognizerCompositeForJdoObjectStore
+     [exec] 01:30:49,690  [ServicesInstallerFromConfiguration Thread-7   INFO ]  creating service org.apache.isis.viewer.restfulobjects.rendering.eventserializer.RestfulObjectsSpecEventSerializer
+     [exec] 01:30:49,924  [ServicesInstallerFromConfiguration Thread-7   INFO ]  creating service org.apache.isis.applib.services.audit.AuditingService$Stderr
+     [exec] 01:30:49,925  [ServicesInstallerFromConfiguration Thread-7   INFO ]  creating service org.apache.isis.applib.services.publish.PublishingService$Stderr
+     [exec] 01:30:50,049  [TemplateImageLoaderAwt Thread-7   INFO ]  images to be loaded from images/
+     [exec] 01:30:50,078  [ObjectReflectorDefault Thread-7   INFO ]  calling @PostConstruct on all domain services
+     [exec] 01:30:50,078  [ObjectReflectorDefault Thread-7   INFO ]  ... calling @PostConstruct method: org.apache.isis.objectstore.jdo.service.RegisterEntities: init
+     [exec] 01:30:50,291  [Reflections          Thread-7   INFO ]  Reflections took 174 ms to scan 1 urls, producing 29 keys and 224 values 
+     [exec] 01:30:50,320  [FacetedMethodsBuilder Thread-7   INFO ]  introspecting dom.todo.DailySalesTotal
+     [exec] 01:30:50,421  [FacetedMethodsBuilder Thread-7   INFO ]  introspecting java.lang.Object
+     [exec] 01:30:50,434  [FacetedMethodsBuilder Thread-7   INFO ]  introspecting javax.jdo.spi.PersistenceCapable
+     [exec] 01:30:50,442  [FacetedMethodsBuilder Thread-7   INFO ]  introspecting java.math.BigDecimal
+     [exec] 01:30:50,465  [FacetedMethodsBuilder Thread-7   INFO ]  introspecting java.lang.String
+     [exec] 01:30:50,507  [FacetedMethodsBuilder Thread-7   INFO ]  introspecting org.joda.time.LocalDate
+     [exec] 01:30:50,556  [FacetedMethodsBuilder Thread-7   INFO ]  introspecting dom.todo.Party
+     [exec] 01:30:50,630  [FacetedMethodsBuilder Thread-7   INFO ]  introspecting java.lang.Boolean
+     [exec] 01:30:50,634  [FacetedMethodsBuilder Thread-7   INFO ]  introspecting java.util.List
+     [exec] 01:30:50,640  [FacetedMethodsBuilder Thread-7   INFO ]  introspecting java.util.Collection
+     [exec] 01:30:50,642  [FacetedMethodsBuilder Thread-7   INFO ]  introspecting java.lang.Iterable
+     [exec] 01:30:50,649  [FacetedMethodsBuilder Thread-7   INFO ]  introspecting dom.todo.StockLedger
+     [exec] 01:30:50,675  [FacetedMethodsBuilder Thread-7   INFO ]  introspecting dom.todo.Transaction
+     [exec] 01:30:50,720  [FacetedMethodsBuilder Thread-7   INFO ]  introspecting dom.todo.Terminal
+     [exec] 01:30:50,737  [FacetedMethodsBuilder Thread-7   INFO ]  introspecting java.lang.Long
+     [exec] 01:30:50,819  [FacetedMethodsBuilder Thread-7   INFO ]  introspecting dom.todo.Transaction$TransactionType
+     [exec] 01:30:50,869  [FacetedMethodsBuilder Thread-7   INFO ]  introspecting dom.todo.Sku
+     [exec] 01:30:50,934  [FacetedMethodsBuilder Thread-7   INFO ]  introspecting dom.todo.VoucherDenomination
+     [exec] 01:30:50,953  [FacetedMethodsBuilder Thread-7   INFO ]  introspecting dom.todo.VoucherClass
+     [exec] 01:30:50,974  [FacetedMethodsBuilder Thread-7   INFO ]  introspecting int
+     [exec] 01:30:50,978  [FacetedMethodsBuilder Thread-7   INFO ]  introspecting boolean
+     [exec] 01:30:51,173  [FacetedMethodsBuilder Thread-7   INFO ]  introspecting dom.todo.Ticket
+     [exec] 01:30:51,190  [FacetedMethodsBuilder Thread-7   INFO ]  introspecting org.apache.isis.applib.AbstractFactoryAndRepository
+     [exec] 01:30:51,198  [FacetedMethodsBuilder Thread-7   INFO ]  introspecting org.apache.isis.applib.AbstractService
+     [exec] 01:30:51,203  [FacetedMethodsBuilder Thread-7   INFO ]  introspecting org.apache.isis.applib.AbstractContainedObject
+     [exec] 01:30:51,216  [FacetedMethodsBuilder Thread-7   INFO ]  introspecting void
+     [exec] 01:30:51,241  [FacetedMethodsBuilder Thread-7   INFO ]  introspecting org.apache.isis.applib.value.Blob
+     [exec] 01:30:51,248  [FacetedMethodsBuilder Thread-7   INFO ]  introspecting dom.todo.Partytype
+     [exec] 01:30:51,299  [FacetedMethodsBuilder Thread-7   INFO ]  introspecting dom.todo.DailySalesTotalForParty
+     [exec] 01:30:51,322  [FacetedMethodsBuilder Thread-7   INFO ]  introspecting dom.todo.Payment
+     [exec] 01:30:51,368  [FacetedMethodsBuilder Thread-7   INFO ]  introspecting dom.todo.User
+     [exec] 01:30:51,389  [FacetedMethodsBuilder Thread-7   INFO ]  introspecting dom.todo.Role
+     [exec] 01:30:51,410  [FacetedMethodsBuilder Thread-7   INFO ]  introspecting dom.todo.Permission
+     [exec] 01:30:51,479  [FacetedMethodsBuilder Thread-7   INFO ]  introspecting dom.todo.Contract
+     [exec] 01:30:51,495  [FacetedMethodsBuilder Thread-7   INFO ]  introspecting java.lang.Integer
+     [exec] 01:30:51,561  [FacetedMethodsBuilder Thread-7   INFO ]  introspecting dom.todo.PartyDatabaseRecord
+     [exec] 01:30:51,612  [FacetedMethodsBuilder Thread-7   INFO ]  introspecting dom.todo.ToDoItem
+     [exec] 01:30:51,714  [FacetedMethodsBuilder Thread-7   INFO ]  introspecting java.lang.Comparable
+     [exec] 01:30:51,734  [FacetedMethodsBuilder Thread-7   INFO ]  introspecting dom.todo.ToDoItem$Category
+     [exec] 01:30:51,743  [FacetedMethodsBuilder Thread-7   INFO ]  introspecting dom.todo.ToDoItem$Subcategory
+     [exec] 01:30:51,757  [FacetedMethodsBuilder Thread-7   INFO ]  introspecting java.util.SortedSet
+     [exec] 01:30:51,759  [FacetedMethodsBuilder Thread-7   INFO ]  introspecting java.util.Set
+     [exec] 01:30:51,835  [ObjectReflectorDefault Thread-7   INFO ]  ... calling @PostConstruct method: org.apache.isis.viewer.restfulobjects.rendering.eventserializer.RestfulObjectsSpecEventSerializer: init
+     [exec] 01:30:51,835  [FacetedMethodsBuilder Thread-7   INFO ]  introspecting dom.todo.Partytypes
+     [exec] 01:30:51,848  [FacetedMethodsBuilder Thread-7   INFO ]    skipping possible helper method public java.util.List dom.todo.Partytypes.autoComplete(java.lang.String)
+     [exec] 01:30:52,135  [FacetedMethodsBuilder Thread-7   INFO ]    skipping possible helper method public dom.todo.Party dom.todo.Partytypes.getPartyFromCurrentUser(java.lang.String)
+     [exec] 01:30:52,146  [FacetedMethodsBuilder Thread-7   INFO ]  introspecting dom.todo.Inventory
+     [exec] 01:30:52,274  [FacetedMethodsBuilder Thread-7   INFO ]  introspecting dom.todo.Transactions
+     [exec] 01:30:52,403  [FacetedMethodsBuilder Thread-7   INFO ]  introspecting dom.todo.Reports
+     [exec] 01:30:52,412  [FacetedMethodsBuilder Thread-7   INFO ]    skipping possible helper method public java.util.List dom.todo.Reports.autoComplete(java.lang.String)
+     [exec] 01:30:52,493  [FacetedMethodsBuilder Thread-7   INFO ]  introspecting dom.todo.UserManager
+     [exec] 01:30:52,538  [FacetedMethodsBuilder Thread-7   INFO ]  introspecting app.ToDoItemAnalysis
+     [exec] 01:30:52,548  [FacetedMethodsBuilder Thread-7   INFO ]  introspecting app.ToDoItemsByCategoryViewModel
+     [exec] 01:30:52,566  [FacetedMethodsBuilder Thread-7   INFO ]  introspecting org.apache.isis.applib.AbstractViewModel
+     [exec] 01:30:52,579  [FacetedMethodsBuilder Thread-7   INFO ]  introspecting org.apache.isis.applib.ViewModel
+     [exec] 01:30:52,602  [FacetedMethodsBuilder Thread-7   INFO ]  introspecting app.ToDoItemsByDateRangeViewModel
+     [exec] 01:30:52,607  [FacetedMethodsBuilder Thread-7   INFO ]  introspecting app.ToDoItemAnalysis$DateRange
+     [exec] 01:30:52,623  [FacetedMethodsBuilder Thread-7   INFO ]  introspecting dom.todo.ToDoItems
+     [exec] 01:30:52,653  [FacetedMethodsBuilder Thread-7   INFO ]  introspecting webapp.prototyping.ToDoItemsFixturesService
+     [exec] 01:30:52,685  [FacetedMethodsBuilder Thread-7   INFO ]  introspecting webapp.prototyping.DeveloperUtilities
+     [exec] 01:30:52,694  [FacetedMethodsBuilder Thread-7   INFO ]  introspecting org.apache.isis.core.metamodel.services.devutils.DeveloperUtilitiesServiceDefault
+     [exec] 01:30:52,706  [FacetedMethodsBuilder Thread-7   INFO ]  introspecting org.apache.isis.applib.services.devutils.DeveloperUtilitiesService
+     [exec] 01:30:52,714  [FacetedMethodsBuilder Thread-7   INFO ]  introspecting org.apache.isis.core.metamodel.spec.SpecificationLoaderSpiAware
+     [exec] 01:30:52,723  [FacetedMethodsBuilder Thread-7   INFO ]  introspecting org.apache.isis.core.metamodel.adapter.mgr.AdapterManagerAware
+     [exec] 01:30:52,730  [FacetedMethodsBuilder Thread-7   INFO ]  introspecting org.apache.isis.applib.value.Clob
+     [exec] 01:30:52,768  [FacetedMethodsBuilder Thread-7   INFO ]  introspecting dom.todo.ToDoItemContributions
+     [exec] 01:30:52,781  [FacetedMethodsBuilder Thread-7   INFO ]    skipping possible helper method public java.util.List dom.todo.ToDoItemContributions.choices2UpdateCategory(dom.todo.ToDoItem,dom.todo.ToDoItem$Category)
+     [exec] 01:30:52,781  [FacetedMethodsBuilder Thread-7   INFO ]    skipping possible helper method public dom.todo.ToDoItem$Subcategory dom.todo.ToDoItemContributions.default2UpdateCategory(dom.todo.ToDoItem)
+     [exec] 01:30:52,781  [FacetedMethodsBuilder Thread-7   INFO ]    skipping possible helper method public dom.todo.ToDoItem$Category dom.todo.ToDoItemContributions.default1UpdateCategory(dom.todo.ToDoItem)
+     [exec] 01:30:52,787  [FacetedMethodsBuilder Thread-7   INFO ]  introspecting app.ToDoAppDashboardService
+     [exec] 01:30:52,794  [FacetedMethodsBuilder Thread-7   INFO ]  introspecting app.ToDoAppDashboard
+     [exec] 01:30:52,824  [FacetedMethodsBuilder Thread-7   INFO ]  introspecting app.ToDoItemAnalysisContributions
+     [exec] 01:30:52,835  [FacetedMethodsBuilder Thread-7   INFO ]  introspecting services.ClockService
+     [exec] 01:30:52,841  [FacetedMethodsBuilder Thread-7   INFO ]  introspecting org.apache.isis.core.metamodel.services.bookmarks.BookmarkServiceDefault
+     [exec] 01:30:52,847  [FacetedMethodsBuilder Thread-7   INFO ]  introspecting org.apache.isis.applib.services.bookmark.BookmarkService
+     [exec] 01:30:52,854  [FacetedMethodsBuilder Thread-7   INFO ]  introspecting org.apache.isis.core.metamodel.adapter.DomainObjectServicesAware
+     [exec] 01:30:52,859  [FacetedMethodsBuilder Thread-7   INFO ]  introspecting org.apache.isis.applib.services.bookmark.BookmarkHolder
+     [exec] 01:30:52,869  [FacetedMethodsBuilder Thread-7   INFO ]  introspecting org.apache.isis.applib.services.bookmark.Bookmark
+     [exec] 01:30:52,875  [FacetedMethodsBuilder Thread-7   INFO ]  introspecting java.io.Serializable
+     [exec] 01:30:52,890  [FacetedMethodsBuilder Thread-7   INFO ]  introspecting org.apache.isis.objectstore.jdo.service.RegisterEntities
+     [exec] 01:30:52,897  [FacetedMethodsBuilder Thread-7   INFO ]  introspecting java.util.Map
+     [exec] 01:30:52,902  [FacetedMethodsBuilder Thread-7   INFO ]  introspecting org.apache.isis.objectstore.jdo.datanucleus.service.support.IsisJdoSupportImpl
+     [exec] 01:30:52,909  [FacetedMethodsBuilder Thread-7   INFO ]  introspecting org.apache.isis.objectstore.jdo.applib.service.support.IsisJdoSupport
+     [exec] 01:30:52,923  [FacetedMethodsBuilder Thread-7   INFO ]  introspecting org.apache.isis.objectstore.jdo.applib.service.exceprecog.ExceptionRecognizerCompositeForJdoObjectStore
+     [exec] 01:30:52,930  [FacetedMethodsBuilder Thread-7   INFO ]  introspecting org.apache.isis.applib.services.exceprecog.ExceptionRecognizerComposite
+     [exec] 01:30:52,937  [FacetedMethodsBuilder Thread-7   INFO ]  introspecting org.apache.isis.applib.services.exceprecog.ExceptionRecognizer
+     [exec] 01:30:52,943  [FacetedMethodsBuilder Thread-7   INFO ]  introspecting java.lang.Throwable
+     [exec] 01:30:52,971  [FacetedMethodsBuilder Thread-7   INFO ]  introspecting org.apache.isis.viewer.restfulobjects.rendering.eventserializer.RestfulObjectsSpecEventSerializer
+     [exec] 01:30:53,018  [FacetedMethodsBuilder Thread-7   INFO ]  introspecting org.apache.isis.applib.services.publish.EventSerializer
+     [exec] 01:30:53,029  [FacetedMethodsBuilder Thread-7   INFO ]  introspecting org.apache.isis.applib.services.audit.AuditingService$Stderr
+     [exec] 01:30:53,051  [FacetedMethodsBuilder Thread-7   INFO ]  introspecting org.apache.isis.applib.services.audit.AuditingService
+     [exec] 01:30:53,055  [FacetedMethodsBuilder Thread-7   INFO ]  introspecting long
+     [exec] 01:30:53,080  [FacetedMethodsBuilder Thread-7   INFO ]  introspecting org.apache.isis.applib.services.publish.PublishingService$Stderr
+     [exec] 01:30:53,087  [FacetedMethodsBuilder Thread-7   INFO ]  introspecting org.apache.isis.applib.services.publish.PublishingService
+     [exec] 01:30:53,094  [FacetedMethodsBuilder Thread-7   INFO ]  introspecting org.apache.isis.applib.services.publish.EventMetadata
+     [exec] 01:30:53,132  [FacetedMethodsBuilder Thread-7   INFO ]  introspecting org.apache.isis.applib.services.publish.EventType
+     [exec] 01:30:53,145  [FacetedMethodsBuilder Thread-7   INFO ]  introspecting java.util.UUID
+     [exec] 01:30:53,158  [FacetedMethodsBuilder Thread-7   INFO ]  introspecting org.apache.isis.applib.services.publish.EventPayload
+     [exec] 01:30:53,505  [DataNucleusPersistenceMechanismInstaller Thread-7   INFO ]  did *not* find JNDI datasource; will use JDBC
+     [exec] 01:30:54,808  [Schema               Thread-7   DEBUG]  Column "`DELETEME1395102654800`.`UNUSED`" added to internal representation of table.
+     [exec] 01:30:54,810  [Schema               Thread-7   DEBUG]  Creating table `DELETEME1395102654800`
+     [exec] 01:30:54,815  [Schema               Thread-7   DEBUG]  CREATE TABLE `DELETEME1395102654800`
+     [exec] (
+     [exec]     `UNUSED` INTEGER NOT NULL
+     [exec] ) ENGINE=INNODB
+     [exec] 01:30:54,864  [Schema               Thread-7   DEBUG]  Execution Time = 48 ms
+     [exec] 01:30:54,878  [Schema               Thread-7   DEBUG]  Schema Name could not be determined for this datastore
+     [exec] 01:30:54,878  [Schema               Thread-7   DEBUG]  Dropping table `DELETEME1395102654800`
+     [exec] 01:30:54,879  [Schema               Thread-7   DEBUG]  DROP TABLE `DELETEME1395102654800`
+     [exec] 01:30:54,886  [Schema               Thread-7   DEBUG]  Execution Time = 7 ms
+     [exec] 01:30:56,260  [Schema               Thread-7   DEBUG]  Column "`PERMISSION`.`PERMISSION_ID`" added to internal representation of table.
+     [exec] 01:30:56,265  [Schema               Thread-7   DEBUG]  Column "`ROLE`.`ROLE_ID`" added to internal representation of table.
+     [exec] 01:30:56,266  [Schema               Thread-7   DEBUG]  Column "`USER`.`USER_ID`" added to internal representation of table.
+     [exec] 01:30:56,266  [Schema               Thread-7   DEBUG]  Column "`PARTYTYPE`.`PARTYTYPE_ID`" added to internal representation of table.
+     [exec] 01:30:56,266  [Schema               Thread-7   DEBUG]  Column "`PARTY`.`PARTY_ID`" added to internal representation of table.
+     [exec] 01:30:56,267  [Schema               Thread-7   DEBUG]  Column "`CONTRACT`.`CONTRACT_ID`" added to internal representation of table.
+     [exec] 01:30:56,277  [Schema               Thread-7   DEBUG]  Column "`SKU`.`SKU_ID`" added to internal representation of table.
+     [exec] 01:30:56,278  [Schema               Thread-7   DEBUG]  Column "`TERMINAL`.`TERMINAL_ID`" added to internal representation of table.
+     [exec] 01:30:56,278  [Schema               Thread-7   DEBUG]  Column "`VOUCHERCLASS`.`VOUCHERCLASS_ID`" added to internal representation of table.
+     [exec] 01:30:56,278  [Schema               Thread-7   DEBUG]  Column "`VOUCHERDENOMINATION`.`VOUCHERDENOMINATION_ID`" added to internal representation of table.
+     [exec] 01:30:56,286  [Schema               Thread-7   DEBUG]  Column "`TRANSACTION`.`TRANSACTION_ID`" added to internal representation of table.
+     [exec] 01:30:56,289  [Schema               Thread-7   DEBUG]  Column "`PAYMENT`.`PAYMENT_ID`" added to internal representation of table.
+     [exec] 01:30:56,290  [Schema               Thread-7   DEBUG]  Column "`STOCKLEDGER`.`STOCKLEDGER_ID`" added to internal representation of table.
+     [exec] 01:30:56,290  [Schema               Thread-7   DEBUG]  Column "`TODOITEM`.`ID`" added to internal representation of table.
+     [exec] 01:30:56,291  [Schema               Thread-7   DEBUG]  Table `STOCKLEDGER` will manage the persistence of the fields for class dom.todo.StockLedger (inheritance strategy="new-table") 
+     [exec] 01:30:56,308  [Schema               Thread-7   DEBUG]  Field [dom.todo.StockLedger.journal] -> Column(s) [[none]] using mapping of type "org.datanucleus.store.rdbms.mapping.java.CollectionMapping" ()
+     [exec] 01:30:56,309  [Schema               Thread-7   DEBUG]  Column "`STOCKLEDGER`.`OWNEDBY`" added to internal representation of table.
+     [exec] 01:30:56,311  [Schema               Thread-7   DEBUG]  Field [dom.todo.StockLedger.ownedBy] -> Column(s) [`STOCKLEDGER`.`OWNEDBY`] using mapping of type "org.datanucleus.store.rdbms.mapping.java.StringMapping" (org.datanucleus.store.rdbms.mapping.datastore.VarCharRDBMSMapping)
+     [exec] 01:30:56,311  [Schema               Thread-7   DEBUG]  Column "`STOCKLEDGER`.`QUANTITYINSTOCK`" added to internal representation of table.
+     [exec] 01:30:56,312  [Schema               Thread-7   DEBUG]  Field [dom.todo.StockLedger.quantityInStock] -> Column(s) [`STOCKLEDGER`.`QUANTITYINSTOCK`] using mapping of type "org.datanucleus.store.rdbms.mapping.java.BigDecimalMapping" (org.datanucleus.store.rdbms.mapping.datastore.DecimalRDBMSMapping)
+     [exec] 01:30:56,312  [Schema               Thread-7   DEBUG]  Column "`STOCKLEDGER`.`SERIALNUMBER`" added to internal representation of table.
+     [exec] 01:30:56,312  [Schema               Thread-7   DEBUG]  Field [dom.todo.StockLedger.serialNumber] -> Column(s) [`STOCKLEDGER`.`SERIALNUMBER`] using mapping of type "org.datanucleus.store.rdbms.mapping.java.StringMapping" (org.datanucleus.store.rdbms.mapping.datastore.VarCharRDBMSMapping)
+     [exec] 01:30:56,335  [Schema               Thread-7   DEBUG]  Column "`STOCKLEDGER`.`SKU_SKU_ID_OID`" added to internal representation of table.
+     [exec] 01:30:56,335  [Schema               Thread-7   DEBUG]  Field [dom.todo.StockLedger.sku] -> Column(s) [`STOCKLEDGER`.`SKU_SKU_ID_OID`] using mapping of type "org.datanucleus.store.rdbms.mapping.java.PersistableMapping" (org.datanucleus.store.rdbms.mapping.datastore.BigIntRDBMSMapping)
+     [exec] 01:30:56,336  [Schema               Thread-7   DEBUG]  Column "`STOCKLEDGER`.`STOCKINGPARTY_PARTY_ID_OID`" added to internal representation of table.
+     [exec] 01:30:56,355  [Schema               Thread-7   DEBUG]  Field [dom.todo.StockLedger.stockingParty] -> Column(s) [`STOCKLEDGER`.`STOCKINGPARTY_PARTY_ID_OID`] using mapping of type "org.datanucleus.store.rdbms.mapping.java.PersistableMapping" (org.datanucleus.store.rdbms.mapping.datastore.BigIntRDBMSMapping)
+     [exec] 01:30:56,355  [Schema               Thread-7   DEBUG]  Column "`STOCKLEDGER`.`VOUCHERCODE`" added to internal representation of table.
+     [exec] 01:30:56,355  [Schema               Thread-7   DEBUG]  Field [dom.todo.StockLedger.voucherCode] -> Column(s) [`STOCKLEDGER`.`VOUCHERCODE`] using mapping of type "org.datanucleus.store.rdbms.mapping.java.StringMapping" (org.datanucleus.store.rdbms.mapping.datastore.VarCharRDBMSMapping)
+     [exec] 01:30:56,356  [Schema               Thread-7   DEBUG]  Column "`STOCKLEDGER`.`VOUCHERDENOMINATION_VOUCHERDENOMINATION_ID_OID`" added to internal representation of table.
+     [exec] 01:30:56,356  [Schema               Thread-7   DEBUG]  Field [dom.todo.StockLedger.voucherDenomination] -> Column(s) [`STOCKLEDGER`.`VOUCHERDENOMINATION_VOUCHERDENOMINATION_ID_OID`] using mapping of type "org.datanucleus.store.rdbms.mapping.java.PersistableMapping" (org.datanucleus.store.rdbms.mapping.datastore.BigIntRDBMSMapping)
+     [exec] 01:30:56,356  [Schema               Thread-7   DEBUG]  Column "`STOCKLEDGER`.`VERSION`" added to internal representation of table.
+     [exec] 01:30:56,356  [Schema               Thread-7   DEBUG]  Table/View `STOCKLEDGER` has been initialised
+     [exec] 01:30:56,357  [Schema               Thread-7   DEBUG]  Table `TRANSACTION` will manage the persistence of the fields for class dom.todo.Transaction (inheritance strategy="new-table") 
+     [exec] 01:30:56,357  [Schema               Thread-7   DEBUG]  Column "`TRANSACTION`.`DESCRIPTION`" added to internal representation of table.
+     [exec] 01:30:56,357  [Schema               Thread-7   DEBUG]  Field [dom.todo.Transaction.description] -> Column(s) [`TRANSACTION`.`DESCRIPTION`] using mapping of type "org.datanucleus.store.rdbms.mapping.java.StringMapping" (org.datanucleus.store.rdbms.mapping.datastore.VarCharRDBMSMapping)
+     [exec] 01:30:56,357  [Schema               Thread-7   DEBUG]  Column "`TRANSACTION`.`FACEVALUE`" added to internal representation of table.
+     [exec] 01:30:56,357  [Schema               Thread-7   DEBUG]  Field [dom.todo.Transaction.faceValue] -> Column(s) [`TRANSACTION`.`FACEVALUE`] using mapping of type "org.datanucleus.store.rdbms.mapping.java.BigDecimalMapping" (org.datanucleus.store.rdbms.mapping.datastore.DecimalRDBMSMapping)
+     [exec] 01:30:56,358  [Schema               Thread-7   DEBUG]  Column "`TRANSACTION`.`FROMPARTY_PARTY_ID_OID`" added to internal representation of table.
+     [exec] 01:30:56,358  [Schema               Thread-7   DEBUG]  Field [dom.todo.Transaction.fromParty] -> Column(s) [`TRANSACTION`.`FROMPARTY_PARTY_ID_OID`] using mapping of type "org.datanucleus.store.rdbms.mapping.java.PersistableMapping" (org.datanucleus.store.rdbms.mapping.datastore.BigIntRDBMSMapping)
+     [exec] 01:30:56,358  [Schema               Thread-7   DEBUG]  Column "`TRANSACTION`.`FROMPARTYREFERENCE`" added to internal representation of table.
+     [exec] 01:30:56,358  [Schema               Thread-7   DEBUG]  Field [dom.todo.Transaction.fromPartyReference] -> Column(s) [`TRANSACTION`.`FROMPARTYREFERENCE`] using mapping of type "org.datanucleus.store.rdbms.mapping.java.StringMapping" (org.datanucleus.store.rdbms.mapping.datastore.VarCharRDBMSMapping)
+     [exec] 01:30:56,358  [Schema               Thread-7   DEBUG]  Column "`TRANSACTION`.`OWNEDBY`" added to internal representation of table.
+     [exec] 01:30:56,358  [Schema               Thread-7   DEBUG]  Field [dom.todo.Transaction.ownedBy] -> Column(s) [`TRANSACTION`.`OWNEDBY`] using mapping of type "org.datanucleus.store.rdbms.mapping.java.StringMapping" (org.datanucleus.store.rdbms.mapping.datastore.VarCharRDBMSMapping)
+     [exec] 01:30:56,359  [Schema               Thread-7   DEBUG]  Column "`TRANSACTION`.`QUANTITY`" added to internal representation of table.
+     [exec] 01:30:56,359  [Schema               Thread-7   DEBUG]  Field [dom.todo.Transaction.quantity] -> Column(s) [`TRANSACTION`.`QUANTITY`] using mapping of type "org.datanucleus.store.rdbms.mapping.java.BigDecimalMapping" (org.datanucleus.store.rdbms.mapping.datastore.DecimalRDBMSMapping)
+     [exec] 01:30:56,359  [Schema               Thread-7   DEBUG]  Column "`TRANSACTION`.`SERIALNUMBER`" added to internal representation of table.
+     [exec] 01:30:56,359  [Schema               Thread-7   DEBUG]  Field [dom.todo.Transaction.serialNumber] -> Column(s) [`TRANSACTION`.`SERIALNUMBER`] using mapping of type "org.datanucleus.store.rdbms.mapping.java.StringMapping" (org.datanucleus.store.rdbms.mapping.datastore.VarCharRDBMSMapping)
+     [exec] 01:30:56,359  [Schema               Thread-7   DEBUG]  Column "`TRANSACTION`.`SKU_SKU_ID_OID`" added to internal representation of table.
+     [exec] 01:30:56,359  [Schema               Thread-7   DEBUG]  Field [dom.todo.Transaction.sku] -> Column(s) [`TRANSACTION`.`SKU_SKU_ID_OID`] using mapping of type "org.datanucleus.store.rdbms.mapping.java.PersistableMapping" (org.datanucleus.store.rdbms.mapping.datastore.BigIntRDBMSMapping)
+     [exec] 01:30:56,360  [Schema               Thread-7   DEBUG]  Column "`TRANSACTION`.`STATUS`" added to internal representation of table.
+     [exec] 01:30:56,360  [Schema               Thread-7   DEBUG]  Field [dom.todo.Transaction.status] -> Column(s) [`TRANSACTION`.`STATUS`] using mapping of type "org.datanucleus.store.rdbms.mapping.java.StringMapping" (org.datanucleus.store.rdbms.mapping.datastore.VarCharRDBMSMapping)
+     [exec] 01:30:56,360  [Schema               Thread-7   DEBUG]  Column "`TRANSACTION`.`TERMINAL_TERMINAL_ID_OID`" added to internal representation of table.
+     [exec] 01:30:56,360  [Schema               Thread-7   DEBUG]  Field [dom.todo.Transaction.terminal] -> Column(s) [`TRANSACTION`.`TERMINAL_TERMINAL_ID_OID`] using mapping of type "org.datanucleus.store.rdbms.mapping.java.PersistableMapping" (org.datanucleus.store.rdbms.mapping.datastore.BigIntRDBMSMapping)
+     [exec] 01:30:56,360  [Schema               Thread-7   DEBUG]  Column "`TRANSACTION`.`TICKETSTATUS`" added to internal representation of table.
+     [exec] 01:30:56,360  [Schema               Thread-7   DEBUG]  Field [dom.todo.Transaction.ticketStatus] -> Column(s) [`TRANSACTION`.`TICKETSTATUS`] using mapping of type "org.datanucleus.store.rdbms.mapping.java.StringMapping" (org.datanucleus.store.rdbms.mapping.datastore.VarCharRDBMSMapping)
+     [exec] 01:30:56,361  [Schema               Thread-7   DEBUG]  Column "`TRANSACTION`.`TOPARTY_PARTY_ID_OID`" added to internal representation of table.
+     [exec] 01:30:56,361  [Schema               Thread-7   DEBUG]  Field [dom.todo.Transaction.toParty] -> Column(s) [`TRANSACTION`.`TOPARTY_PARTY_ID_OID`] using mapping of type "org.datanucleus.store.rdbms.mapping.java.PersistableMapping" (org.datanucleus.store.rdbms.mapping.datastore.BigIntRDBMSMapping)
+     [exec] 01:30:56,361  [Schema               Thread-7   DEBUG]  Column "`TRANSACTION`.`TOPARTYREFERENCE`" added to internal representation of table.
+     [exec] 01:30:56,361  [Schema               Thread-7   DEBUG]  Field [dom.todo.Transaction.toPartyReference] -> Column(s) [`TRANSACTION`.`TOPARTYREFERENCE`] using mapping of type "org.datanucleus.store.rdbms.mapping.java.StringMapping" (org.datanucleus.store.rdbms.mapping.datastore.VarCharRDBMSMapping)
+     [exec] 01:30:56,373  [Schema               Thread-7   DEBUG]  Column "`TRANSACTION`.`TRANSACTIONDATE`" added to internal representation of table.
+     [exec] 01:30:56,373  [Schema               Thread-7   DEBUG]  Field [dom.todo.Transaction.transactionDate] -> Column(s) [`TRANSACTION`.`TRANSACTIONDATE`] using mapping of type "org.datanucleus.store.rdbms.mapping.JodaLocalDateMapping" (org.datanucleus.store.rdbms.mapping.datastore.DateRDBMSMapping)
+     [exec] 01:30:56,397  [Schema               Thread-7   DEBUG]  Column "`TRANSACTION`.`TRANSACTIONTYPE`" added to internal representation of table.
+     [exec] 01:30:56,397  [Schema               Thread-7   DEBUG]  Field [dom.todo.Transaction.transactiontype] -> Column(s) [`TRANSACTION`.`TRANSACTIONTYPE`] using mapping of type "org.datanucleus.store.rdbms.mapping.java.EnumMapping" (org.datanucleus.store.rdbms.mapping.datastore.VarCharRDBMSMapping)
+     [exec] 01:30:56,397  [Schema               Thread-7   DEBUG]  Column "`TRANSACTION`.`VALIDTO`" added to internal representation of table.
+     [exec] 01:30:56,398  [Schema               Thread-7   DEBUG]  Field [dom.todo.Transaction.validTo] -> Column(s) [`TRANSACTION`.`VALIDTO`] using mapping of type "org.datanucleus.store.rdbms.mapping.JodaLocalDateMapping" (org.datanucleus.store.rdbms.mapping.datastore.DateRDBMSMapping)
+     [exec] 01:30:56,398  [Schema               Thread-7   DEBUG]  Column "`TRANSACTION`.`VOUCHERCODE`" added to internal representation of table.
+     [exec] 01:30:56,398  [Schema               Thread-7   DEBUG]  Field [dom.todo.Transaction.voucherCode] -> Column(s) [`TRANSACTION`.`VOUCHERCODE`] using mapping of type "org.datanucleus.store.rdbms.mapping.java.StringMapping" (org.datanucleus.store.rdbms.mapping.datastore.VarCharRDBMSMapping)
+     [exec] 01:30:56,398  [Schema               Thread-7   DEBUG]  Column "`TRANSACTION`.`VOUCHERDENOMINATION_VOUCHERDENOMINATION_ID_OID`" added to internal representation of table.
+     [exec] 01:30:56,398  [Schema               Thread-7   DEBUG]  Field [dom.todo.Transaction.voucherDenomination] -> Column(s) [`TRANSACTION`.`VOUCHERDENOMINATION_VOUCHERDENOMINATION_ID_OID`] using mapping of type "org.datanucleus.store.rdbms.mapping.java.PersistableMapping" (org.datanucleus.store.rdbms.mapping.datastore.BigIntRDBMSMapping)
+     [exec] 01:30:56,398  [Schema               Thread-7   DEBUG]  Column "`TRANSACTION`.`VERSION`" added to internal representation of table.
+     [exec] 01:30:56,399  [Schema               Thread-7   DEBUG]  Table/View `TRANSACTION` has been initialised
+     [exec] 01:30:56,399  [Schema               Thread-7   DEBUG]  Table `TODOITEM` will manage the persistence of the fields for class dom.todo.ToDoItem (inheritance strategy="new-table") 
+     [exec] 01:30:56,413  [Schema               Thread-7   DEBUG]  Column "`TODOITEM`.`ATTACHMENT`" added to internal representation of table.
+     [exec] 01:30:56,414  [Schema               Thread-7   DEBUG]  Field [dom.todo.ToDoItem.attachment] -> Column(s) [`TODOITEM`.`ATTACHMENT`] using mapping of type "org.datanucleus.store.rdbms.mapping.java.SerialisedMapping" (org.datanucleus.store.rdbms.mapping.datastore.LongVarBinaryRDBMSMapping)
+     [exec] 01:30:56,415  [Schema               Thread-7   DEBUG]  Column "`TODOITEM`.`CATEGORY`" added to internal representation of table.
+     [exec] 01:30:56,415  [Schema               Thread-7   DEBUG]  Field [dom.todo.ToDoItem.category] -> Column(s) [`TODOITEM`.`CATEGORY`] using mapping of type "org.datanucleus.store.rdbms.mapping.java.EnumMapping" (org.datanucleus.store.rdbms.mapping.datastore.VarCharRDBMSMapping)
+     [exec] 01:30:56,415  [Schema               Thread-7   DEBUG]  Column "`TODOITEM`.`COMPLETE`" added to internal representation of table.
+     [exec] 01:30:56,415  [Schema               Thread-7   DEBUG]  Field [dom.todo.ToDoItem.complete] -> Column(s) [`TODOITEM`.`COMPLETE`] using mapping of type "org.datanucleus.store.rdbms.mapping.java.BooleanMapping" (org.datanucleus.store.rdbms.mapping.datastore.BitRDBMSMapping)
+     [exec] 01:30:56,416  [Schema               Thread-7   DEBUG]  Column "`TODOITEM`.`COST`" added to internal representation of table.
+     [exec] 01:30:56,416  [Schema               Thread-7   DEBUG]  Field [dom.todo.ToDoItem.cost] -> Column(s) [`TODOITEM`.`COST`] using mapping of type "org.datanucleus.store.rdbms.mapping.java.BigDecimalMapping" (org.datanucleus.store.rdbms.mapping.datastore.DecimalRDBMSMapping)
+     [exec] 01:30:56,426  [Schema               Thread-7   DEBUG]  Field [dom.todo.ToDoItem.dependencies] -> Column(s) [[none]] using mapping of type "org.datanucleus.store.rdbms.mapping.java.CollectionMapping" ()
+     [exec] 01:30:56,427  [Schema               Thread-7   DEBUG]  Column "`TODOITEM`.`DESCRIPTION`" added to internal representation of table.
+     [exec] 01:30:56,427  [Schema               Thread-7   DEBUG]  Field [dom.todo.ToDoItem.description] -> Column(s) [`TODOITEM`.`DESCRIPTION`] using mapping of type "org.datanucleus.store.rdbms.mapping.java.StringMapping" (org.datanucleus.store.rdbms.mapping.datastore.VarCharRDBMSMapping)
+     [exec] 01:30:56,427  [Schema               Thread-7   DEBUG]  Column "`TODOITEM`.`DUEBY`" added to internal representation of table.
+     [exec] 01:30:56,427  [Schema               Thread-7   DEBUG]  Field [dom.todo.ToDoItem.dueBy] -> Column(s) [`TODOITEM`.`DUEBY`] using mapping of type "org.datanucleus.store.rdbms.mapping.JodaLocalDateMapping" (org.datanucleus.store.rdbms.mapping.datastore.DateRDBMSMapping)
+     [exec] 01:30:56,427  [Schema               Thread-7   DEBUG]  Column "`TODOITEM`.`NOTES`" added to internal representation of table.
+     [exec] 01:30:56,442  [Schema               Thread-7   DEBUG]  Field [dom.todo.ToDoItem.notes] -> Column(s) [`TODOITEM`.`NOTES`] using mapping of type "org.datanucleus.store.rdbms.mapping.java.StringMapping" (org.datanucleus.store.rdbms.mapping.datastore.VarCharRDBMSMapping)
+     [exec] 01:30:56,442  [Schema               Thread-7   DEBUG]  Column "`TODOITEM`.`OWNEDBY`" added to internal representation of table.
+     [exec] 01:30:56,442  [Schema               Thread-7   DEBUG]  Field [dom.todo.ToDoItem.ownedBy] -> Column(s) [`TODOITEM`.`OWNEDBY`] using mapping of type "org.datanucleus.store.rdbms.mapping.java.StringMapping" (org.datanucleus.store.rdbms.mapping.datastore.VarCharRDBMSMapping)
+     [exec] 01:30:56,443  [Schema               Thread-7   DEBUG]  Column "`TODOITEM`.`SUBCATEGORY`" added to internal representation of table.
+     [exec] 01:30:56,443  [Schema               Thread-7   DEBUG]  Field [dom.todo.ToDoItem.subcategory] -> Column(s) [`TODOITEM`.`SUBCATEGORY`] using mapping of type "org.datanucleus.store.rdbms.mapping.java.EnumMapping" (org.datanucleus.store.rdbms.mapping.datastore.VarCharRDBMSMapping)
+     [exec] 01:30:56,443  [Schema               Thread-7   DEBUG]  Column "`TODOITEM`.`VERSION`" added to internal representation of table.
+     [exec] 01:30:56,443  [Schema               Thread-7   DEBUG]  Table/View `TODOITEM` has been initialised
+     [exec] 01:30:56,443  [Schema               Thread-7   DEBUG]  Table `VOUCHERDENOMINATION` will manage the persistence of the fields for class dom.todo.VoucherDenomination (inheritance strategy="new-table") 
+     [exec] 01:30:56,443  [Schema               Thread-7   DEBUG]  Column "`VOUCHERDENOMINATION`.`DESCRIPTION`" added to internal representation of table.
+     [exec] 01:30:56,443  [Schema               Thread-7   DEBUG]  Field [dom.todo.VoucherDenomination.description] -> Column(s) [`VOUCHERDENOMINATION`.`DESCRIPTION`] using mapping of type "org.datanucleus.store.rdbms.mapping.java.StringMapping" (org.datanucleus.store.rdbms.mapping.datastore.VarCharRDBMSMapping)
+     [exec] 01:30:56,444  [Schema               Thread-7   DEBUG]  Column "`VOUCHERDENOMINATION`.`FACEVALUE`" added to internal representation of table.
+     [exec] 01:30:56,444  [Schema               Thread-7   DEBUG]  Field [dom.todo.VoucherDenomination.faceValue] -> Column(s) [`VOUCHERDENOMINATION`.`FACEVALUE`] using mapping of type "org.datanucleus.store.rdbms.mapping.java.BigDecimalMapping" (org.datanucleus.store.rdbms.mapping.datastore.DecimalRDBMSMapping)
+     [exec] 01:30:56,444  [Schema               Thread-7   DEBUG]  Column "`VOUCHERDENOMINATION`.`OWNEDBY`" added to internal representation of table.
+     [exec] 01:30:56,444  [Schema               Thread-7   DEBUG]  Field [dom.todo.VoucherDenomination.ownedBy] -> Column(s) [`VOUCHERDENOMINATION`.`OWNEDBY`] using mapping of type "org.datanucleus.store.rdbms.mapping.java.StringMapping" (org.datanucleus.store.rdbms.mapping.datastore.VarCharRDBMSMapping)
+     [exec] 01:30:56,444  [Schema               Thread-7   DEBUG]  Column "`VOUCHERDENOMINATION`.`VALIDFROM`" added to internal representation of table.
+     [exec] 01:30:56,445  [Schema               Thread-7   DEBUG]  Field [dom.todo.VoucherDenomination.validFrom] -> Column(s) [`VOUCHERDENOMINATION`.`VALIDFROM`] using mapping of type "org.datanucleus.store.rdbms.mapping.JodaLocalDateMapping" (org.datanucleus.store.rdbms.mapping.datastore.DateRDBMSMapping)
+     [exec] 01:30:56,445  [Schema               Thread-7   DEBUG]  Column "`VOUCHERDENOMINATION`.`VALIDTO`" added to internal representation of table.
+     [exec] 01:30:56,445  [Schema               Thread-7   DEBUG]  Field [dom.todo.VoucherDenomination.validTo] -> Column(s) [`VOUCHERDENOMINATION`.`VALIDTO`] using mapping of type "org.datanucleus.store.rdbms.mapping.JodaLocalDateMapping" (org.datanucleus.store.rdbms.mapping.datastore.DateRDBMSMapping)
+     [exec] 01:30:56,445  [Schema               Thread-7   DEBUG]  Column "`VOUCHERDENOMINATION`.`VOUCHERCLASS_VOUCHERCLASS_ID_OID`" added to internal representation of table.
+     [exec] 01:30:56,445  [Schema               Thread-7   DEBUG]  Field [dom.todo.VoucherDenomination.voucherClass] -> Column(s) [`VOUCHERDENOMINATION`.`VOUCHERCLASS_VOUCHERCLASS_ID_OID`] using mapping of type "org.datanucleus.store.rdbms.mapping.java.PersistableMapping" (org.datanucleus.store.rdbms.mapping.datastore.BigIntRDBMSMapping)
+     [exec] 01:30:56,445  [Schema               Thread-7   DEBUG]  Column "`VOUCHERDENOMINATION`.`VERSION`" added to internal representation of table.
+     [exec] 01:30:56,445  [Schema               Thread-7   DEBUG]  Table/View `VOUCHERDENOMINATION` has been initialised
+     [exec] 01:30:56,446  [Schema               Thread-7   DEBUG]  Table `PARTY` will manage the persistence of the fields for class dom.todo.Party (inheritance strategy="new-table") 
+     [exec] 01:30:56,446  [Schema               Thread-7   DEBUG]  Column "`PARTY`.`ACTIVE`" added to internal representation of table.
+     [exec] 01:30:56,446  [Schema               Thread-7   DEBUG]  Field [dom.todo.Party.active] -> Column(s) [`PARTY`.`ACTIVE`] using mapping of type "org.datanucleus.store.rdbms.mapping.java.BooleanMapping" (org.datanucleus.store.rdbms.mapping.datastore.BitRDBMSMapping)
+     [exec] 01:30:56,455  [Schema               Thread-7   DEBUG]  Column "`PARTY`.`ATTACHEMENT`" added to internal representation of table.
+     [exec] 01:30:56,455  [Schema               Thread-7   DEBUG]  Field [dom.todo.Party.attachement] -> Column(s) [`PARTY`.`ATTACHEMENT`] using mapping of type "org.datanucleus.store.rdbms.mapping.java.SerialisedMapping" (org.datanucleus.store.rdbms.mapping.datastore.LongVarBinaryRDBMSMapping)
+     [exec] 01:30:56,455  [Schema               Thread-7   DEBUG]  Column "`PARTY`.`DESCRIPTION`" added to internal representation of table.
+     [exec] 01:30:56,455  [Schema               Thread-7   DEBUG]  Field [dom.todo.Party.description] -> Column(s) [`PARTY`.`DESCRIPTION`] using mapping of type "org.datanucleus.store.rdbms.mapping.java.StringMapping" (org.datanucleus.store.rdbms.mapping.datastore.VarCharRDBMSMapping)
+     [exec] 01:30:56,456  [Schema               Thread-7   DEBUG]  Column "`PARTY`.`MANAGER_USER_ID_OID`" added to internal representation of table.
+     [exec] 01:30:56,456  [Schema               Thread-7   DEBUG]  Field [dom.todo.Party.manager] -> Column(s) [`PARTY`.`MANAGER_USER_ID_OID`] using mapping of type "org.datanucleus.store.rdbms.mapping.java.PersistableMapping" (org.datanucleus.store.rdbms.mapping.datastore.BigIntRDBMSMapping)
+     [exec] 01:30:56,456  [Schema               Thread-7   DEBUG]  Column "`PARTY`.`OWNEDBY`" added to internal representation of table.
+     [exec] 01:30:56,456  [Schema               Thread-7   DEBUG]  Field [dom.todo.Party.ownedBy] -> Column(s) [`PARTY`.`OWNEDBY`] using mapping of type "org.datanucleus.store.rdbms.mapping.java.StringMapping" (org.datanucleus.store.rdbms.mapping.datastore.VarCharRDBMSMapping)
+     [exec] 01:30:56,457  [Schema               Thread-7   DEBUG]  Column "`PARTY`.`PARTYTYPE_PARTYTYPE_ID_OID`" added to internal representation of table.
+     [exec] 01:30:56,457  [Schema               Thread-7   DEBUG]  Field [dom.todo.Party.partytype] -> Column(s) [`PARTY`.`PARTYTYPE_PARTYTYPE_ID_OID`] using mapping of type "org.datanucleus.store.rdbms.mapping.java.PersistableMapping" (org.datanucleus.store.rdbms.mapping.datastore.BigIntRDBMSMapping)
+     [exec] 01:30:56,457  [Schema               Thread-7   DEBUG]  Column "`PARTY`.`PHONENUMBER`" added to internal representation of table.
+     [exec] 01:30:56,457  [Schema               Thread-7   DEBUG]  Field [dom.todo.Party.phoneNumber] -> Column(s) [`PARTY`.`PHONENUMBER`] using mapping of type "org.datanucleus.store.rdbms.mapping.java.StringMapping" (org.datanucleus.store.rdbms.mapping.datastore.VarCharRDBMSMapping)
+     [exec] 01:30:56,457  [Schema               Thread-7   DEBUG]  Column "`PARTY`.`TRANSPORTCARD`" added to internal representation of table.
+     [exec] 01:30:56,457  [Schema               Thread-7   DEBUG]  Field [dom.todo.Party.transportCard] -> Column(s) [`PARTY`.`TRANSPORTCARD`] using mapping of type "org.datanucleus.store.rdbms.mapping.java.StringMapping" (org.datanucleus.store.rdbms.mapping.datastore.VarCharRDBMSMapping)
+     [exec] 01:30:56,457  [Schema               Thread-7   DEBUG]  Column "`PARTY`.`UNIQUEREF`" added to internal representation of table.
+     [exec] 01:30:56,458  [Schema               Thread-7   DEBUG]  Field [dom.todo.Party.uniqueRef] -> Column(s) [`PARTY`.`UNIQUEREF`] using mapping of type "org.datanucleus.store.rdbms.mapping.java.StringMapping" (org.datanucleus.store.rdbms.mapping.datastore.VarCharRDBMSMapping)
+     [exec] 01:30:56,458  [Schema               Thread-7   DEBUG]  Column "`PARTY`.`VERSION`" added to internal representation of table.
+     [exec] 01:30:56,458  [Schema               Thread-7   DEBUG]  Table/View `PARTY` has been initialised
+     [exec] 01:30:56,458  [Schema               Thread-7   DEBUG]  Table `USER` will manage the persistence of the fields for class dom.todo.User (inheritance strategy="new-table") 
+     [exec] 01:30:56,458  [Schema               Thread-7   DEBUG]  Column "`USER`.`DESCRIPTION`" added to internal representation of table.
+     [exec] 01:30:56,458  [Schema               Thread-7   DEBUG]  Field [dom.todo.User.description] -> Column(s) [`USER`.`DESCRIPTION`] using mapping of type "org.datanucleus.store.rdbms.mapping.java.StringMapping" (org.datanucleus.store.rdbms.mapping.datastore.VarCharRDBMSMapping)
+     [exec] 01:30:56,458  [Schema               Thread-7   DEBUG]  Column "`USER`.`NAME`" added to internal representation of table.
+     [exec] 01:30:56,459  [Schema               Thread-7   DEBUG]  Field [dom.todo.User.name] -> Column(s) [`USER`.`NAME`] using mapping of type "org.datanucleus.store.rdbms.mapping.java.StringMapping" (org.datanucleus.store.rdbms.mapping.datastore.VarCharRDBMSMapping)
+     [exec] 01:30:56,459  [Schema               Thread-7   DEBUG]  Column "`USER`.`OWNEDBY`" added to internal representation of table.
+     [exec] 01:30:56,459  [Schema               Thread-7   DEBUG]  Field [dom.todo.User.ownedBy] -> Column(s) [`USER`.`OWNEDBY`] using mapping of type "org.datanucleus.store.rdbms.mapping.java.StringMapping" (org.datanucleus.store.rdbms.mapping.datastore.VarCharRDBMSMapping)
+     [exec] 01:30:56,459  [Schema               Thread-7   DEBUG]  Column "`USER`.`PARTY_PARTY_ID_OID`" added to internal representation of table.
+     [exec] 01:30:56,459  [Schema               Thread-7   DEBUG]  Field [dom.todo.User.party] -> Column(s) [`USER`.`PARTY_PARTY_ID_OID`] using mapping of type "org.datanucleus.store.rdbms.mapping.java.PersistableMapping" (org.datanucleus.store.rdbms.mapping.datastore.BigIntRDBMSMapping)
+     [exec] 01:30:56,460  [Schema               Thread-7   DEBUG]  Column "`USER`.`PASSWORD`" added to internal representation of table.
+     [exec] 01:30:56,460  [Schema               Thread-7   DEBUG]  Field [dom.todo.User.password] -> Column(s) [`USER`.`PASSWORD`] using mapping of type "org.datanucleus.store.rdbms.mapping.java.StringMapping" (org.datanucleus.store.rdbms.mapping.datastore.VarCharRDBMSMapping)
+     [exec] 01:30:56,479  [Schema               Thread-7   DEBUG]  Field [dom.todo.User.roles] -> Column(s) [[none]] using mapping of type "org.datanucleus.store.rdbms.mapping.java.CollectionMapping" ()
+     [exec] 01:30:56,480  [Schema               Thread-7   DEBUG]  Column "`USER`.`VERSION`" added to internal representation of table.
+     [exec] 01:30:56,480  [Schema               Thread-7   DEBUG]  Table/View `USER` has been initialised
+     [exec] 01:30:56,480  [Schema               Thread-7   DEBUG]  Table `PERMISSION` will manage the persistence of the fields for class dom.todo.Permission (inheritance strategy="new-table") 
+     [exec] 01:30:56,480  [Schema               Thread-7   DEBUG]  Column "`PERMISSION`.`DESCRIPTION`" added to internal representation of table.
+     [exec] 01:30:56,480  [Schema               Thread-7   DEBUG]  Field [dom.todo.Permission.description] -> Column(s) [`PERMISSION`.`DESCRIPTION`] using mapping of type "org.datanucleus.store.rdbms.mapping.java.StringMapping" (org.datanucleus.store.rdbms.mapping.datastore.VarCharRDBMSMapping)
+     [exec] 01:30:56,480  [Schema               Thread-7   DEBUG]  Column "`PERMISSION`.`NAME`" added to internal representation of table.
+     [exec] 01:30:56,481  [Schema               Thread-7   DEBUG]  Field [dom.todo.Permission.name] -> Column(s) [`PERMISSION`.`NAME`] using mapping of type "org.datanucleus.store.rdbms.mapping.java.StringMapping" (org.datanucleus.store.rdbms.mapping.datastore.VarCharRDBMSMapping)
+     [exec] 01:30:56,481  [Schema               Thread-7   DEBUG]  Column "`PERMISSION`.`OWNEDBY`" added to internal representation of table.
+     [exec] 01:30:56,481  [Schema               Thread-7   DEBUG]  Field [dom.todo.Permission.ownedBy] -> Column(s) [`PERMISSION`.`OWNEDBY`] using mapping of type "org.datanucleus.store.rdbms.mapping.java.StringMapping" (org.datanucleus.store.rdbms.mapping.datastore.VarCharRDBMSMapping)
+     [exec] 01:30:56,481  [Schema               Thread-7   DEBUG]  Column "`PERMISSION`.`PERMISSION`" added to internal representation of table.
+     [exec] 01:30:56,481  [Schema               Thread-7   DEBUG]  Field [dom.todo.Permission.permission] -> Column(s) [`PERMISSION`.`PERMISSION`] using mapping of type "org.datanucleus.store.rdbms.mapping.java.StringMapping" (org.datanucleus.store.rdbms.mapping.datastore.VarCharRDBMSMapping)
+     [exec] 01:30:56,481  [Schema               Thread-7   DEBUG]  Column "`PERMISSION`.`VERSION`" added to internal representation of table.
+     [exec] 01:30:56,481  [Schema               Thread-7   DEBUG]  Table/View `PERMISSION` has been initialised
+     [exec] 01:30:56,482  [Schema               Thread-7   DEBUG]  Table `TERMINAL` will manage the persistence of the fields for class dom.todo.Terminal (inheritance strategy="new-table") 
+     [exec] 01:30:56,482  [Schema               Thread-7   DEBUG]  Column "`TERMINAL`.`DESCRIPTION`" added to internal representation of table.
+     [exec] 01:30:56,482  [Schema               Thread-7   DEBUG]  Field [dom.todo.Terminal.description] -> Column(s) [`TERMINAL`.`DESCRIPTION`] using mapping of type "org.datanucleus.store.rdbms.mapping.java.StringMapping" (org.datanucleus.store.rdbms.mapping.datastore.VarCharRDBMSMapping)
+     [exec] 01:30:56,482  [Schema               Thread-7   DEBUG]  Column "`TERMINAL`.`IPADDRESS`" added to internal representation of table.
+     [exec] 01:30:56,482  [Schema               Thread-7   DEBUG]  Field [dom.todo.Terminal.ipAddress] -> Column(s) [`TERMINAL`.`IPADDRESS`] using mapping of type "org.datanucleus.store.rdbms.mapping.java.StringMapping" (org.datanucleus.store.rdbms.mapping.datastore.VarCharRDBMSMapping)
+     [exec] 01:30:56,482  [Schema               Thread-7   DEBUG]  Column "`TERMINAL`.`OWNEDBY`" added to internal representation of table.
+     [exec] 01:30:56,482  [Schema               Thread-7   DEBUG]  Field [dom.todo.Terminal.ownedBy] -> Column(s) [`TERMINAL`.`OWNEDBY`] using mapping of type "org.datanucleus.store.rdbms.mapping.java.StringMapping" (org.datanucleus.store.rdbms.mapping.datastore.VarCharRDBMSMapping)
+     [exec] 01:30:56,482  [Schema               Thread-7   DEBUG]  Column "`TERMINAL`.`PHONENUMBER`" added to internal representation of table.
+     [exec] 01:30:56,483  [Schema               Thread-7   DEBUG]  Field [dom.todo.Terminal.phoneNumber] -> Column(s) [`TERMINAL`.`PHONENUMBER`] using mapping of type "org.datanucleus.store.rdbms.mapping.java.StringMapping" (org.datanucleus.store.rdbms.mapping.datastore.VarCharRDBMSMapping)
+     [exec] 01:30:56,483  [Schema               Thread-7   DEBUG]  Column "`TERMINAL`.`TERMINALID`" added to internal representation of table.
+     [exec] 01:30:56,483  [Schema               Thread-7   DEBUG]  Field [dom.todo.Terminal.terminalId] -> Column(s) [`TERMINAL`.`TERMINALID`] using mapping of type "org.datanucleus.store.rdbms.mapping.java.StringMapping" (org.datanucleus.store.rdbms.mapping.datastore.VarCharRDBMSMapping)
+     [exec] 01:30:56,483  [Schema               Thread-7   DEBUG]  Column "`TERMINAL`.`TERMINALPARTY_PARTY_ID_OID`" added to internal representation of table.
+     [exec] 01:30:56,483  [Schema               Thread-7   DEBUG]  Field [dom.todo.Terminal.terminalParty] -> Column(s) [`TERMINAL`.`TERMINALPARTY_PARTY_ID_OID`] using mapping of type "org.datanucleus.store.rdbms.mapping.java.PersistableMapping" (org.datanucleus.store.rdbms.mapping.datastore.BigIntRDBMSMapping)
+     [exec] 01:30:56,483  [Schema               Thread-7   DEBUG]  Column "`TERMINAL`.`VERSION`" added to internal representation of table.
+     [exec] 01:30:56,484  [Schema               Thread-7   DEBUG]  Table/View `TERMINAL` has been initialised
+     [exec] 01:30:56,484  [Schema               Thread-7   DEBUG]  Column "`DAILYSALESTOTALFORPARTY`.`FROMPARTYREFERENCE`" added to internal representation of table.
+     [exec] 01:30:56,484  [Schema               Thread-7   DEBUG]  Column "`DAILYSALESTOTALFORPARTY`.`TOTALAMOUNT`" added to internal representation of table.
+     [exec] 01:30:56,484  [Schema               Thread-7   DEBUG]  Column "`DAILYSALESTOTALFORPARTY`.`TRANSACTIONDATE`" added to internal representation of table.
+     [exec] 01:30:56,484  [Schema               Thread-7   DEBUG]  Column "`DAILYSALESTOTALFORPARTY`.`TRANSACTIONTYPE`" added to internal representation of table.
+     [exec] 01:30:56,484  [Schema               Thread-7   DEBUG]  Table/View `DAILYSALESTOTALFORPARTY` has been initialised
+     [exec] 01:30:56,485  [Schema               Thread-7   DEBUG]  Table `PARTYTYPE` will manage the persistence of the fields for class dom.todo.Partytype (inheritance strategy="new-table") 
+     [exec] 01:30:56,528  [Schema               Thread-7   DEBUG]  Column "`PARTYTYPE`.`CANRECEIVE`" added to internal representation of table.
+     [exec] 01:30:56,528  [Schema               Thread-7   DEBUG]  Field [dom.todo.Partytype.canReceive] -> Column(s) [`PARTYTYPE`.`CANRECEIVE`] using mapping of type "org.datanucleus.store.rdbms.mapping.java.BooleanMapping" (org.datanucleus.store.rdbms.mapping.datastore.BitRDBMSMapping)
+     [exec] 01:30:56,528  [Schema               Thread-7   DEBUG]  Column "`PARTYTYPE`.`CANDELIVER`" added to internal representation of table.
+     [exec] 01:30:56,528  [Schema               Thread-7   DEBUG]  Field [dom.todo.Partytype.candeliver] -> Column(s) [`PARTYTYPE`.`CANDELIVER`] using mapping of type "org.datanucleus.store.rdbms.mapping.java.BooleanMapping" (org.datanucleus.store.rdbms.mapping.datastore.BitRDBMSMapping)
+     [exec] 01:30:56,528  [Schema               Thread-7   DEBUG]  Column "`PARTYTYPE`.`CANORDER`" added to internal representation of table.
+     [exec] 01:30:56,528  [Schema               Thread-7   DEBUG]  Field [dom.todo.Partytype.canorder] -> Column(s) [`PARTYTYPE`.`CANORDER`] using mapping of type "org.datanucleus.store.rdbms.mapping.java.BooleanMapping" (org.datanucleus.store.rdbms.mapping.datastore.BitRDBMSMapping)
+     [exec] 01:30:56,529  [Schema               Thread-7   DEBUG]  Column "`PARTYTYPE`.`CANPRINCIPAL`" added to internal representation of table.
+     [exec] 01:30:56,529  [Schema               Thread-7   DEBUG]  Field [dom.todo.Partytype.canprincipal] -> Column(s) [`PARTYTYPE`.`CANPRINCIPAL`] using mapping of type "org.datanucleus.store.rdbms.mapping.java.BooleanMapping" (org.datanucleus.store.rdbms.mapping.datastore.BitRDBMSMapping)
+     [exec] 01:30:56,529  [Schema               Thread-7   DEBUG]  Column "`PARTYTYPE`.`DESCRIPTION`" added to internal representation of table.
+     [exec] 01:30:56,529  [Schema               Thread-7   DEBUG]  Field [dom.todo.Partytype.description] -> Column(s) [`PARTYTYPE`.`DESCRIPTION`] using mapping of type "org.datanucleus.store.rdbms.mapping.java.StringMapping" (org.datanucleus.store.rdbms.mapping.datastore.VarCharRDBMSMapping)
+     [exec] 01:30:56,529  [Schema               Thread-7   DEBUG]  Column "`PARTYTYPE`.`ISENDCUSTOMER`" added to internal representation of table.
+     [exec] 01:30:56,529  [Schema               Thread-7   DEBUG]  Field [dom.todo.Partytype.isEndCustomer] -> Column(s) [`PARTYTYPE`.`ISENDCUSTOMER`] using mapping of type "org.datanucleus.store.rdbms.mapping.java.BooleanMapping" (org.datanucleus.store.rdbms.mapping.datastore.BitRDBMSMapping)
+     [exec] 01:30:56,529  [Schema               Thread-7   DEBUG]  Column "`PARTYTYPE`.`NOTIFYONTRANSACTION`" added to internal representation of table.
+     [exec] 01:30:56,530  [Schema               Thread-7   DEBUG]  Field [dom.todo.Partytype.notifyOnTransaction] -> Column(s) [`PARTYTYPE`.`NOTIFYONTRANSACTION`] using mapping of type "org.datanucleus.store.rdbms.mapping.java.BooleanMapping" (org.datanucleus.store.rdbms.mapping.datastore.BitRDBMSMapping)
+     [exec] 01:30:56,530  [Schema               Thread-7   DEBUG]  Column "`PARTYTYPE`.`OPERATOR`" added to internal representation of table.
+     [exec] 01:30:56,530  [Schema               Thread-7   DEBUG]  Field [dom.todo.Partytype.operator] -> Column(s) [`PARTYTYPE`.`OPERATOR`] using mapping of type "org.datanucleus.store.rdbms.mapping.java.BooleanMapping" (org.datanucleus.store.rdbms.mapping.datastore.BitRDBMSMapping)
+     [exec] 01:30:56,530  [Schema               Thread-7   DEBUG]  Column "`PARTYTYPE`.`OWNEDBY`" added to internal representation of table.
+     [exec] 01:30:56,530  [Schema               Thread-7   DEBUG]  Field [dom.todo.Partytype.ownedBy] -> Column(s) [`PARTYTYPE`.`OWNEDBY`] using mapping of type "org.datanucleus.store.rdbms.mapping.java.StringMapping" (org.datanucleus.store.rdbms.mapping.datastore.VarCharRDBMSMapping)
+     [exec] 01:30:56,530  [Schema               Thread-7   DEBUG]  Column "`PARTYTYPE`.`REDEEMSTICKET`" added to internal representation of table.
+     [exec] 01:30:56,530  [Schema               Thread-7   DEBUG]  Field [dom.todo.Partytype.redeemsticket] -> Column(s) [`PARTYTYPE`.`REDEEMSTICKET`] using mapping of type "org.datanucleus.store.rdbms.mapping.java.BooleanMapping" (org.datanucleus.store.rdbms.mapping.datastore.BitRDBMSMapping)
+     [exec] 01:30:56,531  [Schema               Thread-7   DEBUG]  Column "`PARTYTYPE`.`SELFVENDS`" added to internal representation of table.
+     [exec] 01:30:56,531  [Schema               Thread-7   DEBUG]  Field [dom.todo.Partytype.selfvends] -> Column(s) [`PARTYTYPE`.`SELFVENDS`] using mapping of type "org.datanucleus.store.rdbms.mapping.java.BooleanMapping" (org.datanucleus.store.rdbms.mapping.datastore.BitRDBMSMapping)
+     [exec] 01:30:56,531  [Schema               Thread-7   DEBUG]  Column "`PARTYTYPE`.`USEVIRTUALSTOCK`" added to internal representation of table.
+     [exec] 01:30:56,531  [Schema               Thread-7   DEBUG]  Field [dom.todo.Partytype.usevirtualstock] -> Column(s) [`PARTYTYPE`.`USEVIRTUALSTOCK`] using mapping of type "org.datanucleus.store.rdbms.mapping.java.BooleanMapping" (org.datanucleus.store.rdbms.mapping.datastore.BitRDBMSMapping)
+     [exec] 01:30:56,531  [Schema               Thread-7   DEBUG]  Column "`PARTYTYPE`.`VERSION`" added to internal representation of table.
+     [exec] 01:30:56,531  [Schema               Thread-7   DEBUG]  Table/View `PARTYTYPE` has been initialised
+     [exec] 01:30:56,531  [Schema               Thread-7   DEBUG]  Table `SKU` will manage the persistence of the fields for class dom.todo.Sku (inheritance strategy="new-table") 
+     [exec] 01:30:56,531  [Schema               Thread-7   DEBUG]  Column "`SKU`.`BREAKINTOUNITS`" added to internal representation of table.
+     [exec] 01:30:56,532  [Schema               Thread-7   DEBUG]  Field [dom.todo.Sku.breakIntoUnits] -> Column(s) [`SKU`.`BREAKINTOUNITS`] using mapping of type "org.datanucleus.store.rdbms.mapping.java.BooleanMapping" (org.datanucleus.store.rdbms.mapping.datastore.BitRDBMSMapping)
+     [exec] 01:30:56,532  [Schema               Thread-7   DEBUG]  Column "`SKU`.`DESCRIPTION`" added to internal representation of table.
+     [exec] 01:30:56,532  [Schema               Thread-7   DEBUG]  Field [dom.todo.Sku.description] -> Column(s) [`SKU`.`DESCRIPTION`] using mapping of type "org.datanucleus.store.rdbms.mapping.java.StringMapping" (org.datanucleus.store.rdbms.mapping.datastore.VarCharRDBMSMapping)
+     [exec] 01:30:56,532  [Schema               Thread-7   DEBUG]  Column "`SKU`.`OWNEDBY`" added to internal representation of table.
+     [exec] 01:30:56,546  [Schema               Thread-7   DEBUG]  Field [dom.todo.Sku.ownedBy] -> Column(s) [`SKU`.`OWNEDBY`] using mapping of type "org.datanucleus.store.rdbms.mapping.java.StringMapping" (org.datanucleus.store.rdbms.mapping.datastore.VarCharRDBMSMapping)
+     [exec] 01:30:56,547  [Schema               Thread-7   DEBUG]  Column "`SKU`.`PARENTSKU_SKU_ID_OID`" added to internal representation of table.
+     [exec] 01:30:56,547  [Schema               Thread-7   DEBUG]  Field [dom.todo.Sku.parentSku] -> Column(s) [`SKU`.`PARENTSKU_SKU_ID_OID`] using mapping of type "org.datanucleus.store.rdbms.mapping.java.PersistableMapping" (org.datanucleus.store.rdbms.mapping.datastore.BigIntRDBMSMapping)
+     [exec] 01:30:56,547  [Schema               Thread-7   DEBUG]  Column "`SKU`.`QUANTITYINSKU`" added to internal representation of table.
+     [exec] 01:30:56,547  [Schema               Thread-7   DEBUG]  Field [dom.todo.Sku.quantityInSku] -> Column(s) [`SKU`.`QUANTITYINSKU`] using mapping of type "org.datanucleus.store.rdbms.mapping.java.BigDecimalMapping" (org.datanucleus.store.rdbms.mapping.datastore.DecimalRDBMSMapping)
+     [exec] 01:30:56,548  [Schema               Thread-7   DEBUG]  Column "`SKU`.`UNITSKU_SKU_ID_OID`" added to internal representation of table.
+     [exec] 01:30:56,548  [Schema               Thread-7   DEBUG]  Field [dom.todo.Sku.unitSku] -> Column(s) [`SKU`.`UNITSKU_SKU_ID_OID`] using mapping of type "org.datanucleus.store.rdbms.mapping.java.PersistableMapping" (org.datanucleus.store.rdbms.mapping.datastore.BigIntRDBMSMapping)
+     [exec] 01:30:56,548  [Schema               Thread-7   DEBUG]  Column "`SKU`.`VERSION`" added to internal representation of table.
+     [exec] 01:30:56,548  [Schema               Thread-7   DEBUG]  Table/View `SKU` has been initialised
+     [exec] 01:30:56,548  [Schema               Thread-7   DEBUG]  Table `PAYMENT` will manage the persistence of the fields for class dom.todo.Payment (inheritance strategy="new-table") 
+     [exec] 01:30:56,549  [Schema               Thread-7   DEBUG]  Column "`PAYMENT`.`AMOUNT`" added to internal representation of table.
+     [exec] 01:30:56,549  [Schema               Thread-7   DEBUG]  Field [dom.todo.Payment.amount] -> Column(s) [`PAYMENT`.`AMOUNT`] using mapping of type "org.datanucleus.store.rdbms.mapping.java.BigDecimalMapping" (org.datanucleus.store.rdbms.mapping.datastore.DecimalRDBMSMapping)
+     [exec] 01:30:56,549  [Schema               Thread-7   DEBUG]  Column "`PAYMENT`.`DESCRIPTION`" added to internal representation of table.
+     [exec] 01:30:56,549  [Schema               Thread-7   DEBUG]  Field [dom.todo.Payment.description] -> Column(s) [`PAYMENT`.`DESCRIPTION`] using mapping of type "org.datanucleus.store.rdbms.mapping.java.StringMapping" (org.datanucleus.store.rdbms.mapping.datastore.VarCharRDBMSMapping)
+     [exec] 01:30:56,551  [Schema               Thread-7   DEBUG]  Column "`PAYMENT`.`FROMPARTY_PARTY_ID_OID`" added to internal representation of table.
+     [exec] 01:30:56,551  [Schema               Thread-7   DEBUG]  Field [dom.todo.Payment.fromParty] -> Column(s) [`PAYMENT`.`FROMPARTY_PARTY_ID_OID`] using mapping of type "org.datanucleus.store.rdbms.mapping.java.PersistableMapping" (org.datanucleus.store.rdbms.mapping.datastore.BigIntRDBMSMapping)
+     [exec] 01:30:56,551  [Schema               Thread-7   DEBUG]  Column "`PAYMENT`.`OWNEDBY`" added to internal representation of table.
+     [exec] 01:30:56,551  [Schema               Thread-7   DEBUG]  Field [dom.todo.Payment.ownedBy] -> Column(s) [`PAYMENT`.`OWNEDBY`] using mapping of type "org.datanucleus.store.rdbms.mapping.java.StringMapping" (org.datanucleus.store.rdbms.mapping.datastore.VarCharRDBMSMapping)
+     [exec] 01:30:56,551  [Schema               Thread-7   DEBUG]  Column "`PAYMENT`.`REFERENCENUMBER`" added to internal representation of table.
+     [exec] 01:30:56,551  [Schema               Thread-7   DEBUG]  Field [dom.todo.Payment.referenceNumber] -> Column(s) [`PAYMENT`.`REFERENCENUMBER`] using mapping of type "org.datanucleus.store.rdbms.mapping.java.StringMapping" (org.datanucleus.store.rdbms.mapping.datastore.VarCharRDBMSMapping)
+     [exec] 01:30:56,551  [Schema               Thread-7   DEBUG]  Column "`PAYMENT`.`STATUS`" added to internal representation of table.
+     [exec] 01:30:56,552  [Schema               Thread-7   DEBUG]  Field [dom.todo.Payment.status] -> Column(s) [`PAYMENT`.`STATUS`] using mapping of type "org.datanucleus.store.rdbms.mapping.java.StringMapping" (org.datanucleus.store.rdbms.mapping.datastore.VarCharRDBMSMapping)
+     [exec] 01:30:56,552  [Schema               Thread-7   DEBUG]  Column "`PAYMENT`.`TOPARTY_PARTY_ID_OID`" added to internal representation of table.
+     [exec] 01:30:56,552  [Schema               Thread-7   DEBUG]  Field [dom.todo.Payment.toParty] -> Column(s) [`PAYMENT`.`TOPARTY_PARTY_ID_OID`] using mapping of type "org.datanucleus.store.rdbms.mapping.java.PersistableMapping" (org.datanucleus.store.rdbms.mapping.datastore.BigIntRDBMSMapping)
+     [exec] 01:30:56,552  [Schema               Thread-7   DEBUG]  Column "`PAYMENT`.`TRANSACTIONDATE`" added to internal representation of table.
+     [exec] 01:30:56,552  [Schema               Thread-7   DEBUG]  Field [dom.todo.Payment.transactionDate] -> Column(s) [`PAYMENT`.`TRANSACTIONDATE`] using mapping of type "org.datanucleus.store.rdbms.mapping.JodaLocalDateMapping" (org.datanucleus.store.rdbms.mapping.datastore.DateRDBMSMapping)
+     [exec] 01:30:56,553  [Schema               Thread-7   DEBUG]  Column "`PAYMENT`.`VERSION`" added to internal representation of table.
+     [exec] 01:30:56,553  [Schema               Thread-7   DEBUG]  Table/View `PAYMENT` has been initialised
+     [exec] 01:30:56,553  [Schema               Thread-7   DEBUG]  Column "`PARTYDATABASERECORD`.`DESCRIPTION`" added to internal representation of table.
+     [exec] 01:30:56,554  [Schema               Thread-7   DEBUG]  Column "`PARTYDATABASERECORD`.`PHONENUMBER`" added to internal representation of table.
+     [exec] 01:30:56,556  [Schema               Thread-7   DEBUG]  Column "`PARTYDATABASERECORD`.`TRANSPORTCARD`" added to internal representation of table.
+     [exec] 01:30:56,556  [Schema               Thread-7   DEBUG]  Table/View `PARTYDATABASERECORD` has been initialised
+     [exec] 01:30:56,556  [Schema               Thread-7   DEBUG]  Table `CONTRACT` will manage the persistence of the fields for class dom.todo.Contract (inheritance strategy="new-table") 
+     [exec] 01:30:56,556  [Schema               Thread-7   DEBUG]  Column "`CONTRACT`.`ACTIVE`" added to internal representation of table.
+     [exec] 01:30:56,556  [Schema               Thread-7   DEBUG]  Field [dom.todo.Contract.active] -> Column(s) [`CONTRACT`.`ACTIVE`] using mapping of type "org.datanucleus.store.rdbms.mapping.java.BooleanMapping" (org.datanucleus.store.rdbms.mapping.datastore.BitRDBMSMapping)
+     [exec] 01:30:56,556  [Schema               Thread-7   DEBUG]  Column "`CONTRACT`.`DESCRIPTION`" added to internal representation of table.
+     [exec] 01:30:56,557  [Schema               Thread-7   DEBUG]  Field [dom.todo.Contract.description] -> Column(s) [`CONTRACT`.`DESCRIPTION`] using mapping of type "org.datanucleus.store.rdbms.mapping.java.StringMapping" (org.datanucleus.store.rdbms.mapping.datastore.VarCharRDBMSMapping)
+     [exec] 01:30:56,557  [Schema               Thread-7   DEBUG]  Column "`CONTRACT`.`DISCOUNT`" added to internal representation of table.
+     [exec] 01:30:56,557  [Schema               Thread-7   DEBUG]  Field [dom.todo.Contract.discount] -> Column(s) [`CONTRACT`.`DISCOUNT`] using mapping of type "org.datanucleus.store.rdbms.mapping.java.BigDecimalMapping" (org.datanucleus.store.rdbms.mapping.datastore.DecimalRDBMSMapping)
+     [exec] 01:30:56,557  [Schema               Thread-7   DEBUG]  Column "`CONTRACT`.`DURATION`" added to internal representation of table.
+     [exec] 01:30:56,557  [Schema               Thread-7   DEBUG]  Field [dom.todo.Contract.duration] -> Column(s) [`CONTRACT`.`DURATION`] using mapping of type "org.datanucleus.store.rdbms.mapping.java.IntegerMapping" (org.datanucleus.store.rdbms.mapping.datastore.IntegerRDBMSMapping)
+     [exec] 01:30:56,557  [Schema               Thread-7   DEBUG]  Column "`CONTRACT`.`OWNEDBY`" added to internal representation of table.
+     [exec] 01:30:56,557  [Schema               Thread-7   DEBUG]  Field [dom.todo.Contract.ownedBy] -> Column(s) [`CONTRACT`.`OWNEDBY`] using mapping of type "org.datanucleus.store.rdbms.mapping.java.StringMapping" (org.datanucleus.store.rdbms.mapping.datastore.VarCharRDBMSMapping)
+     [exec] 01:30:56,558  [Schema               Thread-7   DEBUG]  Column "`CONTRACT`.`PRINCIPAL_PARTY_ID_OID`" added to internal representation of table.
+     [exec] 01:30:56,558  [Schema               Thread-7   DEBUG]  Field [dom.todo.Contract.principal] -> Column(s) [`CONTRACT`.`PRINCIPAL_PARTY_ID_OID`] using mapping of type "org.datanucleus.store.rdbms.mapping.java.PersistableMapping" (org.datanucleus.store.rdbms.mapping.datastore.BigIntRDBMSMapping)
+     [exec] 01:30:56,558  [Schema               Thread-7   DEBUG]  Column "`CONTRACT`.`REFERENCE`" added to internal representation of table.
+     [exec] 01:30:56,558  [Schema               Thread-7   DEBUG]  Field [dom.todo.Contract.reference] -> Column(s) [`CONTRACT`.`REFERENCE`] using mapping of type "org.datanucleus.store.rdbms.mapping.java.StringMapping" (org.datanucleus.store.rdbms.mapping.datastore.VarCharRDBMSMapping)
+     [exec] 01:30:56,558  [Schema               Thread-7   DEBUG]  Column "`CONTRACT`.`START`" added to internal representation of table.
+     [exec] 01:30:56,559  [Schema               Thread-7   DEBUG]  Field [dom.todo.Contract.start] -> Column(s) [`CONTRACT`.`START`] using mapping of type "org.datanucleus.store.rdbms.mapping.JodaLocalDateMapping" (org.datanucleus.store.rdbms.mapping.datastore.DateRDBMSMapping)
+     [exec] 01:30:56,559  [Schema               Thread-7   DEBUG]  Column "`CONTRACT`.`SUBORDINATE_PARTY_ID_OID`" added to internal representation of table.
+     [exec] 01:30:56,559  [Schema               Thread-7   DEBUG]  Field [dom.todo.Contract.subordinate] -> Column(s) [`CONTRACT`.`SUBORDINATE_PARTY_ID_OID`] using mapping of type "org.datanucleus.store.rdbms.mapping.java.PersistableMapping" (org.datanucleus.store.rdbms.mapping.datastore.BigIntRDBMSMapping)
+     [exec] 01:30:56,559  [Schema               Thread-7   DEBUG]  Column "`CONTRACT`.`VERSION`" added to internal representation of table.
+     [exec] 01:30:56,559  [Schema               Thread-7   DEBUG]  Table/View `CONTRACT` has been initialised
+     [exec] 01:30:56,559  [Schema               Thread-7   DEBUG]  Table `ROLE` will manage the persistence of the fields for class dom.todo.Role (inheritance strategy="new-table") 
+     [exec] 01:30:56,560  [Schema               Thread-7   DEBUG]  Column "`ROLE`.`DESCRIPTION`" added to internal representation of table.
+     [exec] 01:30:56,560  [Schema               Thread-7   DEBUG]  Field [dom.todo.Role.description] -> Column(s) [`ROLE`.`DESCRIPTION`] using mapping of type "org.datanucleus.store.rdbms.mapping.java.StringMapping" (org.datanucleus.store.rdbms.mapping.datastore.VarCharRDBMSMapping)
+     [exec] 01:30:56,565  [Schema               Thread-7   DEBUG]  Column "`ROLE`.`NAME`" added to internal representation of table.
+     [exec] 01:30:56,566  [Schema               Thread-7   DEBUG]  Field [dom.todo.Role.name] -> Column(s) [`ROLE`.`NAME`] using mapping of type "org.datanucleus.store.rdbms.mapping.java.StringMapping" (org.datanucleus.store.rdbms.mapping.datastore.VarCharRDBMSMapping)
+     [exec] 01:30:56,566  [Schema               Thread-7   DEBUG]  Column "`ROLE`.`OWNEDBY`" added to internal representation of table.
+     [exec] 01:30:56,566  [Schema               Thread-7   DEBUG]  Field [dom.todo.Role.ownedBy] -> Column(s) [`ROLE`.`OWNEDBY`] using mapping of type "org.datanucleus.store.rdbms.mapping.java.StringMapping" (org.datanucleus.store.rdbms.mapping.datastore.VarCharRDBMSMapping)
+     [exec] 01:30:56,566  [Schema               Thread-7   DEBUG]  Field [dom.todo.Role.permissions] -> Column(s) [[none]] using mapping of type "org.datanucleus.store.rdbms.mapping.java.CollectionMapping" ()
+     [exec] 01:30:56,566  [Schema               Thread-7   DEBUG]  Column "`ROLE`.`VERSION`" added to internal representation of table.
+     [exec] 01:30:56,566  [Schema               Thread-7   DEBUG]  Table/View `ROLE` has been initialised
+     [exec] 01:30:56,567  [Schema               Thread-7   DEBUG]  Table `VOUCHERCLASS` will manage the persistence of the fields for class dom.todo.VoucherClass (inheritance strategy="new-table") 
+     [exec] 01:30:56,567  [Schema               Thread-7   DEBUG]  Column "`VOUCHERCLASS`.`DESCRIPTION`" added to internal representation of table.
+     [exec] 01:30:56,567  [Schema               Thread-7   DEBUG]  Field [dom.todo.VoucherClass.description] -> Column(s) [`VOUCHERCLASS`.`DESCRIPTION`] using mapping of type "org.datanucleus.store.rdbms.mapping.java.StringMapping" (org.datanucleus.store.rdbms.mapping.datastore.VarCharRDBMSMapping)
+     [exec] 01:30:56,567  [Schema               Thread-7   DEBUG]  Column "`VOUCHERCLASS`.`ISVIRTUAL`" added to internal representation of table.
+     [exec] 01:30:56,567  [Schema               Thread-7   DEBUG]  Field [dom.todo.VoucherClass.isVirtual] -> Column(s) [`VOUCHERCLASS`.`ISVIRTUAL`] using mapping of type "org.datanucleus.store.rdbms.mapping.java.BooleanMapping" (org.datanucleus.store.rdbms.mapping.datastore.BitRDBMSMapping)
+     [exec] 01:30:56,568  [Schema               Thread-7   DEBUG]  Column "`VOUCHERCLASS`.`ISSUINGPARTY_PARTY_ID_OID`" added to internal representation of table.
+     [exec] 01:30:56,568  [Schema               Thread-7   DEBUG]  Field [dom.todo.VoucherClass.issuingParty] -> Column(s) [`VOUCHERCLASS`.`ISSUINGPARTY_PARTY_ID_OID`] using mapping of type "org.datanucleus.store.rdbms.mapping.java.PersistableMapping" (org.datanucleus.store.rdbms.mapping.datastore.BigIntRDBMSMapping)
+     [exec] 01:30:56,568  [Schema               Thread-7   DEBUG]  Column "`VOUCHERCLASS`.`MAXREDEEMS`" added to internal representation of table.
+     [exec] 01:30:56,568  [Schema               Thread-7   DEBUG]  Field [dom.todo.VoucherClass.maxRedeems] -> Column(s) [`VOUCHERCLASS`.`MAXREDEEMS`] using mapping of type "org.datanucleus.store.rdbms.mapping.java.IntegerMapping" (org.datanucleus.store.rdbms.mapping.datastore.IntegerRDBMSMapping)
+     [exec] 01:30:56,568  [Schema               Thread-7   DEBUG]  Column "`VOUCHERCLASS`.`OWNEDBY`" added to internal representation of table.
+     [exec] 01:30:56,568  [Schema               Thread-7   DEBUG]  Field [dom.todo.VoucherClass.ownedBy] -> Column(s) [`VOUCHERCLASS`.`OWNEDBY`] using mapping of type "org.datanucleus.store.rdbms.mapping.java.StringMapping" (org.datanucleus.store.rdbms.mapping.datastore.VarCharRDBMSMapping)
+     [exec] 01:30:56,569  [Schema               Thread-7   DEBUG]  Column "`VOUCHERCLASS`.`REQUIREREDEEM`" added to internal representation of table.
+     [exec] 01:30:56,569  [Schema               Thread-7   DEBUG]  Field [dom.todo.VoucherClass.requireRedeem] -> Column(s) [`VOUCHERCLASS`.`REQUIREREDEEM`] using mapping of type "org.datanucleus.store.rdbms.mapping.java.BooleanMapping" (org.datanucleus.store.rdbms.mapping.datastore.BitRDBMSMapping)
+     [exec] 01:30:56,569  [Schema               Thread-7   DEBUG]  Column "`VOUCHERCLASS`.`VALIDFROM`" added to internal representation of table.
+     [exec] 01:30:56,570  [Schema               Thread-7   DEBUG]  Field [dom.todo.VoucherClass.validFrom] -> Column(s) [`VOUCHERCLASS`.`VALIDFROM`] using mapping of type "org.datanucleus.store.rdbms.mapping.JodaLocalDateMapping" (org.datanucleus.store.rdbms.mapping.datastore.DateRDBMSMapping)
+     [exec] 01:30:56,570  [Schema               Thread-7   DEBUG]  Column "`VOUCHERCLASS`.`VALIDTO`" added to internal representation of table.
+     [exec] 01:30:56,570  [Schema               Thread-7   DEBUG]  Field [dom.todo.VoucherClass.validTo] -> Column(s) [`VOUCHERCLASS`.`VALIDTO`] using mapping of type "org.datanucleus.store.rdbms.mapping.JodaLocalDateMapping" (org.datanucleus.store.rdbms.mapping.datastore.DateRDBMSMapping)
+     [exec] 01:30:56,570  [Schema               Thread-7   DEBUG]  Column "`VOUCHERCLASS`.`VALIDITY`" added to internal representation of table.
+     [exec] 01:30:56,570  [Schema               Thread-7   DEBUG]  Field [dom.todo.VoucherClass.validity] -> Column(s) [`VOUCHERCLASS`.`VALIDITY`] using mapping of type "org.datanucleus.store.rdbms.mapping.java.IntegerMapping" (org.datanucleus.store.rdbms.mapping.datastore.IntegerRDBMSMapping)
+     [exec] 01:30:56,570  [Schema               Thread-7   DEBUG]  Column "`VOUCHERCLASS`.`VERSION`" added to internal representation of table.
+     [exec] 01:30:56,570  [Schema               Thread-7   DEBUG]  Table/View `VOUCHERCLASS` has been initialised
+     [exec] 01:30:56,570  [Schema               Thread-7   DEBUG]  Column "`DAILYSALESTOTAL`.`FROMPARTYREFERENCE`" added to internal representation of table.
+     [exec] 01:30:56,571  [Schema               Thread-7   DEBUG]  Column "`DAILYSALESTOTAL`.`TOTALAMOUNT`" added to internal representation of table.
+     [exec] 01:30:56,571  [Schema               Thread-7   DEBUG]  Column "`DAILYSALESTOTAL`.`TRANSACTIONDATE`" added to internal representation of table.
+     [exec] 01:30:56,571  [Schema               Thread-7   DEBUG]  Column "`DAILYSALESTOTAL`.`TRANSACTIONTYPE`" added to internal representation of table.
+     [exec] 01:30:56,571  [Schema               Thread-7   DEBUG]  Table/View `DAILYSALESTOTAL` has been initialised
+     [exec] 01:30:56,575  [Schema               Thread-7   DEBUG]  Column "`USERROLES`.`USERID`" added to internal representation of table.
+     [exec] 01:30:56,575  [Schema               Thread-7   DEBUG]  Column "`USERROLES`.`ROLEID`" added to internal representation of table.
+     [exec] 01:30:56,575  [Schema               Thread-7   DEBUG]  Column "`USERROLES`.`IDX`" added to internal representation of table.
+     [exec] 01:30:56,575  [Schema               Thread-7   DEBUG]  Table/View `USERROLES` has been initialised
+     [exec] 01:30:56,610  [Schema               Thread-7   DEBUG]  Column "`TODOITEMDEPENDENCIES`.`DEPENDINGID`" added to internal representation of table.
+     [exec] 01:30:56,615  [Schema               Thread-7   DEBUG]  Column "`TODOITEMDEPENDENCIES`.`DEPENDENTID`" added to internal representation of table.
+     [exec] 01:30:56,615  [Schema               Thread-7   DEBUG]  Table/View `TODOITEMDEPENDENCIES` has been initialised
+     [exec] 01:30:56,615  [Schema               Thread-7   DEBUG]  Column "`ROLEPERMISSIONS`.`ROLEID`" added to internal representation of table.
+     [exec] 01:30:56,616  [Schema               Thread-7   DEBUG]  Column "`ROLEPERMISSIONS`.`PERMISSIONID`" added to internal representation of table.
+     [exec] 01:30:56,616  [Schema               Thread-7   DEBUG]  Column "`ROLEPERMISSIONS`.`IDX`" added to internal representation of table.
+     [exec] 01:30:56,616  [Schema               Thread-7   DEBUG]  Table/View `ROLEPERMISSIONS` has been initialised
+     [exec] 01:30:56,617  [Schema               Thread-7   DEBUG]  Column "`TRANSACTION`.`JOURNAL_STOCKLEDGER_ID_OID`" added to internal representation of table.
+     [exec] 01:30:56,617  [Schema               Thread-7   DEBUG]  Column "`TRANSACTION`.`JOURNAL_INTEGER_IDX`" added to internal representation of table.
+     [exec] 01:30:56,723  [Schema               Thread-7   DEBUG]  Schema Transaction started with connection "com.jolbox.bonecp.ConnectionHandle@248ce0ea" with isolation "serializable"
+     [exec] 01:30:56,725  [Schema               Thread-7   DEBUG]  Check of existence of `STOCKLEDGER` returned table type of TABLE
+     [exec] 01:30:56,727  [Schema               Thread-7   DEBUG]  Loading column info for table(s) "stockledger, dailysalestotal, payment, partydatabaserecord, contract, transaction, todoitem, partytype, permission, sku, party, dailysalestotalforparty, todoitemdependencies, voucherdenomination, rolepermissions, terminal, userroles, role, voucherclass, user" in Catalog "", Schema ""
+     [exec] 01:30:56,861  [Schema               Thread-7   DEBUG]  Column info loaded for Catalog "", Schema "", 20 tables, time = 134 ms
+     [exec] 01:30:56,862  [Schema               Thread-7   DEBUG]  Column info retrieved for table "STOCKLEDGER" : 9 columns found
+     [exec] 01:30:56,863  [Schema               Thread-7   DEBUG]  Check of existence of `TRANSACTION` returned table type of TABLE
+     [exec] 01:30:56,864  [Schema               Thread-7   DEBUG]  Check of existence of `TODOITEM` returned table type of TABLE
+     [exec] 01:30:56,865  [Schema               Thread-7   DEBUG]  Check of existence of `VOUCHERDENOMINATION` returned table type of TABLE
+     [exec] 01:30:56,866  [Schema               Thread-7   DEBUG]  Check of existence of `PARTY` returned table type of TABLE
+     [exec] 01:30:56,867  [Schema               Thread-7   DEBUG]  Check of existence of `USER` returned table type of TABLE
+     [exec] 01:30:56,868  [Schema               Thread-7   DEBUG]  Check of existence of `PERMISSION` returned table type of TABLE
+     [exec] 01:30:56,870  [Schema               Thread-7   DEBUG]  Check of existence of `TERMINAL` returned table type of TABLE
+     [exec] 01:30:56,871  [Schema               Thread-7   DEBUG]  Check of existence of `PARTYTYPE` returned table type of TABLE
+     [exec] 01:30:56,872  [Schema               Thread-7   DEBUG]  Check of existence of `SKU` returned table type of TABLE
+     [exec] 01:30:56,873  [Schema               Thread-7   DEBUG]  Check of existence of `PAYMENT` returned table type of TABLE
+     [exec] 01:30:56,874  [Schema               Thread-7   DEBUG]  Check of existence of `CONTRACT` returned table type of TABLE
+     [exec] 01:30:56,875  [Schema               Thread-7   DEBUG]  Check of existence of `ROLE` returned table type of TABLE
+     [exec] 01:30:56,876  [Schema               Thread-7   DEBUG]  Check of existence of `VOUCHERCLASS` returned table type of TABLE
+     [exec] 01:30:56,876  [Schema               Thread-7   DEBUG]  Check of existence of `USERROLES` returned table type of TABLE
+     [exec] 01:30:56,877  [Schema               Thread-7   DEBUG]  Check of existence of `TODOITEMDEPENDENCIES` returned table type of TABLE
+     [exec] 01:30:56,878  [Schema               Thread-7   DEBUG]  Check of existence of `ROLEPERMISSIONS` returned table type of TABLE
+     [exec] 01:30:56,886  [Schema               Thread-7   DEBUG]  Validating 5 index(es) for table `STOCKLEDGER`
+     [exec] 01:30:56,896  [Schema               Thread-7   DEBUG]  Validating 3 foreign key(s) for table `STOCKLEDGER`
+     [exec] 01:30:56,901  [Schema               Thread-7   DEBUG]  Validating 2 unique key(s) for table `STOCKLEDGER`
+     [exec] 01:30:56,906  [Schema               Thread-7   DEBUG]  Validating 8 index(es) for table `TRANSACTION`
+     [exec] 01:30:56,910  [Schema               Thread-7   DEBUG]  Validating 6 foreign key(s) for table `TRANSACTION`
+     [exec] 01:30:56,915  [Schema               Thread-7   DEBUG]  Validating 2 unique key(s) for table `TRANSACTION`
+     [exec] 01:30:56,919  [Schema               Thread-7   DEBUG]  Validating 2 index(es) for table `TODOITEM`
+     [exec] 01:30:56,922  [Schema               Thread-7   DEBUG]  Validating 0 foreign key(s) for table `TODOITEM`
+     [exec] 01:30:56,926  [Schema               Thread-7   DEBUG]  Validating 2 unique key(s) for table `TODOITEM`
+     [exec] 01:30:56,933  [Schema               Thread-7   DEBUG]  Validating 3 index(es) for table `VOUCHERDENOMINATION`
+     [exec] 01:30:56,934  [Schema               Thread-7   DEBUG]  Validating 1 foreign key(s) for table `VOUCHERDENOMINATION`
+     [exec] 01:30:56,936  [Schema               Thread-7   DEBUG]  Validating 2 unique key(s) for table `VOUCHERDENOMINATION`
+     [exec] 01:30:56,939  [Schema               Thread-7   DEBUG]  Validating 4 index(es) for table `PARTY`
+     [exec] 01:30:56,941  [Schema               Thread-7   DEBUG]  Validating 2 foreign key(s) for table `PARTY`
+     [exec] 01:30:56,943  [Schema               Thread-7   DEBUG]  Validating 2 unique key(s) for table `PARTY`
+     [exec] 01:30:56,945  [Schema               Thread-7   DEBUG]  Validating 3 index(es) for table `USER`
+     [exec] 01:30:56,947  [Schema               Thread-7   DEBUG]  Validating 1 foreign key(s) for table `USER`
+     [exec] 01:30:56,949  [Schema               Thread-7   DEBUG]  Validating 2 unique key(s) for table `USER`
+     [exec] 01:30:56,950  [Schema               Thread-7   DEBUG]  Validating 2 index(es) for table `PERMISSION`
+     [exec] 01:30:56,952  [Schema               Thread-7   DEBUG]  Validating 0 foreign key(s) for table `PERMISSION`
+     [exec] 01:30:56,954  [Schema               Thread-7   DEBUG]  Validating 2 unique key(s) for table `PERMISSION`
+     [exec] 01:30:56,956  [Schema               Thread-7   DEBUG]  Validating 3 index(es) for table `TERMINAL`
+     [exec] 01:30:56,957  [Schema               Thread-7   DEBUG]  Validating 1 foreign key(s) for table `TERMINAL`
+     [exec] 01:30:56,960  [Schema               Thread-7   DEBUG]  Validating 2 unique key(s) for table `TERMINAL`
+     [exec] 01:30:56,962  [Schema               Thread-7   DEBUG]  Validating 2 index(es) for table `PARTYTYPE`
+     [exec] 01:30:56,963  [Schema               Thread-7   DEBUG]  Validating 0 foreign key(s) for table `PARTYTYPE`
+     [exec] 01:30:56,965  [Schema               Thread-7   DEBUG]  Validating 2 unique key(s) for table `PARTYTYPE`
+     [exec] 01:30:56,967  [Schema               Thread-7   DEBUG]  Validating 4 index(es) for table `SKU`
+     [exec] 01:30:56,969  [Schema               Thread-7   DEBUG]  Validating 2 foreign key(s) for table `SKU`
+     [exec] 01:30:56,971  [Schema               Thread-7   DEBUG]  Validating 2 unique key(s) for table `SKU`
+     [exec] 01:30:56,976  [Schema               Thread-7   DEBUG]  Validating 4 index(es) for table `PAYMENT`
+     [exec] 01:30:56,978  [Schema               Thread-7   DEBUG]  Validating 2 foreign key(s) for table `PAYMENT`
+     [exec] 01:30:56,981  [Schema               Thread-7   DEBUG]  Validating 2 unique key(s) for table `PAYMENT`
+     [exec] 01:30:56,986  [Schema               Thread-7   DEBUG]  Validating 3 index(es) for table `CONTRACT`
+     [exec] 01:30:56,990  [Schema               Thread-7   DEBUG]  Validating 2 foreign key(s) for table `CONTRACT`
+     [exec] 01:30:56,995  [Schema               Thread-7   DEBUG]  Validating 1 unique key(s) for table `CONTRACT`
+     [exec] 01:30:57,003  [Schema               Thread-7   DEBUG]  Validating 2 index(es) for table `ROLE`
+     [exec] 01:30:57,006  [Schema               Thread-7   DEBUG]  Validating 0 foreign key(s) for table `ROLE`
+     [exec] 01:30:57,008  [Schema               Thread-7   DEBUG]  Validating 2 unique key(s) for table `ROLE`
+     [exec] 01:30:57,010  [Schema               Thread-7   DEBUG]  Validating 3 index(es) for table `VOUCHERCLASS`
+     [exec] 01:30:57,012  [Schema               Thread-7   DEBUG]  Validating 1 foreign key(s) for table `VOUCHERCLASS`
+     [exec] 01:30:57,013  [Schema               Thread-7   DEBUG]  Validating 2 unique key(s) for table `VOUCHERCLASS`
+     [exec] 01:30:57,016  [Schema               Thread-7   DEBUG]  Validating 3 index(es) for table `USERROLES`
+     [exec] 01:30:57,029  [Schema               Thread-7   DEBUG]  Validating 2 foreign key(s) for table `USERROLES`
+     [exec] 01:30:57,034  [Schema               Thread-7   DEBUG]  Validating 1 unique key(s) for table `USERROLES`
+     [exec] 01:30:57,037  [Schema               Thread-7   DEBUG]  Validating 3 index(es) for table `TODOITEMDEPENDENCIES`
+     [exec] 01:30:57,038  [Schema               Thread-7   DEBUG]  Validating 2 foreign key(s) for table `TODOITEMDEPENDENCIES`
+     [exec] 01:30:57,040  [Schema               Thread-7   DEBUG]  Validating 1 unique key(s) for table `TODOITEMDEPENDENCIES`
+     [exec] 01:30:57,043  [Schema               Thread-7   DEBUG]  Validating 3 index(es) for table `ROLEPERMISSIONS`
+     [exec] 01:30:57,045  [Schema               Thread-7   DEBUG]  Validating 2 foreign key(s) for table `ROLEPERMISSIONS`
+     [exec] 01:30:57,047  [Schema               Thread-7   DEBUG]  Validating 1 unique key(s) for table `ROLEPERMISSIONS`
+     [exec] 01:30:57,052  [Schema               Thread-7   DEBUG]  Check of existence of `DAILYSALESTOTALFORPARTY` returned table type of VIEW
+     [exec] 01:30:57,056  [Schema               Thread-7   DEBUG]  Check of existence of `PARTYDATABASERECORD` returned table type of VIEW
+     [exec] 01:30:57,057  [Schema               Thread-7   DEBUG]  Check of existence of `DAILYSALESTOTAL` returned table type of VIEW
+     [exec] 01:30:57,059  [Schema               Thread-7   DEBUG]  Schema Transaction committing with connection "com.jolbox.bonecp.ConnectionHandle@248ce0ea"
+     [exec] 01:30:57,059  [Schema               Thread-7   DEBUG]  Schema Transaction closing with connection "com.jolbox.bonecp.ConnectionHandle@248ce0ea"
+     [exec] 01:30:57,206  [FixturesInstallerFromConfiguration Thread-7   INFO ]    adding fixture fixture.todo.ToDoItemsFixture
+     [exec] 01:30:57,211  [FixturesInstallerDelegate Thread-7   INFO ]  installing fixture: fixture.todo.ToDoItemsFixture@6f349665
+     [exec] 01:30:57,212  [FixturesInstallerDelegate Thread-7   INFO ]  fixture installed
+     [exec] 01:30:57,224  [WebApplication       Thread-7   INFO ]  [WicketFilter] Started Wicket version 6.11.0 in DEVELOPMENT mode
+     [exec] ********************************************************************
+     [exec] *** WARNING: Wicket is running in DEVELOPMENT mode.              ***
+     [exec] ***                               ^^^^^^^^^^^                    ***
+     [exec] *** Do NOT deploy to your live server(s) without changing this.  ***
+     [exec] *** See Application#getConfigurationType() for more information. ***
+     [exec] ********************************************************************
+     [exec] 23460 [Thread-7] INFO org.eclipse.jetty.server.AbstractConnector - Started DefaultJettyManager$2@0.0.0.0:8080 STARTING
+     [exec] 01:30:58,039  [ResourceServlet      qtp979582289-31 INFO ]  request: about/index.html
+     [exec] 01:31:00,821  [ClassCryptFactory    qtp979582289-32 INFO ]  using encryption/decryption object org.apache.wicket.util.crypt.SunJceCrypt@b45ad3d
+     [exec] 01:31:01,073  [BoneCPConfig         qtp979582289-32 WARN ]  JDBC password was not set in config!
+     [exec] 01:31:01,310  [AuthorizingRealm     qtp979582289-34 INFO ]  No cache or cacheManager properties have been set.  Authorization cache cannot be obtained.
+     [exec] 01:31:01,397  [AuthorizingRealm     qtp979582289-34 INFO ]  No cache or cacheManager properties have been set.  Authorization cache cannot be obtained.
+     [exec] 01:31:01,400  [AuthorizingRealm     qtp979582289-34 INFO ]  No cache or cacheManager properties have been set.  Authorization cache cannot be obtained.
+     [exec] 01:31:01,402  [AuthorizingRealm     qtp979582289-34 INFO ]  No cache or cacheManager properties have been set.  Authorization cache cannot be obtained.
+     [exec] 01:31:01,407  [AuthorizingRealm     qtp979582289-34 INFO ]  No cache or cacheManager properties have been set.  Authorization cache cannot be obtained.
+     [exec] 01:31:01,411  [AuthorizingRealm     qtp979582289-34 INFO ]  No cache or cacheManager properties have been set.  Authorization cache cannot be obtained.
+     [exec] 01:31:01,414  [AuthorizingRealm     qtp979582289-34 INFO ]  No cache or cacheManager properties have been set.  Authorization cache cannot be obtained.
+     [exec] 01:31:01,417  [AuthorizingRealm     qtp979582289-34 INFO ]  No cache or cacheManager properties have been set.  Authorization cache cannot be obtained.
+     [exec] 01:31:01,419  [AuthorizingRealm     qtp979582289-34 INFO ]  No cache or cacheManager properties have been set.  Authorization cache cannot be obtained.
+     [exec] 01:31:01,424  [AuthorizingRealm     qtp979582289-34 INFO ]  No cache or cacheManager properties have been set.  Authorization cache cannot be obtained.
+     [exec] 01:31:01,428  [AuthorizingRealm     qtp979582289-34 INFO ]  No cache or cacheManager properties have been set.  Authorization cache cannot be obtained.
+     [exec] 01:31:01,433  [AuthorizingRealm     qtp979582289-34 INFO ]  No cache or cacheManager properties have been set.  Authorization cache cannot be obtained.
+     [exec] 01:31:01,436  [AuthorizingRealm     qtp979582289-34 INFO ]  No cache or cacheManager properties have been set.  Authorization cache cannot be obtained.
+     [exec] 01:31:01,536  [AuthorizingRealm     qtp979582289-34 INFO ]  No cache or cacheManager properties have been set.  Authorization cache cannot be obtained.
+     [exec] 01:31:01,542  [AuthorizingRealm     qtp979582289-34 INFO ]  No cache or cacheManager properties have been set.  Authorization cache cannot be obtained.
+     [exec] 01:31:01,546  [AuthorizingRealm     qtp979582289-34 INFO ]  No cache or cacheManager properties have been set.  Authorization cache cannot be obtained.
+     [exec] 01:31:01,548  [AuthorizingRealm     qtp979582289-34 INFO ]  No cache or cacheManager properties have been set.  Authorization cache cannot be obtained.
+     [exec] 01:31:01,551  [AuthorizingRealm     qtp979582289-34 INFO ]  No cache or cacheManager properties have been set.  Authorization cache cannot be obtained.
+     [exec] 01:31:01,553  [AuthorizingRealm     qtp979582289-34 INFO ]  No cache or cacheManager properties have been set.  Authorization cache cannot be obtained.
+     [exec] 01:31:01,555  [AuthorizingRealm     qtp979582289-34 INFO ]  No cache or cacheManager properties have been set.  Authorization cache cannot be obtained.
+     [exec] 01:31:01,557  [AuthorizingRealm     qtp979582289-34 INFO ]  No cache or cacheManager properties have been set.  Authorization cache cannot be obtained.
+     [exec] 01:31:01,559  [AuthorizingRealm     qtp979582289-34 INFO ]  No cache or cacheManager properties have been set.  Authorization cache cannot be obtained.
+     [exec] 01:31:01,561  [AuthorizingRealm     qtp979582289-34 INFO ]  No cache or cacheManager properties have been set.  Authorization cache cannot be obtained.
+     [exec] 01:31:01,564  [AuthorizingRealm     qtp979582289-34 INFO ]  No cache or cacheManager properties have been set.  Authorization cache cannot be obtained.
+     [exec] 01:31:01,566  [AuthorizingRealm     qtp979582289-34 INFO ]  No cache or cacheManager properties have been set.  Authorization cache cannot be obtained.
+     [exec] 01:31:01,568  [AuthorizingRealm     qtp979582289-34 INFO ]  No cache or cacheManager properties have been set.  Authorization cache cannot be obtained.
+     [exec] 01:31:01,570  [AuthorizingRealm     qtp979582289-34 INFO ]  No cache or cacheManager properties have been set.  Authorization cache cannot be obtained.
+     [exec] 01:31:01,599  [AuthorizingRealm     qtp979582289-34 INFO ]  No cache or cacheManager properties have been set.  Authorization cache cannot be obtained.
+     [exec] 01:31:01,602  [AuthorizingRealm     qtp979582289-34 INFO ]  No cache or cacheManager properties have been set.  Authorization cache cannot be obtained.
+     [exec] 01:31:01,604  [AuthorizingRealm     qtp979582289-34 INFO ]  No cache or cacheManager properties have been set.  Authorization cache cannot be obtained.
+     [exec] 01:31:01,606  [AuthorizingRealm     qtp979582289-34 INFO ]  No cache or cacheManager properties have been set.  Authorization cache cannot be obtained.
+     [exec] 01:31:01,608  [AuthorizingRealm     qtp979582289-34 INFO ]  No cache or cacheManager properties have been set.  Authorization cache cannot be obtained.
+     [exec] 01:31:01,610  [AuthorizingRealm     qtp979582289-34 INFO ]  No cache or cacheManager properties have been set.  Authorization cache cannot be obtained.
+     [exec] 01:31:01,612  [AuthorizingRealm     qtp979582289-34 INFO ]  No cache or cacheManager properties have been set.  Authorization cache cannot be obtained.
+     [exec] 01:31:01,614  [AuthorizingRealm     qtp979582289-34 INFO ]  No cache or cacheManager properties have been set.  Authorization cache cannot be obtained.
+     [exec] 01:31:01,616  [AuthorizingRealm     qtp979582289-34 INFO ]  No cache or cacheManager properties have been set.  Authorization cache cannot be obtained.
+     [exec] 01:31:01,618  [AuthorizingRealm     qtp979582289-34 INFO ]  No cache or cacheManager properties have been set.  Authorization cache cannot be obtained.
+     [exec] 01:31:01,620  [AuthorizingRealm     qtp979582289-34 INFO ]  No cache or cacheManager properties have been set.  Authorization cache cannot be obtained.
+     [exec] 01:31:01,621  [AuthorizingRealm     qtp979582289-34 INFO ]  No cache or cacheManager properties have been set.  Authorization cache cannot be obtained.
+     [exec] 01:31:01,623  [AuthorizingRealm     qtp979582289-34 INFO ]  No cache or cacheManager properties have been set.  Authorization cache cannot be obtained.
+     [exec] 01:31:01,625  [AuthorizingRealm     qtp979582289-34 INFO ]  No cache or cacheManager properties have been set.  Authorization cache cannot be obtained.
+     [exec] 01:31:01,627  [AuthorizingRealm     qtp979582289-34 INFO ]  No cache or cacheManager properties have been set.  Authorization cache cannot be obtained.
+     [exec] 01:31:01,629  [AuthorizingRealm     qtp979582289-34 INFO ]  No cache or cacheManager properties have been set.  Authorization cache cannot be obtained.
+     [exec] 01:31:01,631  [AuthorizingRealm     qtp979582289-34 INFO ]  No cache or cacheManager properties have been set.  Authorization cache cannot be obtained.
+     [exec] 01:31:01,633  [AuthorizingRealm     qtp979582289-34 INFO ]  No cache or cacheManager properties have been set.  Authorization cache cannot be obtained.
+     [exec] 01:31:01,635  [AuthorizingRealm     qtp979582289-34 INFO ]  No cache or cacheManager properties have been set.  Authorization cache cannot be obtained.
+     [exec] 01:31:01,637  [AuthorizingRealm     qtp979582289-34 INFO ]  No cache or cacheManager properties have been set.  Authorization cache cannot be obtained.
+     [exec] 01:31:01,639  [AuthorizingRealm     qtp979582289-34 INFO ]  No cache or cacheManager properties have been set.  Authorization cache cannot be obtained.
+     [exec] 01:31:01,640  [AuthorizingRealm     qtp979582289-34 INFO ]  No cache or cacheManager properties have been set.  Authorization cache cannot be obtained.
+     [exec] 01:31:01,642  [AuthorizingRealm     qtp979582289-34 INFO ]  No cache or cacheManager properties have been set.  Authorization cache cannot be obtained.
+     [exec] 01:31:01,644  [AuthorizingRealm     qtp979582289-34 INFO ]  No cache or cacheManager properties have been set.  Authorization cache cannot be obtained.
+     [exec] 01:31:01,646  [AuthorizingRealm     qtp979582289-34 INFO ]  No cache or cacheManager properties have been set.  Authorization cache cannot be obtained.
+     [exec] 01:31:01,648  [AuthorizingRealm     qtp979582289-34 INFO ]  No cache or cacheManager properties have been set.  Authorization cache cannot be obtained.
+     [exec] 01:31:01,650  [AuthorizingRealm     qtp979582289-34 INFO ]  No cache or cacheManager properties have been set.  Authorization cache cannot be obtained.
+     [exec] 01:31:01,652  [AuthorizingRealm     qtp979582289-34 INFO ]  No cache or cacheManager properties have been set.  Authorization cache cannot be obtained.
+     [exec] 01:31:01,654  [AuthorizingRealm     qtp979582289-34 INFO ]  No cache or cacheManager properties have been set.  Authorization cache cannot be obtained.
+     [exec] 01:31:01,656  [AuthorizingRealm     qtp979582289-34 INFO ]  No cache or cacheManager properties have been set.  Authorization cache cannot be obtained.
+     [exec] 01:31:01,658  [AuthorizingRealm     qtp979582289-34 INFO ]  No cache or cacheManager properties have been set.  Authorization cache cannot be obtained.
+     [exec] 01:31:01,660  [AuthorizingRealm     qtp979582289-34 INFO ]  No cache or cacheManager properties have been set.  Authorization cache cannot be obtained.
+     [exec] 01:31:01,662  [AuthorizingRealm     qtp979582289-34 INFO ]  No cache or cacheManager properties have been set.  Authorization cache cannot be obtained.
+     [exec] 01:31:01,664  [AuthorizingRealm     qtp979582289-34 INFO ]  No cache or cacheManager properties have been set.  Authorization cache cannot be obtained.
+     [exec] 01:31:01,666  [AuthorizingRealm     qtp979582289-34 INFO ]  No cache or cacheManager properties have been set.  Authorization cache cannot be obtained.
+     [exec] 01:31:01,668  [AuthorizingRealm     qtp979582289-34 INFO ]  No cache or cacheManager properties have been set.  Authorization cache cannot be obtained.
+     [exec] 01:31:01,670  [AuthorizingRealm     qtp979582289-34 INFO ]  No cache or cacheManager properties have been set.  Authorization cache cannot be obtained.
+     [exec] 01:31:01,672  [AuthorizingRealm     qtp979582289-34 INFO ]  No cache or cacheManager properties have been set.  Authorization cache cannot be obtained.
+     [exec] 01:31:01,674  [AuthorizingRealm     qtp979582289-34 INFO ]  No cache or cacheManager properties have been set.  Authorization cache cannot be obtained.
+     [exec] 01:31:01,675  [AuthorizingRealm     qtp979582289-34 INFO ]  No cache or cacheManager properties have been set.  Authorization cache cannot be obtained.
+     [exec] 01:31:01,677  [AuthorizingRealm     qtp979582289-34 INFO ]  No cache or cacheManager properties have been set.  Authorization cache cannot be obtained.
+     [exec] 01:31:01,679  [AuthorizingRealm     qtp979582289-34 INFO ]  No cache or cacheManager properties have been set.  Authorization cache cannot be obtained.
+     [exec] 01:31:01,680  [AuthorizingRealm     qtp979582289-34 INFO ]  No cache or cacheManager properties have been set.  Authorization cache cannot be obtained.
+     [exec] 01:31:01,682  [AuthorizingRealm     qtp979582289-34 INFO ]  No cache or cacheManager properties have been set.  Authorization cache cannot be obtained.
+     [exec] 01:31:01,684  [AuthorizingRealm     qtp979582289-34 INFO ]  No cache or cacheManager properties have been set.  Authorization cache cannot be obtained.
+     [exec] 01:31:01,686  [AuthorizingRealm     qtp979582289-34 INFO ]  No cache or cacheManager properties have been set.  Authorization cache cannot be obtained.
+     [exec] 01:31:01,687  [AuthorizingRealm     qtp979582289-34 INFO ]  No cache or cacheManager properties have been set.  Authorization cache cannot be obtained.
+     [exec] 01:31:01,689  [AuthorizingRealm     qtp979582289-34 INFO ]  No cache or cacheManager properties have been set.  Authorization cache cannot be obtained.
+     [exec] 01:31:01,691  [AuthorizingRealm     qtp979582289-34 INFO ]  No cache or cacheManager properties have been set.  Authorization cache cannot be obtained.
+     [exec] 01:31:01,693  [AuthorizingRealm     qtp979582289-34 INFO ]  No cache or cacheManager properties have been set.  Authorization cache cannot be obtained.
+     [exec] 01:31:01,695  [AuthorizingRealm     qtp979582289-34 INFO ]  No cache or cacheManager properties have been set.  Authorization cache cannot be obtained.
+     [exec] 01:31:01,697  [AuthorizingRealm     qtp979582289-34 INFO ]  No cache or cacheManager properties have been set.  Authorization cache cannot be obtained.
+     [exec] 01:31:01,698  [AuthorizingRealm     qtp979582289-34 INFO ]  No cache or cacheManager properties have been set.  Authorization cache cannot be obtained.
+     [exec] 01:31:01,700  [AuthorizingRealm     qtp979582289-34 INFO ]  No cache or cacheManager properties have been set.  Authorization cache cannot be obtained.
+     [exec] 01:31:01,702  [AuthorizingRealm     qtp979582289-34 INFO ]  No cache or cacheManager properties have been set.  Authorization cache cannot be obtained.
+     [exec] 01:31:01,704  [AuthorizingRealm     qtp979582289-34 INFO ]  No cache or cacheManager properties have been set.  Authorization cache cannot be obtained.
+     [exec] 01:31:01,705  [AuthorizingRealm     qtp979582289-34 INFO ]  No cache or cacheManager properties have been set.  Authorization cache cannot be obtained.
+     [exec] 01:31:01,707  [AuthorizingRealm     qtp979582289-34 INFO ]  No cache or cacheManager properties have been set.  Authorization cache cannot be obtained.
+     [exec] 01:31:01,727  [AuthorizingRealm     qtp979582289-34 INFO ]  No cache or cacheManager properties have been set.  Authorization cache cannot be obtained.
+     [exec] 01:31:01,730  [AuthorizingRealm     qtp979582289-34 INFO ]  No cache or cacheManager properties have been set.  Authorization cache cannot be obtained.
+     [exec] 01:31:01,732  [AuthorizingRealm     qtp979582289-34 INFO ]  No cache or cacheManager properties have been set.  Authorization cache cannot be obtained.
+     [exec] 01:31:01,734  [AuthorizingRealm     qtp979582289-34 INFO ]  No cache or cacheManager properties have been set.  Authorization cache cannot be obtained.
+     [exec] 01:31:01,736  [AuthorizingRealm     qtp979582289-34 INFO ]  No cache or cacheManager properties have been set.  Authorization cache cannot be obtained.
+     [exec] 01:31:01,738  [AuthorizingRealm     qtp979582289-34 INFO ]  No cache or cacheManager properties have been set.  Authorization cache cannot be obtained.
+     [exec] 01:31:01,740  [AuthorizingRealm     qtp979582289-34 INFO ]  No cache or cacheManager properties have been set.  Authorization cache cannot be obtained.
+     [exec] 01:31:01,742  [AuthorizingRealm     qtp979582289-34 INFO ]  No cache or cacheManager properties have been set.  Authorization cache cannot be obtained.
+     [exec] 01:31:01,745  [AuthorizingRealm     qtp979582289-34 INFO ]  No cache or cacheManager properties have been set.  Authorization cache cannot be obtained.
+     [exec] 01:31:01,747  [AuthorizingRealm     qtp979582289-34 INFO ]  No cache or cacheManager properties have been set.  Authorization cache cannot be obtained.
+     [exec] 01:31:01,749  [AuthorizingRealm     qtp979582289-34 INFO ]  No cache or cacheManager properties have been set.  Authorization cache cannot be obtained.
+     [exec] 01:31:01,751  [AuthorizingRealm     qtp979582289-34 INFO ]  No cache or cacheManager properties have been set.  Authorization cache cannot be obtained.
+     [exec] 01:31:01,865  [AuthorizingRealm     qtp979582289-34 INFO ]  No cache or cacheManager properties have been set.  Authorization cache cannot be obtained.
+     [exec] 01:31:01,878  [AuthorizingRealm     qtp979582289-34 INFO ]  No cache or cacheManager properties have been set.  Authorization cache cannot be obtained.
+     [exec] 01:31:01,904  [FacetedMethodsBuilder qtp979582289-34 INFO ]  introspecting com.danhaywood.isis.wicket.gmap3.applib.Locatable
+     [exec] 01:31:02,049  [AuthorizingRealm     qtp979582289-34 INFO ]  No cache or cacheManager properties have been set.  Authorization cache cannot be obtained.
+     [exec] 01:31:02,051  [AuthorizingRealm     qtp979582289-34 INFO ]  No cache or cacheManager properties have been set.  Authorization cache cannot be obtained.
+     [exec] 01:31:02,053  [AuthorizingRealm     qtp979582289-34 INFO ]  No cache or cacheManager properties have been set.  Authorization cache cannot be obtained.
+     [exec] 01:31:02,055  [AuthorizingRealm     qtp979582289-34 INFO ]  No cache or cacheManager properties have been set.  Authorization cache cannot be obtained.
+     [exec] 01:31:02,058  [AuthorizingRealm     qtp979582289-34 INFO ]  No cache or cacheManager properties have been set.  Authorization cache cannot be obtained.
+     [exec] 01:31:02,061  [AuthorizingRealm     qtp979582289-34 INFO ]  No cache or cacheManager properties have been set.  Authorization cache cannot be obtained.
+     [exec] 01:31:02,063  [AuthorizingRealm     qtp979582289-34 INFO ]  No cache or cacheManager properties have been set.  Authorization cache cannot be obtained.
+     [exec] 01:31:02,065  [AuthorizingRealm     qtp979582289-34 INFO ]  No cache or cacheManager properties have been set.  Authorization cache cannot be obtained.
+     [exec] 01:31:02,068  [AuthorizingRealm     qtp979582289-34 INFO ]  No cache or cacheManager properties have been set.  Authorization cache cannot be obtained.
+     [exec] 01:31:02,071  [AuthorizingRealm     qtp979582289-34 INFO ]  No cache or cacheManager properties have been set.  Authorization cache cannot be obtained.
+     [exec] 01:31:02,073  [AuthorizingRealm     qtp979582289-34 INFO ]  No cache or cacheManager properties have been set.  Authorization cache cannot be obtained.
+     [exec] 01:31:02,075  [AuthorizingRealm     qtp979582289-34 INFO ]  No cache or cacheManager properties have been set.  Authorization cache cannot be obtained.
+     [exec] 01:31:02,092  [FacetedMethodsBuilder qtp979582289-34 INFO ]  introspecting java.util.ArrayList
+     [exec] 01:31:02,115  [FacetedMethodsBuilder qtp979582289-34 INFO ]  introspecting java.util.AbstractList
+     [exec] 01:31:02,120  [FacetedMethodsBuilder qtp979582289-34 INFO ]  introspecting java.util.AbstractCollection
+     [exec] 01:31:02,146  [FacetedMethodsBuilder qtp979582289-34 INFO ]  introspecting java.util.RandomAccess
+     [exec] 01:31:02,177  [FacetedMethodsBuilder qtp979582289-34 INFO ]  introspecting java.lang.Cloneable
+     [exec] 01:31:02,422  [Native               qtp979582289-34 DEBUG]  SELECT 'dom.todo.ToDoItem' AS NUCLEUS_TYPE,`A0`.`CATEGORY`,`A0`.`COMPLETE`,`A0`.`COST`,`A0`.`DESCRIPTION`,`A0`.`DUEBY`,`A0`.`NOTES`,`A0`.`OWNEDBY`,`A0`.`SUBCATEGORY`,`A0`.`ID`,`A0`.`VERSION` FROM `TODOITEM` `A0` WHERE `A0`.`OWNEDBY` = <'sven'> AND `A0`.`COMPLETE` = 0
+     [exec] 01:31:02,476  [Native               qtp979582289-34 DEBUG]  SELECT 'dom.todo.ToDoItem' AS NUCLEUS_TYPE,`A0`.`CATEGORY`,`A0`.`COMPLETE`,`A0`.`COST`,`A0`.`DESCRIPTION`,`A0`.`DUEBY`,`A0`.`NOTES`,`A0`.`OWNEDBY`,`A0`.`SUBCATEGORY`,`A0`.`ID`,`A0`.`VERSION` FROM `TODOITEM` `A0` WHERE `A0`.`OWNEDBY` = <'sven'> AND `A0`.`COMPLETE` = 1
+     [exec] 01:31:02,503  [Native               qtp979582289-34 DEBUG]  SELECT 'dom.todo.ToDoItem' AS NUCLEUS_TYPE,`A0`.`CATEGORY`,`A0`.`COMPLETE`,`A0`.`COST`,`A0`.`DESCRIPTION`,`A0`.`DUEBY`,`A0`.`NOTES`,`A0`.`OWNEDBY`,`A0`.`SUBCATEGORY`,`A0`.`ID`,`A0`.`VERSION` FROM `TODOITEM` `A0` WHERE `A0`.`OWNEDBY` = <'sven'> AND `A0`.`COMPLETE` = 0
+     [exec] 01:31:02,514  [Native               qtp979582289-34 DEBUG]  SELECT 'dom.todo.ToDoItem' AS NUCLEUS_TYPE,`A0`.`CATEGORY`,`A0`.`COMPLETE`,`A0`.`COST`,`A0`.`DESCRIPTION`,`A0`.`DUEBY`,`A0`.`NOTES`,`A0`.`OWNEDBY`,`A0`.`SUBCATEGORY`,`A0`.`ID`,`A0`.`VERSION` FROM `TODOITEM` `A0` WHERE `A0`.`OWNEDBY` = <'sven'> AND `A0`.`COMPLETE` = 1
+     [exec] 01:31:02,572  [Native               qtp979582289-34 DEBUG]  SELECT 'dom.todo.ToDoItem' AS NUCLEUS_TYPE,`A0`.`CATEGORY`,`A0`.`COMPLETE`,`A0`.`COST`,`A0`.`DESCRIPTION`,`A0`.`DUEBY`,`A0`.`NOTES`,`A0`.`OWNEDBY`,`A0`.`SUBCATEGORY`,`A0`.`ID`,`A0`.`VERSION` FROM `TODOITEM` `A0` WHERE `A0`.`OWNEDBY` = <'sven'> AND `A0`.`COMPLETE` = 0
+     [exec] 01:31:02,591  [Native               qtp979582289-34 DEBUG]  SELECT 'dom.todo.ToDoItem' AS NUCLEUS_TYPE,`A0`.`CATEGORY`,`A0`.`COMPLETE`,`A0`.`COST`,`A0`.`DESCRIPTION`,`A0`.`DUEBY`,`A0`.`NOTES`,`A0`.`OWNEDBY`,`A0`.`SUBCATEGORY`,`A0`.`ID`,`A0`.`VERSION` FROM `TODOITEM` `A0` WHERE `A0`.`OWNEDBY` = <'sven'> AND `A0`.`COMPLETE` = 1
+     [exec] 01:31:05,997  [PropertiesFactory    qtp979582289-34 INFO ]  Loading properties files from jar:file:/private/var/folders/_j/xsgymcmd1lsc5zqtg65ctlsm0000gn/T/jetty-0.0.0.0-8080-iserve-webapp-1.0-SNAPSHOT-jetty-console.war-_-any-/webapp/WEB-INF/lib/wicket-select2-2.2.2.jar!/com/vaynberg/wicket/select2/AbstractSelect2Choice.utf8.properties with loader org.apache.wicket.resource.UtfPropertiesFilePropertiesLoader@f17e440
+     [exec] 01:31:06,124  [Native               qtp979582289-34 DEBUG]  SELECT 'dom.todo.ToDoItem' AS NUCLEUS_TYPE,`A0`.`CATEGORY`,`A0`.`COMPLETE`,`A0`.`COST`,`A0`.`DESCRIPTION`,`A0`.`DUEBY`,`A0`.`NOTES`,`A0`.`OWNEDBY`,`A0`.`SUBCATEGORY`,`A0`.`ID`,`A0`.`VERSION` FROM `TODOITEM` `A0` WHERE `A0`.`OWNEDBY` = <'sven'> AND `A0`.`COMPLETE` = 0
+     [exec] 01:31:06,141  [Native               qtp979582289-34 DEBUG]  SELECT 'dom.todo.ToDoItem' AS NUCLEUS_TYPE,`A0`.`CATEGORY`,`A0`.`COMPLETE`,`A0`.`COST`,`A0`.`DESCRIPTION`,`A0`.`DUEBY`,`A0`.`NOTES`,`A0`.`OWNEDBY`,`A0`.`SUBCATEGORY`,`A0`.`ID`,`A0`.`VERSION` FROM `TODOITEM` `A0` WHERE `A0`.`OWNEDBY` = <'sven'> AND `A0`.`COMPLETE` = 0
+     [exec] 01:31:06,155  [Native               qtp979582289-34 DEBUG]  SELECT 'dom.todo.ToDoItem' AS NUCLEUS_TYPE,`A0`.`CATEGORY`,`A0`.`COMPLETE`,`A0`.`COST`,`A0`.`DESCRIPTION`,`A0`.`DUEBY`,`A0`.`NOTES`,`A0`.`OWNEDBY`,`A0`.`SUBCATEGORY`,`A0`.`ID`,`A0`.`VERSION` FROM `TODOITEM` `A0` WHERE `A0`.`OWNEDBY` = <'sven'> AND `A0`.`COMPLETE` = 0
+     [exec] 01:31:06,164  [Native               qtp979582289-34 DEBUG]  SELECT 'dom.todo.ToDoItem' AS NUCLEUS_TYPE,`A0`.`CATEGORY`,`A0`.`COMPLETE`,`A0`.`COST`,`A0`.`DESCRIPTION`,`A0`.`DUEBY`,`A0`.`NOTES`,`A0`.`OWNEDBY`,`A0`.`SUBCATEGORY`,`A0`.`ID`,`A0`.`VERSION` FROM `TODOITEM` `A0` WHERE `A0`.`OWNEDBY` = <'sven'> AND `A0`.`COMPLETE` = 0
+     [exec] 01:31:06,170  [Native               qtp979582289-34 DEBUG]  SELECT 'dom.todo.ToDoItem' AS NUCLEUS_TYPE,`A0`.`CATEGORY`,`A0`.`COMPLETE`,`A0`.`COST`,`A0`.`DESCRIPTION`,`A0`.`DUEBY`,`A0`.`NOTES`,`A0`.`OWNEDBY`,`A0`.`SUBCATEGORY`,`A0`.`ID`,`A0`.`VERSION` FROM `TODOITEM` `A0` WHERE `A0`.`OWNEDBY` = <'sven'> AND `A0`.`COMPLETE` = 0
+     [exec] 01:31:06,188  [Native               qtp979582289-34 DEBUG]  SELECT 'dom.todo.ToDoItem' AS NUCLEUS_TYPE,`A0`.`CATEGORY`,`A0`.`COMPLETE`,`A0`.`COST`,`A0`.`DESCRIPTION`,`A0`.`DUEBY`,`A0`.`NOTES`,`A0`.`OWNEDBY`,`A0`.`SUBCATEGORY`,`A0`.`ID`,`A0`.`VERSION` FROM `TODOITEM` `A0` WHERE `A0`.`OWNEDBY` = <'sven'> AND `A0`.`COMPLETE` = 0
+     [exec] 01:31:08,456  [ResourceServlet      qtp979582289-35 INFO ]  request: images/icon_appuser.png
+     [exec] 01:31:08,466  [ResourceServlet      qtp979582289-35 WARN ]  failed to load resource from classpath or file system: images/icon_appuser.png
+     [exec] 01:31:14,005  [AuthorizingRealm     qtp979582289-33 INFO ]  No cache or cacheManager properties have been set.  Authorization cache cannot be obtained.
+     [exec] 01:31:14,017  [AuthorizingRealm     qtp979582289-33 INFO ]  No cache or cacheManager properties have been set.  Authorization cache cannot be obtained.
+     [exec] 01:31:14,020  [AuthorizingRealm     qtp979582289-33 INFO ]  No cache or cacheManager properties have been set.  Authorization cache cannot be obtained.
+     [exec] 01:31:14,025  [AuthorizingRealm     qtp979582289-33 INFO ]  No cache or cacheManager properties have been set.  Authorization cache cannot be obtained.
+     [exec] 01:31:14,027  [AuthorizingRealm     qtp979582289-33 INFO ]  No cache or cacheManager properties have been set.  Authorization cache cannot be obtained.
+     [exec] 01:31:14,029  [AuthorizingRealm     qtp979582289-33 INFO ]  No cache or cacheManager properties have been set.  Authorization cache cannot be obtained.
+     [exec] 01:31:14,031  [AuthorizingRealm     qtp979582289-33 INFO ]  No cache or cacheManager properties have been set.  Authorization cache cannot be obtained.
+     [exec] 01:31:14,034  [AuthorizingRealm     qtp979582289-33 INFO ]  No cache or cacheManager properties have been set.  Authorization cache cannot be obtained.
+     [exec] 01:31:14,036  [AuthorizingRealm     qtp979582289-33 INFO ]  No cache or cacheManager properties have been set.  Authorization cache cannot be obtained.
+     [exec] 01:31:14,044  [AuthorizingRealm     qtp979582289-33 INFO ]  No cache or cacheManager properties have been set.  Authorization cache cannot be obtained.
+     [exec] 01:31:14,046  [AuthorizingRealm     qtp979582289-33 INFO ]  No cache or cacheManager properties have been set.  Authorization cache cannot be obtained.
+     [exec] 01:31:14,049  [AuthorizingRealm     qtp979582289-33 INFO ]  No cache or cacheManager properties have been set.  Authorization cache cannot be obtained.
+     [exec] 01:31:14,052  [AuthorizingRealm     qtp979582289-33 INFO ]  No cache or cacheManager properties have been set.  Authorization cache cannot be obtained.
+     [exec] 01:31:14,057  [AuthorizingRealm     qtp979582289-33 INFO ]  No cache or cacheManager properties have been set.  Authorization cache cannot be obtained.
+     [exec] 01:31:14,061  [AuthorizingRealm     qtp979582289-33 INFO ]  No cache or cacheManager properties have been set.  Authorization cache cannot be obtained.
+     [exec] 01:31:14,064  [AuthorizingRealm     qtp979582289-33 INFO ]  No cache or cacheManager properties have been set.  Authorization cache cannot be obtained.
+     [exec] 01:31:14,066  [AuthorizingRealm     qtp979582289-33 INFO ]  No cache or cacheManager properties have been set.  Authorization cache cannot be obtained.
+     [exec] 01:31:14,068  [AuthorizingRealm     qtp979582289-33 INFO ]  No cache or cacheManager properties have been set.  Authorization cache cannot be obtained.
+     [exec] 01:31:14,073  [AuthorizingRealm     qtp979582289-33 INFO ]  No cache or cacheManager properties have been set.  Authorization cache cannot be obtained.
+     [exec] 01:31:14,075  [AuthorizingRealm     qtp979582289-33 INFO ]  No cache or cacheManager properties have been set.  Authorization cache cannot be obtained.
+     [exec] 01:31:14,077  [AuthorizingRealm     qtp979582289-33 INFO ]  No cache or cacheManager properties have been set.  Authorization cache cannot be obtained.
+     [exec] 01:31:14,080  [AuthorizingRealm     qtp979582289-33 INFO ]  No cache or cacheManager properties have been set.  Authorization cache cannot be obtained.
+     [exec] 01:31:14,091  [AuthorizingRealm     qtp979582289-33 INFO ]  No cache or cacheManager properties have been set.  Authorization cache cannot be obtained.
+     [exec] 01:31:14,094  [AuthorizingRealm     qtp979582289-33 INFO ]  No cache or cacheManager properties have been set.  Authorization cache cannot be obtained.
+     [exec] 01:31:14,096  [AuthorizingRealm     qtp979582289-33 INFO ]  No cache or cacheManager properties have been set.  Authorization cache cannot be obtained.
+     [exec] 01:31:14,099  [AuthorizingRealm     qtp979582289-33 INFO ]  No cache or cacheManager properties have been set.  Authorization cache cannot be obtained.
+     [exec] 01:31:14,102  [AuthorizingRealm     qtp979582289-33 INFO ]  No cache or cacheManager properties have been set.  Authorization cache cannot be obtained.
+     [exec] 01:31:14,107  [AuthorizingRealm     qtp979582289-33 INFO ]  No cache or cacheManager properties have been set.  Authorization cache cannot be obtained.
+     [exec] 01:31:14,111  [AuthorizingRealm     qtp979582289-33 INFO ]  No cache or cacheManager properties have been set.  Authorization cache cannot be obtained.
+     [exec] 01:31:14,115  [AuthorizingRealm     qtp979582289-33 INFO ]  No cache or cacheManager properties have been set.  Authorization cache cannot be obtained.
+     [exec] 01:31:14,117  [AuthorizingRealm     qtp979582289-33 INFO ]  No cache or cacheManager properties have been set.  Authorization cache cannot be obtained.
+     [exec] 01:31:14,119  [AuthorizingRealm     qtp979582289-33 INFO ]  No cache or cacheManager properties have been set.  Authorization cache cannot be obtained.
+     [exec] 01:31:14,127  [AuthorizingRealm     qtp979582289-33 INFO ]  No cache or cacheManager properties have been set.  Authorization cache cannot be obtained.
+     [exec] 01:31:14,130  [AuthorizingRealm     qtp979582289-33 INFO ]  No cache or cacheManager properties have been set.  Authorization cache cannot be obtained.
+     [exec] 01:31:14,133  [AuthorizingRealm     qtp979582289-33 INFO ]  No cache or cacheManager properties have been set.  Authorization cache cannot be obtained.
+     [exec] 01:31:14,135  [AuthorizingRealm     qtp979582289-33 INFO ]  No cache or cacheManager properties have been set.  Authorization cache cannot be obtained.
+     [exec] 01:31:14,140  [AuthorizingRealm     qtp979582289-33 INFO ]  No cache or cacheManager properties have been set.  Authorization cache cannot be obtained.
+     [exec] 01:31:14,146  [AuthorizingRealm     qtp979582289-33 INFO ]  No cache or cacheManager properties have been set.  Authorization cache cannot be obtained.
+     [exec] 01:31:14,149  [AuthorizingRealm     qtp979582289-33 INFO ]  No cache or cacheManager properties have been set.  Authorization cache cannot be obtained.
+     [exec] 01:31:14,152  [AuthorizingRealm     qtp979582289-33 INFO ]  No cache or cacheManager properties have been set.  Authorization cache cannot be obtained.
+     [exec] 01:31:14,156  [AuthorizingRealm     qtp979582289-33 INFO ]  No cache or cacheManager properties have been set.  Authorization cache cannot be obtained.
+     [exec] 01:31:14,162  [AuthorizingRealm     qtp979582289-33 INFO ]  No cache or cacheManager properties have been set.  Authorization cache cannot be obtained.
+     [exec] 01:31:14,165  [AuthorizingRealm     qtp979582289-33 INFO ]  No cache or cacheManager properties have been set.  Authorization cache cannot be obtained.
+     [exec] 01:31:14,167  [AuthorizingRealm     qtp979582289-33 INFO ]  No cache or cacheManager properties have been set.  Authorization cache cannot be obtained.
+     [exec] 01:31:14,168  [AuthorizingRealm     qtp979582289-33 INFO ]  No cache or cacheManager properties have been set.  Authorization cache cannot be obtained.
+     [exec] 01:31:14,171  [AuthorizingRealm     qtp979582289-33 INFO ]  No cache or cacheManager properties have been set.  Authorization cache cannot be obtained.
+     [exec] 01:31:14,173  [AuthorizingRealm     qtp979582289-33 INFO ]  No cache or cacheManager properties have been set.  Authorization cache cannot be obtained.
+     [exec] 01:31:14,178  [AuthorizingRealm     qtp979582289-33 INFO ]  No cache or cacheManager properties have been set.  Authorization cache cannot be obtained.
+     [exec] 01:31:14,181  [AuthorizingRealm     qtp979582289-33 INFO ]  No cache or cacheManager properties have been set.  Authorization cache cannot be obtained.
+     [exec] 01:31:14,183  [AuthorizingRealm     qtp979582289-33 INFO ]  No cache or cacheManager properties have been set.  Authorization cache cannot be obtained.
+     [exec] 01:31:14,185  [AuthorizingRealm     qtp979582289-33 INFO ]  No cache or cacheManager properties have been set.  Authorization cache cannot be obtained.
+     [exec] 01:31:14,187  [AuthorizingRealm     qtp979582289-33 INFO ]  No cache or cacheManager properties have been set.  Authorization cache cannot be obtained.
+     [exec] 01:31:14,190  [AuthorizingRealm     qtp979582289-33 INFO ]  No cache or cacheManager properties have been set.  Authorization cache cannot be obtained.
+     [exec] 01:31:14,193  [AuthorizingRealm     qtp979582289-33 INFO ]  No cache or cacheManager properties have been set.  Authorization cache cannot be obtained.
+     [exec] 01:31:14,195  [AuthorizingRealm     qtp979582289-33 INFO ]  No cache or cacheManager properties have been set.  Authorization cache cannot be obtained.
+     [exec] 01:31:14,197  [AuthorizingRealm     qtp979582289-33 INFO ]  No cache or cacheManager properties have been set.  Authorization cache cannot be obtained.
+     [exec] 01:31:14,201  [AuthorizingRealm     qtp979582289-33 INFO ]  No cache or cacheManager properties have been set.  Authorization cache cannot be obtained.
+     [exec] 01:31:14,211  [AuthorizingRealm     qtp979582289-33 INFO ]  No cache or cacheManager properties have been set.  Authorization cache cannot be obtained.
+     [exec] 01:31:14,213  [AuthorizingRealm     qtp979582289-33 INFO ]  No cache or cacheManager properties have been set.  Authorization cache cannot be obtained.
+     [exec] 01:31:14,215  [AuthorizingRealm     qtp979582289-33 INFO ]  No cache or cacheManager properties have been set.  Authorization cache cannot be obtained.
+     [exec] 01:31:14,217  [AuthorizingRealm     qtp979582289-33 INFO ]  No cache or cacheManager properties have been set.  Authorization cache cannot be obtained.
+     [exec] 01:31:14,325  [AuthorizingRealm     qtp979582289-33 INFO ]  No cache or cacheManager properties have been set.  Authorization cache cannot be obtained.
+     [exec] 01:31:14,332  [AuthorizingRealm     qtp979582289-33 INFO ]  No cache or cacheManager properties have been set.  Authorization cache cannot be obtained.
+     [exec] 01:31:14,334  [AuthorizingRealm     qtp979582289-33 INFO ]  No cache or cacheManager properties have been set.  Authorization cache cannot be obtained.
+     [exec] 01:31:14,336  [AuthorizingRealm     qtp979582289-33 INFO ]  No cache or cacheManager properties have been set.  Authorization cache cannot be obtained.
+     [exec] 01:31:14,386  [AuthorizingRealm     qtp979582289-33 INFO ]  No cache or cacheManager properties have been set.  Authorization cache cannot be obtained.
+     [exec] 01:31:14,391  [AuthorizingRealm     qtp979582289-33 INFO ]  No cache or cacheManager properties have been set.  Authorization cache cannot be obtained.
+     [exec] 01:31:14,393  [AuthorizingRealm     qtp979582289-33 INFO ]  No cache or cacheManager properties have been set.  Authorization cache cannot be obtained.
+     [exec] 01:31:14,395  [AuthorizingRealm     qtp979582289-33 INFO ]  No cache or cacheManager properties have been set.  Authorization cache cannot be obtained.
+     [exec] 01:31:14,397  [AuthorizingRealm     qtp979582289-33 INFO ]  No cache or cacheManager properties have been set.  Authorization cache cannot be obtained.
+     [exec] 01:31:14,399  [AuthorizingRealm     qtp979582289-33 INFO ]  No cache or cacheManager properties have been set.  Authorization cache cannot be obtained.
+     [exec] 01:31:14,401  [AuthorizingRealm     qtp979582289-33 INFO ]  No cache or cacheManager properties have been set.  Authorization cache cannot be obtained.
+     [exec] 01:31:14,402  [AuthorizingRealm     qtp979582289-33 INFO ]  No cache or cacheManager properties have been set.  Authorization cache cannot be obtained.
+     [exec] 01:31:14,404  [AuthorizingRealm     qtp979582289-33 INFO ]  No cache or cacheManager properties have been set.  Authorization cache cannot be obtained.
+     [exec] 01:31:14,406  [AuthorizingRealm     qtp979582289-33 INFO ]  No cache or cacheManager properties have been set.  Authorization cache cannot be obtained.
+     [exec] 01:31:14,408  [AuthorizingRealm     qtp979582289-33 INFO ]  No cache or cacheManager properties have been set.  Authorization cache cannot be obtained.
+     [exec] 01:31:14,410  [AuthorizingRealm     qtp979582289-33 INFO ]  No cache or cacheManager properties have been set.  Authorization cache cannot be obtained.
+     [exec] 01:31:14,412  [AuthorizingRealm     qtp979582289-33 INFO ]  No cache or cacheManager properties have been set.  Authorization cache cannot be obtained.
+     [exec] 01:31:14,414  [AuthorizingRealm     qtp979582289-33 INFO ]  No cache or cacheManager properties have been set.  Authorization cache cannot be obtained.
+     [exec] 01:31:14,415  [AuthorizingRealm     qtp979582289-33 INFO ]  No cache or cacheManager properties have been set.  Authorization cache cannot be obtained.
+     [exec] 01:31:14,417  [AuthorizingRealm     qtp979582289-33 INFO ]  No cache or cacheManager properties have been set.  Authorization cache cannot be obtained.
+     [exec] 01:31:14,419  [AuthorizingRealm     qtp979582289-33 INFO ]  No cache or cacheManager properties have been set.  Authorization cache cannot be obtained.
+     [exec] 01:31:14,421  [AuthorizingRealm     qtp979582289-33 INFO ]  No cache or cacheManager properties have been set.  Authorization cache cannot be obtained.
+     [exec] 01:31:14,423  [AuthorizingRealm     qtp979582289-33 INFO ]  No cache or cacheManager properties have been set.  Authorization cache cannot be obtained.
+     [exec] 01:31:14,424  [AuthorizingRealm     qtp979582289-33 INFO ]  No cache or cacheManager properties have been set.  Authorization cache cannot be obtained.
+     [exec] 01:31:14,427  [AuthorizingRealm     qtp979582289-33 INFO ]  No cache or cacheManager properties have been set.  Authorization cache cannot be obtained.
+     [exec] 01:31:14,429  [AuthorizingRealm     qtp979582289-33 INFO ]  No cache or cacheManager properties have been set.  Authorization cache cannot be obtained.
+     [exec] 01:31:14,431  [AuthorizingRealm     qtp979582289-33 INFO ]  No cache or cacheManager properties have been set.  Authorization cache cannot be obtained.
+     [exec] 01:31:14,433  [AuthorizingRealm     qtp979582289-33 INFO ]  No cache or cacheManager properties have been set.  Authorization cache cannot be obtained.
+     [exec] 01:31:14,434  [AuthorizingRealm     qtp979582289-33 INFO ]  No cache or cacheManager properties have been set.  Authorization cache cannot be obtained.
+     [exec] 01:31:14,436  [AuthorizingRealm     qtp979582289-33 INFO ]  No cache or cacheManager properties have been set.  Authorization cache cannot be obtained.
+     [exec] 01:31:14,438  [AuthorizingRealm     qtp979582289-33 INFO ]  No cache or cacheManager properties have been set.  Authorization cache cannot be obtained.
+     [exec] 01:31:14,440  [AuthorizingRealm     qtp979582289-33 INFO ]  No cache or cacheManager properties have been set.  Authorization cache cannot be obtained.
+     [exec] 01:31:14,441  [AuthorizingRealm     qtp979582289-33 INFO ]  No cache or cacheManager properties have been set.  Authorization cache cannot be obtained.
+     [exec] 01:31:14,444  [AuthorizingRealm     qtp979582289-33 INFO ]  No cache or cacheManager properties have been set.  Authorization cache cannot be obtained.
+     [exec] 01:31:14,446  [AuthorizingRealm     qtp979582289-33 INFO ]  No cache or cacheManager properties have been set.  Authorization cache cannot be obtained.
+     [exec] 01:31:14,447  [AuthorizingRealm     qtp979582289-33 INFO ]  No cache or cacheManager properties have been set.  Authorization cache cannot be obtained.
+     [exec] 01:31:14,531  [Native               qtp979582289-33 DEBUG]  SELECT 'dom.todo.Party' AS NUCLEUS_TYPE,`A0`.`ACTIVE`,`A0`.`ATTACHEMENT`,`A0`.`DESCRIPTION`,`A0`.`OWNEDBY`,`A0`.`PHONENUMBER`,`A0`.`TRANSPORTCARD`,`A0`.`UNIQUEREF`,`A0`.`PARTY_ID`,`A0`.`VERSION` FROM `PARTY` `A0`
+     [exec] 01:31:14,802  [Native               qtp979582289-33 DEBUG]  SELECT `B0`.`CANRECEIVE`,`B0`.`CANDELIVER`,`B0`.`CANORDER`,`B0`.`CANPRINCIPAL`,`B0`.`DESCRIPTION`,`B0`.`ISENDCUSTOMER`,`B0`.`NOTIFYONTRANSACTION`,`B0`.`OPERATOR`,`B0`.`OWNEDBY`,`B0`.`REDEEMSTICKET`,`B0`.`SELFVENDS`,`B0`.`USEVIRTUALSTOCK`,`B0`.`PARTYTYPE_ID`,`B0`.`VERSION`,`A0`.`VERSION` FROM `PARTY` `A0` INNER JOIN `PARTYTYPE` `B0` ON `A0`.`PARTYTYPE_PARTYTYPE_ID_OID` = `B0`.`PARTYTYPE_ID` WHERE `A0`.`PARTY_ID` = <1>
+     [exec] 01:31:14,848  [Native               qtp979582289-33 DEBUG]  SELECT `B0`.`CANRECEIVE`,`B0`.`CANDELIVER`,`B0`.`CANORDER`,`B0`.`CANPRINCIPAL`,`B0`.`DESCRIPTION`,`B0`.`ISENDCUSTOMER`,`B0`.`NOTIFYONTRANSACTION`,`B0`.`OPERATOR`,`B0`.`OWNEDBY`,`B0`.`REDEEMSTICKET`,`B0`.`SELFVENDS`,`B0`.`USEVIRTUALSTOCK`,`B0`.`PARTYTYPE_ID`,`B0`.`VERSION`,`A0`.`VERSION` FROM `PARTY` `A0` INNER JOIN `PARTYTYPE` `B0` ON `A0`.`PARTYTYPE_PARTYTYPE_ID_OID` = `B0`.`PARTYTYPE_ID` WHERE `A0`.`PARTY_ID` = <2>
+     [exec] 01:31:14,897  [Native               qtp979582289-33 DEBUG]  SELECT `B0`.`CANRECEIVE`,`B0`.`CANDELIVER`,`B0`.`CANORDER`,`B0`.`CANPRINCIPAL`,`B0`.`DESCRIPTION`,`B0`.`ISENDCUSTOMER`,`B0`.`NOTIFYONTRANSACTION`,`B0`.`OPERATOR`,`B0`.`OWNEDBY`,`B0`.`REDEEMSTICKET`,`B0`.`SELFVENDS`,`B0`.`USEVIRTUALSTOCK`,`B0`.`PARTYTYPE_ID`,`B0`.`VERSION`,`A0`.`VERSION` FROM `PARTY` `A0` INNER JOIN `PARTYTYPE` `B0` ON `A0`.`PARTYTYPE_PARTYTYPE_ID_OID` = `B0`.`PARTYTYPE_ID` WHERE `A0`.`PARTY_ID` = <3>
+     [exec] 01:31:14,946  [Native               qtp979582289-33 DEBUG]  SELECT `B0`.`CANRECEIVE`,`B0`.`CANDELIVER`,`B0`.`CANORDER`,`B0`.`CANPRINCIPAL`,`B0`.`DESCRIPTION`,`B0`.`ISENDCUSTOMER`,`B0`.`NOTIFYONTRANSACTION`,`B0`.`OPERATOR`,`B0`.`OWNEDBY`,`B0`.`REDEEMSTICKET`,`B0`.`SELFVENDS`,`B0`.`USEVIRTUALSTOCK`,`B0`.`PARTYTYPE_ID`,`B0`.`VERSION`,`A0`.`VERSION` FROM `PARTY` `A0` INNER JOIN `PARTYTYPE` `B0` ON `A0`.`PARTYTYPE_PARTYTYPE_ID_OID` = `B0`.`PARTYTYPE_ID` WHERE `A0`.`PARTY_ID` = <4>
+     [exec] 01:31:14,971  [Native               qtp979582289-33 DEBUG]  SELECT `B0`.`CANRECEIVE`,`B0`.`CANDELIVER`,`B0`.`CANORDER`,`B0`.`CANPRINCIPAL`,`B0`.`DESCRIPTION`,`B0`.`ISENDCUSTOMER`,`B0`.`NOTIFYONTRANSACTION`,`B0`.`OPERATOR`,`B0`.`OWNEDBY`,`B0`.`REDEEMSTICKET`,`B0`.`SELFVENDS`,`B0`.`USEVIRTUALSTOCK`,`B0`.`PARTYTYPE_ID`,`B0`.`VERSION`,`A0`.`VERSION` FROM `PARTY` `A0` INNER JOIN `PARTYTYPE` `B0` ON `A0`.`PARTYTYPE_PARTYTYPE_ID_OID` = `B0`.`PARTYTYPE_ID` WHERE `A0`.`PARTY_ID` = <5>
+     [exec] 01:31:18,964  [AuthorizingRealm     qtp979582289-33 INFO ]  No cache or cacheManager properties have been set.  Authorization cache cannot be obtained.
+     [exec] 01:31:18,992  [AuthorizingRealm     qtp979582289-33 INFO ]  No cache or cacheManager properties have been set.  Authorization cache cannot be obtained.
+     [exec] 01:31:18,994  [AuthorizingRealm     qtp979582289-33 INFO ]  No cache or cacheManager properties have been set.  Authorization cache cannot be obtained.
+     [exec] 01:31:18,996  [AuthorizingRealm     qtp979582289-33 INFO ]  No cache or cacheManager properties have been set.  Authorization cache cannot be obtained.
+     [exec] 01:31:18,999  [AuthorizingRealm     qtp979582289-33 INFO ]  No cache or cacheManager properties have been set.  Authorization cache cannot be obtained.
+     [exec] 01:31:19,001  [AuthorizingRealm     qtp979582289-33 INFO ]  No cache or cacheManager properties have been set.  Authorization cache cannot be obtained.
+     [exec] 01:31:19,005  [AuthorizingRealm     qtp979582289-33 INFO ]  No cache or cacheManager properties have been set.  Authorization cache cannot be obtained.
+     [exec] 01:31:19,014  [AuthorizingRealm     qtp979582289-33 INFO ]  No cache or cacheManager properties have been set.  Authorization cache cannot be obtained.
+     [exec] 01:31:19,017  [AuthorizingRealm     qtp979582289-33 INFO ]  No cache or cacheManager properties have been set.  Authorization cache cannot be obtained.
+     [exec] 01:31:19,019  [AuthorizingRealm     qtp979582289-33 INFO ]  No cache or cacheManager properties have been set.  Authorization cache cannot be obtained.
+     [exec] 01:31:19,023  [AuthorizingRealm     qtp979582289-33 INFO ]  No cache or cacheManager properties have been set.  Authorization cache cannot be obtained.
+     [exec] 01:31:19,029  [AuthorizingRealm     qtp979582289-33 INFO ]  No cache or cacheManager properties have been set.  Authorization cache cannot be obtained.
+     [exec] 01:31:19,031  [AuthorizingRealm     qtp979582289-33 INFO ]  No cache or cacheManager properties have been set.  Authorization cache cannot be obtained.
+     [exec] 01:31:19,033  [AuthorizingRealm     qtp979582289-33 INFO ]  No cache or cacheManager properties have been set.  Authorization cache cannot be obtained.
+     [exec] 01:31:19,035  [AuthorizingRealm     qtp979582289-33 INFO ]  No cache or cacheManager properties have been set.  Authorization cache cannot be obtained.
+     [exec] 01:31:19,038  [AuthorizingRealm     qtp979582289-33 INFO ]  No cache or cacheManager properties have been set.  Authorization cache cannot be obtained.
+     [exec] 01:31:19,040  [AuthorizingRealm     qtp979582289-33 INFO ]  No cache or cacheManager properties have been set.  Authorization cache cannot be obtained.
+     [exec] 01:31:19,044  [AuthorizingRealm     qtp979582289-33 INFO ]  No cache or cacheManager properties have been set.  Authorization cache cannot be obtained.
+     [exec] 01:31:19,046  [AuthorizingRealm     qtp979582289-33 INFO ]  No cache or cacheManager properties have been set.  Authorization cache cannot be obtained.
+     [exec] 01:31:19,051  [AuthorizingRealm     qtp979582289-33 INFO ]  No cache or cacheManager properties have been set.  Authorization cache cannot be obtained.
+     [exec] 01:31:19,062  [AuthorizingRealm     qtp979582289-33 INFO ]  No cache or cacheManager properties have been set.  Authorization cache cannot be obtained.
+     [exec] 01:31:19,066  [AuthorizingRealm     qtp979582289-33 INFO ]  No cache or cacheManager properties have been set.  Authorization cache cannot be obtained.
+     [exec] 01:31:19,068  [AuthorizingRealm     qtp979582289-33 INFO ]  No cache or cacheManager properties have been set.  Authorization cache cannot be obtained.
+     [exec] 01:31:19,070  [AuthorizingRealm     qtp979582289-33 INFO ]  No cache or cacheManager properties have been set.  Authorization cache cannot be obtained.
+     [exec] 01:31:19,074  [AuthorizingRealm     qtp979582289-33 INFO ]  No cache or cacheManager properties have been set.  Authorization cache cannot be obtained.
+     [exec] 01:31:19,077  [AuthorizingRealm     qtp979582289-33 INFO ]  No cache or cacheManager properties have been set.  Authorization cache cannot be obtained.
+     [exec] 01:31:19,079  [AuthorizingRealm     qtp979582289-33 INFO ]  No cache or cacheManager properties have been set.  Authorization cache cannot be obtained.
+     [exec] 01:31:19,082  [AuthorizingRealm     qtp979582289-33 INFO ]  No cache or cacheManager properties have been set.  Authorization cache cannot be obtained.
+     [exec] 01:31:19,084  [AuthorizingRealm     qtp979582289-33 INFO ]  No cache or cacheManager properties have been set.  Authorization cache cannot be obtained.
+     [exec] 01:31:19,101  [AuthorizingRealm     qtp979582289-33 INFO ]  No cache or cacheManager properties have been set.  Authorization cache cannot be obtained.
+     [exec] 01:31:19,103  [AuthorizingRealm     qtp979582289-33 INFO ]  No cache or cacheManager properties have been set.  Authorization cache cannot be obtained.
+     [exec] 01:31:19,106  [AuthorizingRealm     qtp979582289-33 INFO ]  No cache or cacheManager properties have been set.  Authorization cache cannot be obtained.
+     [exec] 01:31:19,112  [AuthorizingRealm     qtp979582289-33 INFO ]  No cache or cacheManager properties have been set.  Authorization cache cannot be obtained.
+     [exec] 01:31:19,118  [AuthorizingRealm     qtp979582289-33 INFO ]  No cache or cacheManager properties have been set.  Authorization cache cannot be obtained.
+     [exec] 01:31:19,137  [AuthorizingRealm     qtp979582289-33 INFO ]  No cache or cacheManager properties have been set.  Authorization cache cannot be obtained.
+     [exec] 01:31:19,140  [AuthorizingRealm     qtp979582289-33 INFO ]  No cache or cacheManager properties have been set.  Authorization cache cannot be obtained.
+     [exec] 01:31:19,142  [AuthorizingRealm     qtp979582289-33 INFO ]  No cache or cacheManager properties have been set.  Authorization cache cannot be obtained.
+     [exec] 01:31:19,144  [AuthorizingRealm     qtp979582289-33 INFO ]  No cache or cacheManager properties have been set.  Authorization cache cannot be obtained.
+     [exec] 01:31:19,146  [AuthorizingRealm     qtp979582289-33 INFO ]  No cache or cacheManager properties have been set.  Authorization cache cannot be obtained.
+     [exec] 01:31:19,147  [AuthorizingRealm     qtp979582289-33 INFO ]  No cache or cacheManager properties have been set.  Authorization cache cannot be obtained.
+     [exec] 01:31:19,149  [AuthorizingRealm     qtp979582289-33 INFO ]  No cache or cacheManager properties have been set.  Authorization cache cannot be obtained.
+     [exec] 01:31:19,151  [AuthorizingRealm     qtp979582289-33 INFO ]  No cache or cacheManager properties have been set.  Authorization cache cannot be obtained.
+     [exec] 01:31:19,152  [AuthorizingRealm     qtp979582289-33 INFO ]  No cache or cacheManager properties have been set.  Authorization cache cannot be obtained.
+     [exec] 01:31:19,154  [AuthorizingRealm     qtp979582289-33 INFO ]  No cache or cacheManager properties have been set.  Authorization cache cannot be obtained.
+     [exec] 01:31:19,157  [AuthorizingRealm     qtp979582289-33 INFO ]  No cache or cacheManager properties have been set.  Authorization cache cannot be obtained.
+     [exec] 01:31:19,160  [AuthorizingRealm     qtp979582289-33 INFO ]  No cache or cacheManager properties have been set.  Authorization cache cannot be obtained.
+     [exec] 01:31:19,162  [AuthorizingRealm     qtp979582289-33 INFO ]  No cache or cacheManager properties have been set.  Authorization cache cannot be obtained.
+     [exec] 01:31:19,164  [AuthorizingRealm     qtp979582289-33 INFO ]  No cache or cacheManager properties have been set.  Authorization cache cannot be obtained.
+     [exec] 01:31:19,166  [AuthorizingRealm     qtp979582289-33 INFO ]  No cache or cacheManager properties have been set.  Authorization cache cannot be obtained.
+     [exec] 01:31:19,167  [AuthorizingRealm     qtp979582289-33 INFO ]  No cache or cacheManager properties have been set.  Authorization cache cannot be obtained.
+     [exec] 01:31:19,169  [AuthorizingRealm     qtp979582289-33 INFO ]  No cache or cacheManager properties have been set.  Authorization cache cannot be obtained.
+     [exec] 01:31:19,172  [AuthorizingRealm     qtp979582289-33 INFO ]  No cache or cacheManager properties have been set.  Authorization cache cannot be obtained.
+     [exec] 01:31:19,174  [AuthorizingRealm     qtp979582289-33 INFO ]  No cache or cacheManager properties have been set.  Authorization cache cannot be obtained.
+     [exec] 01:31:19,176  [AuthorizingRealm     qtp979582289-33 INFO ]  No cache or cacheManager properties have been set.  Authorization cache cannot be obtained.
+     [exec] 01:31:19,178  [AuthorizingRealm     qtp979582289-33 INFO ]  No cache or cacheManager properties have been set.  Authorization cache cannot be obtained.
+     [exec] 01:31:19,180  [AuthorizingRealm     qtp979582289-33 INFO ]  No cache or cacheManager properties have been set.  Authorization cache cannot be obtained.
+     [exec] 01:31:19,182  [AuthorizingRealm     qtp979582289-33 INFO ]  No cache or cacheManager properties have been set.  Authorization cache cannot be obtained.
+     [exec] 01:31:19,183  [AuthorizingRealm     qtp979582289-33 INFO ]  No cache or cacheManager properties have been set.  Authorization cache cannot be obtained.
+     [exec] 01:31:19,185  [AuthorizingRealm     qtp979582289-33 INFO ]  No cache or cacheManager properties have been set.  Authorization cache cannot be obtained.
+     [exec] 01:31:19,187  [AuthorizingRealm     qtp979582289-33 INFO ]  No cache or cacheManager properties have been set.  Authorization cache cannot be obtained.
+     [exec] 01:31:19,189  [AuthorizingRealm     qtp979582289-33 INFO ]  No cache or cacheManager properties have been set.  Authorization cache cannot be obtained.
+     [exec] 01:31:19,191  [AuthorizingRealm     qtp979582289-33 INFO ]  No cache or cacheManager properties have been set.  Authorization cache cannot be obtained.
+     [exec] 01:31:19,192  [AuthorizingRealm     qtp979582289-33 INFO ]  No cache or cacheManager properties have been set.  Authorization cache cannot be obtained.
+     [exec] 01:31:19,194  [AuthorizingRealm     qtp979582289-33 INFO ]  No cache or cacheManager properties have been set.  Authorization cache cannot be obtained.
+     [exec] 01:31:19,196  [AuthorizingRealm     qtp979582289-33 INFO ]  No cache or cacheManager properties have been set.  Authorization cache cannot be obtained.
+     [exec] 01:31:19,198  [AuthorizingRealm     qtp979582289-33 INFO ]  No cache or cacheManager properties have been set.  Authorization cache cannot be obtained.
+     [exec] 01:31:19,200  [AuthorizingRealm     qtp979582289-33 INFO ]  No cache or cacheManager properties have been set.  Authorization cache cannot be obtained.
+     [exec] 01:31:19,202  [AuthorizingRealm     qtp979582289-33 INFO ]  No cache or cacheManager properties have been set.  Authorization cache cannot be obtained.
+     [exec] 01:31:19,204  [AuthorizingRealm     qtp979582289-33 INFO ]  No cache or cacheManager properties have been set.  Authorization cache cannot be obtained.
+     [exec] 01:31:19,205  [AuthorizingRealm     qtp979582289-33 INFO ]  No cache or cacheManager properties have been set.  Authorization cache cannot be obtained.
+     [exec] 01:31:19,207  [AuthorizingRealm     qtp979582289-33 INFO ]  No cache or cacheManager properties have been set.  Authorization cache cannot be obtained.
+     [exec] 01:31:19,209  [AuthorizingRealm     qtp979582289-33 INFO ]  No cache or cacheManager properties have been set.  Authorization cache cannot be obtained.
+     [exec] 01:31:19,211  [AuthorizingRealm     qtp979582289-33 INFO ]  No cache or cacheManager properties have been set.  Authorization cache cannot be obtained.
+     [exec] 01:31:19,213  [AuthorizingRealm     qtp979582289-33 INFO ]  No cache or cacheManager properties have been set.  Authorization cache cannot be obtained.
+     [exec] 01:31:19,215  [AuthorizingRealm     qtp979582289-33 INFO ]  No cache or cacheManager properties have been set.  Authorization cache cannot be obtained.
+     [exec] 01:31:19,216  [AuthorizingRealm     qtp979582289-33 INFO ]  No cache or cacheManager properties have been set.  Authorization cache cannot be obtained.
+     [exec] 01:31:19,218  [AuthorizingRealm     qtp979582289-33 INFO ]  No cache or cacheManager properties have been set.  Authorization cache cannot be obtained.
+     [exec] 01:31:19,223  [AuthorizingRealm     qtp979582289-33 INFO ]  No cache or cacheManager properties have been set.  Authorization cache cannot be obtained.
+     [exec] 01:31:19,224  [AuthorizingRealm     qtp979582289-33 INFO ]  No cache or cacheManager properties have been set.  Authorization cache cannot be obtained.
+     [exec] 01:31:19,227  [AuthorizingRealm     qtp979582289-33 INFO ]  No cache or cacheManager properties have been set.  Authorization cache cannot be obtained.
+     [exec] 01:31:19,229  [AuthorizingRealm     qtp979582289-33 INFO ]  No cache or cacheManager properties have been set.  Authorization cache cannot be obtained.
+     [exec] 01:31:19,231  [AuthorizingRealm     qtp979582289-33 INFO ]  No cache or cacheManager properties have been set.  Authorization cache cannot be obtained.
+     [exec] 01:31:19,232  [AuthorizingRealm     qtp979582289-33 INFO ]  No cache or cacheManager properties have been set.  Authorization cache cannot be obtained.
+     [exec] 01:31:19,234  [AuthorizingRealm     qtp979582289-33 INFO ]  No cache or cacheManager properties have been set.  Authorization cache cannot be obtained.
+     [exec] 01:31:19,236  [AuthorizingRealm     qtp979582289-33 INFO ]  No cache or cacheManager properties have been set.  Authorization cache cannot be obtained.
+     [exec] 01:31:19,238  [AuthorizingRealm     qtp979582289-33 INFO ]  No cache or cacheManager properties have been set.  Authorization cache cannot be obtained.
+     [exec] 01:31:19,240  [AuthorizingRealm     qtp979582289-33 INFO ]  No cache or cacheManager properties have been set.  Authorization cache cannot be obtained.
+     [exec] 01:31:19,246  [AuthorizingRealm     qtp979582289-33 INFO ]  No cache or cacheManager properties have been set.  Authorization cache cannot be obtained.
+     [exec] 01:31:19,249  [AuthorizingRealm     qtp979582289-33 INFO ]  No cache or cacheManager properties have been set.  Authorization cache cannot be obtained.
+     [exec] 01:31:19,250  [AuthorizingRealm     qtp979582289-33 INFO ]  No cache or cacheManager properties have been set.  Authorization cache cannot be obtained.
+     [exec] 01:31:19,252  [AuthorizingRealm     qtp979582289-33 INFO ]  No cache or cacheManager properties have been set.  Authorization cache cannot be obtained.
+     [exec] 01:31:19,254  [AuthorizingRealm     qtp979582289-33 INFO ]  No cache or cacheManager properties have been set.  Authorization cache cannot be obtained.
+     [exec] 01:31:19,255  [AuthorizingRealm     qtp979582289-33 INFO ]  No cache or cacheManager properties have been set.  Authorization cache cannot be obtained.
+     [exec] 01:31:19,257  [AuthorizingRealm     qtp979582289-33 INFO ]  No cache or cacheManager properties have been set.  Authorization cache cannot be obtained.
+     [exec] 01:31:19,259  [AuthorizingRealm     qtp979582289-33 INFO ]  No cache or cacheManager properties have been set.  Authorization cache cannot be obtained.
+     [exec] 01:31:19,262  [AuthorizingRealm     qtp979582289-33 INFO ]  No cache or cacheManager properties have been set.  Authorization cache cannot be obtained.
+     [exec] 01:31:19,264  [AuthorizingRealm     qtp979582289-33 INFO ]  No cache or cacheManager properties have been set.  Authorization cache cannot be obtained.
+     [exec] 01:31:19,283  [Native               qtp979582289-33 DEBUG]  SELECT `A0`.`ACTIVE`,`A0`.`ATTACHEMENT`,`A0`.`DESCRIPTION`,`A0`.`OWNEDBY`,`A0`.`PHONENUMBER`,`A0`.`TRANSPORTCARD`,`A0`.`UNIQUEREF`,`A0`.`VERSION` FROM `PARTY` `A0` WHERE `A0`.`PARTY_ID` = <3>
+     [exec] 01:31:19,285  [AdapterManagerDefault qtp979582289-33 INFO ]  updating version in oid, on PARTY:L_3 (null) to (#2 sven 20140318-013119284)
+     [exec] 01:31:19,287  [AuthorizingRealm     qtp979582289-33 INFO ]  No cache or cacheManager properties have been set.  Authorization cache cannot be obtained.
+     [exec] 01:31:19,291  [AuthorizingRealm     qtp979582289-33 INFO ]  No cache or cacheManager properties have been set.  Authorization cache cannot be obtained.
+     [exec] 01:31:19,293  [AuthorizingRealm     qtp979582289-33 INFO ]  No cache or cacheManager properties have been set.  Authorization cache cannot be obtained.
+     [exec] 01:31:19,295  [AuthorizingRealm     qtp979582289-33 INFO ]  No cache or cacheManager properties have been set.  Authorization cache cannot be obtained.
+     [exec] 01:31:19,298  [AuthorizingRealm     qtp979582289-33 INFO ]  No cache or cacheManager properties have been set.  Authorization cache cannot be obtained.
+     [exec] 01:31:19,348  [AuthorizingRealm     qtp979582289-33 INFO ]  No cache or cacheManager properties have been set.  Authorization cache cannot be obtained.
+     [exec] 01:31:19,350  [AuthorizingRealm     qtp979582289-33 INFO ]  No cache or cacheManager properties have been set.  Authorization cache cannot be obtained.
+     [exec] 01:31:19,352  [AuthorizingRealm     qtp979582289-33 INFO ]  No cache or cacheManager properties have been set.  Authorization cache cannot be obtained.
+     [exec] 01:31:19,356  [AuthorizingRealm     qtp979582289-33 INFO ]  No cache or cacheManager properties have been set.  Authorization cache cannot be obtained.
+     [exec] 01:31:19,359  [AuthorizingRealm     qtp979582289-33 INFO ]  No cache or cacheManager properties have been set.  Authorization cache cannot be obtained.
+     [exec] 01:31:19,368  [Native               qtp979582289-33 DEBUG]  SELECT `B0`.`CANRECEIVE`,`B0`.`CANDELIVER`,`B0`.`CANORDER`,`B0`.`CANPRINCIPAL`,`B0`.`DESCRIPTION`,`B0`.`ISENDCUSTOMER`,`B0`.`NOTIFYONTRANSACTION`,`B0`.`OPERATOR`,`B0`.`OWNEDBY`,`B0`.`REDEEMSTICKET`,`B0`.`SELFVENDS`,`B0`.`USEVIRTUALSTOCK`,`B0`.`PARTYTYPE_ID`,`B0`.`VERSION`,`A0`.`VERSION` FROM `PARTY` `A0` INNER JOIN `PARTYTYPE` `B0` ON `A0`.`PARTYTYPE_PARTYTYPE_ID_OID` = `B0`.`PARTYTYPE_ID` WHERE `A0`.`PARTY_ID` = <3>
+     [exec] 01:31:19,388  [AuthorizingRealm     qtp979582289-33 INFO ]  No cache or cacheManager properties have been set.  Authorization cache cannot be obtained.
+     [exec] 01:31:19,391  [AuthorizingRealm     qtp979582289-33 INFO ]  No cache or cacheManager properties have been set.  Authorization cache cannot be obtained.
+     [exec] 01:31:19,396  [AuthorizingRealm     qtp979582289-33 INFO ]  No cache or cacheManager properties have been set.  Authorization cache cannot be obtained.
+     [exec] 01:31:19,398  [AuthorizingRealm     qtp979582289-33 INFO ]  No cache or cacheManager properties have been set.  Authorization cache cannot be obtained.
+     [exec] 01:31:19,400  [AuthorizingRealm     qtp979582289-33 INFO ]  No cache or cacheManager properties have been set.  Authorization cache cannot be obtained.
+     [exec] 01:31:19,402  [AuthorizingRealm     qtp979582289-33 INFO ]  No cache or cacheManager properties have been set.  Authorization cache cannot be obtained.
+     [exec] 01:31:19,403  [AuthorizingRealm     qtp979582289-33 INFO ]  No cache or cacheManager properties have been set.  Authorization cache cannot be obtained.
+     [exec] 01:31:19,557  [AuthorizingRealm     qtp979582289-33 INFO ]  No cache or cacheManager properties have been set.  Authorization cache cannot be obtained.
+     [exec] 01:31:19,560  [AuthorizingRealm     qtp979582289-33 INFO ]  No cache or cacheManager properties have been set.  Authorization cache cannot be obtained.
+     [exec] 01:31:19,562  [AuthorizingRealm     qtp979582289-33 INFO ]  No cache or cacheManager properties have been set.  Authorization cache cannot be obtained.
+     [exec] 01:31:19,565  [AuthorizingRealm     qtp979582289-33 INFO ]  No cache or cacheManager properties have been set.  Authorization cache cannot be obtained.
+     [exec] 01:31:19,566  [AuthorizingRealm     qtp979582289-33 INFO ]  No cache or cacheManager properties have been set.  Authorization cache cannot be obtained.
+     [exec] 01:31:19,568  [AuthorizingRealm     qtp979582289-33 INFO ]  No cache or cacheManager properties have been set.  Authorization cache cannot be obtained.
+     [exec] 01:31:19,585  [AuthorizingRealm     qtp979582289-33 INFO ]  No cache or cacheManager properties have been set.  Authorization cache cannot be obtained.
+     [exec] 01:31:19,590  [AuthorizingRealm     qtp979582289-33 INFO ]  No cache or cacheManager properties have been set.  Authorization cache cannot be obtained.
+     [exec] 01:31:19,592  [AuthorizingRealm     qtp979582289-33 INFO ]  No cache or cacheManager properties have been set.  Authorization cache cannot be obtained.
+     [exec] 01:31:19,594  [AuthorizingRealm     qtp979582289-33 INFO ]  No cache or cacheManager properties have been set.  Authorization cache cannot be obtained.
+     [exec] 01:31:19,612  [AuthorizingRealm     qtp979582289-33 INFO ]  No cache or cacheManager properties have been set.  Authorization cache cannot be obtained.
+     [exec] 01:31:19,615  [AuthorizingRealm     qtp979582289-33 INFO ]  No cache or cacheManager properties have been set.  Authorization cache cannot be obtained.
+     [exec] 01:31:19,616  [AuthorizingRealm     qtp979582289-33 INFO ]  No cache or cacheManager properties have been set.  Authorization cache cannot be obtained.
+     [exec] 01:31:19,618  [AuthorizingRealm     qtp979582289-33 INFO ]  No cache or cacheManager properties have been set.  Authorization cache cannot be obtained.
+     [exec] 01:31:19,620  [AuthorizingRealm     qtp979582289-33 INFO ]  No cache or cacheManager properties have been set.  Authorization cache cannot be obtained.
+     [exec] 01:31:19,624  [AuthorizingRealm     qtp979582289-33 INFO ]  No cache or cacheManager properties have been set.  Authorization cache cannot be obtained.
+     [exec] 01:31:19,628  [AuthorizingRealm     qtp979582289-33 INFO ]  No cache or cacheManager properties have been set.  Authorization cache cannot be obtained.
+     [exec] 01:31:19,631  [AuthorizingRealm     qtp979582289-33 INFO ]  No cache or cacheManager properties have been set.  Authorization cache cannot be obtained.
+     [exec] 01:31:19,636  [AuthorizingRealm     qtp979582289-33 INFO ]  No cache or cacheManager properties have been set.  Authorization cache cannot be obtained.
+     [exec] 01:31:19,644  [AuthorizingRealm     qtp979582289-33 INFO ]  No cache or cacheManager properties have been set.  Authorization cache cannot be obtained.
+     [exec] 01:31:19,647  [AuthorizingRealm     qtp979582289-33 INFO ]  No cache or cacheManager properties have been set.  Authorization cache cannot be obtained.
+     [exec] 01:31:19,649  [AuthorizingRealm     qtp979582289-33 INFO ]  No cache or cacheManager properties have been set.  Authorization cache cannot be obtained.
+     [exec] 01:31:19,651  [AuthorizingRealm     qtp979582289-33 INFO ]  No cache or cacheManager properties have been set.  Authorization cache cannot be obtained.
+     [exec] 01:31:19,655  [AuthorizingRealm     qtp979582289-33 INFO ]  No cache or cacheManager properties have been set.  Authorization cache cannot be obtained.
+     [exec] 01:31:19,658  [AuthorizingRealm     qtp979582289-33 INFO ]  No cache or cacheManager properties have been set.  Authorization cache cannot be obtained.
+     [exec] 01:31:19,660  [AuthorizingRealm     qtp979582289-33 INFO ]  No cache or cacheManager properties have been set.  Authorization cache cannot be obtained.
+     [exec] 01:31:19,662  [AuthorizingRealm     qtp979582289-33 INFO ]  No cache or cacheManager properties have been set.  Authorization cache cannot be obtained.
+     [exec] 01:31:19,665  [AuthorizingRealm     qtp979582289-33 INFO ]  No cache or cacheManager properties have been set.  Authorization cache cannot be obtained.
+     [exec] 01:31:19,666  [AuthorizingRealm     qtp979582289-33 INFO ]  No cache or cacheManager properties have been set.  Authorization cache cannot be obtained.
+     [exec] 01:31:19,668  [AuthorizingRealm     qtp979582289-33 INFO ]  No cache or cacheManager properties have been set.  Authorization cache cannot be obtained.
+     [exec] 01:31:19,670  [AuthorizingRealm     qtp979582289-33 INFO ]  No cache or cacheManager properties have been set.  Authorization cache cannot be obtained.
+     [exec] 01:31:19,675  [AuthorizingRealm     qtp979582289-33 INFO ]  No cache or cacheManager properties have been set.  Authorization cache cannot be obtained.
+     [exec] 01:31:19,678  [AuthorizingRealm     qtp979582289-33 INFO ]  No cache or cacheManager properties have been set.  Authorization cache cannot be obtained.
+     [exec] 01:31:19,684  [AuthorizingRealm     qtp979582289-33 INFO ]  No cache or cacheManager properties have been set.  Authorization cache cannot be obtained.
+     [exec] 01:31:19,686  [AuthorizingRealm     qtp979582289-33 INFO ]  No cache or cacheManager properties have been set.  Authorization cache cannot be obtained.
+     [exec] 01:31:19,691  [AuthorizingRealm     qtp979582289-33 INFO ]  No cache or cacheManager properties have been set.  Authorization cache cannot be obtained.
+     [exec] 01:31:19,694  [AuthorizingRealm     qtp979582289-33 INFO ]  No cache or cacheManager properties have been set.  Authorization cache cannot be obtained.
+     [exec] 01:31:19,701  [AuthorizingRealm     qtp979582289-33 INFO ]  No cache or cacheManager properties have been set.  Authorization cache cannot be obtained.
+     [exec] 01:31:19,703  [AuthorizingRealm     qtp979582289-33 INFO ]  No cache or cacheManager properties have been set.  Authorization cache cannot be obtained.
+     [exec] 01:31:19,717  [AuthorizingRealm     qtp979582289-33 INFO ]  No cache or cacheManager properties have been set.  Authorization cache cannot be obtained.
+     [exec] 01:31:19,719  [AuthorizingRealm     qtp979582289-33 INFO ]  No cache or cacheManager properties have been set.  Authorization cache cannot be obtained.
+     [exec] 01:31:19,735  [AuthorizingRealm     qtp979582289-33 INFO ]  No cache or cacheManager properties have been set.  Authorization cache cannot be obtained.
+     [exec] 01:31:19,757  [AuthorizingRealm     qtp979582289-33 INFO ]  No cache or cacheManager properties have been set.  Authorization cache cannot be obtained.
+     [exec] 01:31:19,775  [AuthorizingRealm     qtp979582289-33 INFO ]  No cache or cacheManager properties have been set.  Authorization cache cannot be obtained.
+     [exec] 01:31:19,777  [AuthorizingRealm     qtp979582289-33 INFO ]  No cache or cacheManager properties have been set.  Authorization cache cannot be obtained.
+     [exec] 01:31:19,779  [AuthorizingRealm     qtp979582289-33 INFO ]  No cache or cacheManager properties have been set.  Authorization cache cannot be obtained.
+     [exec] 01:31:19,782  [AuthorizingRealm     qtp979582289-33 INFO ]  No cache or cacheManager properties have been set.  Authorization cache cannot be obtained.
+     [exec] 01:31:19,785  [AuthorizingRealm     qtp979582289-33 INFO ]  No cache or cacheManager properties have been set.  Authorization cache cannot be obtained.
+     [exec] 01:31:19,791  [AuthorizingRealm     qtp979582289-33 INFO ]  No cache or cacheManager properties have been set.  Authorization cache cannot be obtained.
+     [exec] 01:31:19,797  [AuthorizingRealm     qtp979582289-33 INFO ]  No cache or cacheManager properties have been set.  Authorization cache cannot be obtained.
+     [exec] 01:31:24,559  [PropertiesFactory    qtp979582289-33 INFO ]  Loading properties files from jar:file:/private/var/folders/_j/xsgymcmd1lsc5zqtg65ctlsm0000gn/T/jetty-0.0.0.0-8080-iserve-webapp-1.0-SNAPSHOT-jetty-console.war-_-any-/webapp/WEB-INF/lib/wicket-core-6.11.0.jar!/org/apache/wicket/Application.properties with loader org.apache.wicket.resource.IsoPropertiesFilePropertiesLoader@5f9caedd
+     [exec] 01:31:24,771  [PropertiesFactory    qtp979582289-33 INFO ]  Loading properties files from jar:file:/private/var/folders/_j/xsgymcmd1lsc5zqtg65ctlsm0000gn/T/jetty-0.0.0.0-8080-iserve-webapp-1.0-SNAPSHOT-jetty-console.war-_-any-/webapp/WEB-INF/lib/wicket-extensions-6.11.0.jar!/org/apache/wicket/extensions/Initializer.properties with loader org.apache.wicket.resource.IsoPropertiesFilePropertiesLoader@5f9caedd
+     [exec] 01:31:31,335  [Native               qtp979582289-32 DEBUG]  SELECT `A0`.`ACTIVE`,`A0`.`ATTACHEMENT`,`A0`.`DESCRIPTION`,`A0`.`OWNEDBY`,`A0`.`PHONENUMBER`,`A0`.`TRANSPORTCARD`,`A0`.`UNIQUEREF`,`A0`.`VERSION` FROM `PARTY` `A0` WHERE `A0`.`PARTY_ID` = <3>
+     [exec] 01:31:31,356  [Native               qtp979582289-32 DEBUG]  SELECT 'dom.todo.DailySalesTotalForParty' AS NUCLEUS_TYPE,`A0`.`FROMPARTYREFERENCE`,`A0`.`TOTALAMOUNT`,`A0`.`TRANSACTIONDATE`,`A0`.`TRANSACTIONTYPE` FROM `DAILYSALESTOTALFORPARTY` `A0`
+     [exec] 01:31:31,428  [RequestCycleExtra    qtp979582289-32 WARN ]  ********************************
+     [exec] 01:31:31,429  [RequestCycleExtra    qtp979582289-32 WARN ]  Handling the following exception
+     [exec] org.apache.wicket.WicketRuntimeException: Error attaching this container for rendering: [WebMarkupContainer [Component id = body]]
+     [exec] 	at org.apache.wicket.MarkupContainer.onBeforeRenderChildren(MarkupContainer.java:1693)
+     [exec] 	at org.apache.wicket.Component.onBeforeRender(Component.java:3844)
+     [exec] 	at org.apache.wicket.Component.internalBeforeRender(Component.java:923)
+     [exec] 	at org.apache.wicket.Component.beforeRender(Component.java:991)
+     [exec] 	at org.apache.wicket.MarkupContainer.onBeforeRenderChildren(MarkupContainer.java:1681)
+     [exec] 	at org.apache.wicket.Component.onBeforeRender(Component.java:3844)
+     [exec] 	at org.apache.wicket.Component.internalBeforeRender(Component.java:923)
+     [exec] 	at org.apache.wicket.Component.beforeRender(Component.java:991)
+     [exec] 	at org.apache.wicket.MarkupContainer.onBeforeRenderChildren(MarkupContainer.java:1681)
+     [exec] 	at org.apache.wicket.Component.onBeforeRender(Component.java:3844)
+     [exec] 	at org.apache.wicket.Component.internalBeforeRender(Component.java:923)
+     [exec] 	at org.apache.wicket.Component.beforeRender(Component.java:991)
+     [exec] 	at org.apache.wicket.MarkupContainer.onBeforeRenderChildren(MarkupContainer.java:1681)
+     [exec] 	at org.apache.wicket.Component.onBeforeRender(Component.java:3844)
+     [exec] 	at org.apache.wicket.Component.internalBeforeRender(Component.java:923)
+     [exec] 	at org.apache.wicket.Component.beforeRender(Component.java:991)
+     [exec] 	at org.apache.wicket.Component.internalPrepareForRender(Component.java:2214)
+     [exec] 	at org.apache.wicket.Component.prepareForRender(Component.java:2253)
+     [exec] 	at org.apache.wicket.ajax.XmlAjaxResponse.writeComponent(XmlAjaxResponse.java:107)
+     [exec] 	at org.apache.wicket.ajax.AbstractAjaxResponse.writeComponents(AbstractAjaxResponse.java:215)
+     [exec] 	at org.apache.wicket.ajax.AbstractAjaxResponse.writeTo(AbstractAjaxResponse.java:147)
+     [exec] 	at org.apache.wicket.ajax.AjaxRequestHandler.respond(AjaxRequestHandler.java:359)
+     [exec] 	at org.apache.wicket.request.cycle.RequestCycle$HandlerExecutor.respond(RequestCycle.java:861)
+     [exec] 	at org.apache.wicket.request.RequestHandlerStack.execute(RequestHandlerStack.java:64)
+     [exec] 	at org.apache.wicket.request.RequestHandlerStack.execute(RequestHandlerStack.java:97)
+     [exec] 	at org.apache.wicket.request.cycle.RequestCycle.execute(RequestCycle.java:261)
+     [exec] 	at org.apache.wicket.request.cycle.RequestCycle.processRequest(RequestCycle.java:218)
+     [exec] 	at org.apache.wicket.request.cycle.RequestCycle.processRequestAndDetach(RequestCycle.java:289)
+     [exec] 	at org.apache.wicket.protocol.http.WicketFilter.processRequestCycle(WicketFilter.java:259)
+     [exec] 	at org.apache.wicket.protocol.http.WicketFilter.processRequest(WicketFilter.java:201)
+     [exec] 	at org.apache.wicket.protocol.http.WicketFilter.doFilter(WicketFilter.java:282)
+     [exec] 	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1326)
+     [exec] 	at org.apache.shiro.web.servlet.AbstractShiroFilter.executeChain(AbstractShiroFilter.java:449)
+     [exec] 	at org.apache.shiro.web.servlet.AbstractShiroFilter$1.call(AbstractShiroFilter.java:365)
+     [exec] 	at org.apache.shiro.subject.support.SubjectCallable.doCall(SubjectCallable.java:90)
+     [exec] 	at org.apache.shiro.subject.support.SubjectCallable.call(SubjectCallable.java:83)
+     [exec] 	at org.apache.shiro.subject.support.DelegatingSubject.execute(DelegatingSubject.java:383)
+     [exec] 	at org.apache.shiro.web.servlet.AbstractShiroFilter.doFilterInternal(AbstractShiroFilter.java:362)
+     [exec] 	at org.apache.shiro.web.servlet.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:125)
+     [exec] 	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1326)
+     [exec] 	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:479)
+     [exec] 	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:119)
+     [exec] 	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:520)
+     [exec] 	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:227)
+     [exec] 	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:940)
+     [exec] 	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:409)
+     [exec] 	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:186)
+     [exec] 	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:874)
+     [exec] 	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:117)
+     [exec] 	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:250)
+     [exec] 	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:149)
+     [exec] 	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:110)
+     [exec] 	at org.eclipse.jetty.server.Server.handle(Server.java:349)
+     [exec] 	at org.eclipse.jetty.server.HttpConnection.handleRequest(HttpConnection.java:441)
+     [exec] 	at org.eclipse.jetty.server.HttpConnection$RequestHandler.headerComplete(HttpConnection.java:904)
+     [exec] 	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:565)
+     [exec] 	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:217)
+     [exec] 	at org.eclipse.jetty.server.AsyncHttpConnection.handle(AsyncHttpConnection.java:46)
+     [exec] 	at org.eclipse.jetty.io.nio.SelectChannelEndPoint.handle(SelectChannelEndPoint.java:545)
+     [exec] 	at org.eclipse.jetty.io.nio.SelectChannelEndPoint$1.run(SelectChannelEndPoint.java:43)
+     [exec] 	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:598)
+     [exec] 	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:533)
+     [exec] 	at java.lang.Thread.run(Thread.java:695)
+     [exec] Caused by: java.lang.RuntimeException: java.lang.IllegalArgumentException: identifier 'org.datanucleus.identity.SCOID_org.datanucleus.identity.SCOID@21920208' contains an '@' symbol
+     [exec] 	at org.apache.isis.objectstore.jdo.datanucleus.persistence.FrameworkSynchronizer.withLogging(FrameworkSynchronizer.java:273)
+     [exec] 	at org.apache.isis.objectstore.jdo.datanucleus.persistence.FrameworkSynchronizer.withLogging(FrameworkSynchronizer.java:282)
+     [exec] 	at org.apache.isis.objectstore.jdo.datanucleus.persistence.FrameworkSynchronizer.postLoadProcessingFor(FrameworkSynchronizer.java:69)
+     [exec] 	at org.apache.isis.objectstore.jdo.datanucleus.persistence.queries.PersistenceQueryProcessorAbstract.loadAdapters(PersistenceQueryProcessorAbstract.java:82)
+     [exec] 	at org.apache.isis.objectstore.jdo.datanucleus.persistence.queries.PersistenceQueryFindUsingApplibQueryProcessor.process(PersistenceQueryFindUsingApplibQueryProcessor.java:64)
+     [exec] 	at org.apache.isis.objectstore.jdo.datanucleus.persistence.queries.PersistenceQueryFindUsingApplibQueryProcessor.process(PersistenceQueryFindUsingApplibQueryProcessor.java:43)
+     [exec] 	at org.apache.isis.objectstore.jdo.datanucleus.DataNucleusObjectStore.processPersistenceQuery(DataNucleusObjectStore.java:542)
+     [exec] 	at org.apache.isis.objectstore.jdo.datanucleus.DataNucleusObjectStore.loadInstancesAndAdapt(DataNucleusObjectStore.java:537)
+     [exec] 	at org.apache.isis.core.runtime.system.persistence.PersistenceSession$1.execute(PersistenceSession.java:461)
+     [exec] 	at org.apache.isis.core.runtime.system.persistence.PersistenceSession$1.execute(PersistenceSession.java:458)
+     [exec] 	at org.apache.isis.core.runtime.system.transaction.IsisTransactionManager.executeWithinTransaction(IsisTransactionManager.java:217)
+     [exec] 	at org.apache.isis.core.runtime.system.persistence.PersistenceSession.getInstancesFromPersistenceLayer(PersistenceSession.java:458)
+     [exec] 	at org.apache.isis.core.runtime.system.persistence.PersistenceSession.getInstances(PersistenceSession.java:454)
+     [exec] 	at org.apache.isis.core.runtime.system.persistence.PersistenceSession.findInstances(PersistenceSession.java:391)
+     [exec] 	at org.apache.isis.core.runtime.system.persistence.PersistenceSession.findInstances(PersistenceSession.java:386)
+     [exec] 	at org.apache.isis.core.runtime.persistence.internal.RuntimeContextFromSession$8.allMatchingQuery(RuntimeContextFromSession.java:260)
+     [exec] 	at org.apache.isis.core.metamodel.services.container.DomainObjectContainerDefault.allMatches(DomainObjectContainerDefault.java:400)
+     [exec] 	at org.apache.isis.applib.AbstractContainedObject.allMatches(AbstractContainedObject.java:175)
+     [exec] 	at dom.todo.Partytypes.getDailySalesTotalForParty(Partytypes.java:392)
+     [exec] 	at dom.todo.Party.getDailySales(Party.java:283)
+     [exec] 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+     [exec] 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+     [exec] 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+     [exec] 	at java.lang.reflect.Method.invoke(Method.java:597)
+     [exec] 	at org.apache.isis.core.commons.lang.MethodExtensions.invoke(MethodExtensions.java:50)
+     [exec] 	at org.apache.isis.core.commons.lang.MethodExtensions.invoke(MethodExtensions.java:45)
+     [exec] 	at org.apache.isis.core.metamodel.adapter.util.AdapterInvokeUtils.invoke(AdapterInvokeUtils.java:44)
+     [exec] 	at org.apache.isis.core.progmodel.facets.collections.accessor.CollectionAccessorFacetViaAccessor.getProperty(CollectionAccessorFacetViaAccessor.java:69)
+     [exec] 	at org.apache.isis.core.metamodel.specloader.specimpl.OneToManyAssociationImpl.get(OneToManyAssociationImpl.java:149)
+     [exec] 	at org.apache.isis.viewer.wicket.model.models.EntityCollectionModel$Type$2.load(EntityCollectionModel.java:99)
+     [exec] 	at org.apache.isis.viewer.wicket.model.models.EntityCollectionModel.load(EntityCollectionModel.java:299)
+     [exec] 	at org.apache.isis.viewer.wicket.model.models.EntityCollectionModel.load(EntityCollectionModel.java:59)
+     [exec] 	at org.apache.wicket.model.LoadableDetachableModel.getObject(LoadableDetachableModel.java:121)
+     [exec] 	at org.apache.isis.viewer.wicket.ui.components.collectioncontents.ajaxtable.CollectionContentsSortableDataProvider.size(CollectionContentsSortableDataProvider.java:65)
+     [exec] 	at org.apache.wicket.markup.repeater.data.DataViewBase.internalGetItemCount(DataViewBase.java:142)
+     [exec] 	at org.apache.wicket.markup.repeater.AbstractPageableView.getItemCount(AbstractPageableView.java:235)
+     [exec] 	at org.apache.wicket.markup.repeater.AbstractPageableView.getRowCount(AbstractPageableView.java:216)
+     [exec] 	at org.apache.wicket.markup.repeater.AbstractPageableView.getViewSize(AbstractPageableView.java:314)
+     [exec] 	at org.apache.wicket.markup.repeater.AbstractPageableView.getItemModels(AbstractPageableView.java:99)
+     [exec] 	at org.apache.wicket.markup.repeater.RefreshingView.onPopulate(RefreshingView.java:93)
+     [exec] 	at org.apache.wicket.markup.repeater.AbstractRepeater.onBeforeRender(AbstractRepeater.java:116)
+     [exec] 	at org.apache.wicket.markup.repeater.AbstractPageableView.onBeforeRender(AbstractPageableView.java:115)
+     [exec] 	at org.apache.wicket.Component.internalBeforeRender(Component.java:923)
+     [exec] 	at org.apache.wicket.Component.beforeRender(Component.java:991)
+     [exec] 	at org.apache.wicket.MarkupContainer.onBeforeRenderChildren(MarkupContainer.java:1681)
+     [exec] 	... 62 more
+     [exec] Caused by: java.lang.IllegalArgumentException: identifier 'org.datanucleus.identity.SCOID_org.datanucleus.identity.SCOID@21920208' contains an '@' symbol
+     [exec] 	at org.apache.isis.core.commons.ensure.Ensure.ensureThatArg(Ensure.java:75)
+     [exec] 	at org.apache.isis.core.metamodel.adapter.oid.RootOidDefault.<init>(RootOidDefault.java:128)
+     [exec] 	at org.apache.isis.core.metamodel.adapter.oid.RootOidDefault.<init>(RootOidDefault.java:96)
+     [exec] 	at org.apache.isis.core.runtime.system.persistence.OidGenerator.createPersistentOrViewModelOid(OidGenerator.java:106)
+     [exec] 	at org.apache.isis.objectstore.jdo.datanucleus.persistence.FrameworkSynchronizer$1.run(FrameworkSynchronizer.java:108)
+     [exec] 	at org.apache.isis.objectstore.jdo.datanucleus.persistence.FrameworkSynchronizer$7.call(FrameworkSynchronizer.java:286)
+     [exec] 	at org.apache.isis.objectstore.jdo.datanucleus.persistence.FrameworkSynchronizer$7.call(FrameworkSynchronizer.java:282)
+     [exec] 	at org.apache.isis.objectstore.jdo.datanucleus.persistence.FrameworkSynchronizer.withLogging(FrameworkSynchronizer.java:271)
+     [exec] 	... 106 more
+     [exec] 01:31:31,440  [RequestCycleExtra    qtp979582289-32 WARN ]  ********************************
+     [exec] 1635340 [AWT-EventQueue-0] INFO / - Cleaning up Shiro Environment
+     [exec] 1635346 [AWT-EventQueue-0] INFO org.eclipse.jetty.server.handler.ContextHandler - stopped o.e.j.w.WebAppContext{/,file:/private/var/folders/_j/xsgymcmd1lsc5zqtg65ctlsm0000gn/T/jetty-0.0.0.0-8080-iserve-webapp-1.0-SNAPSHOT-jetty-console.war-_-any-/webapp/},/Users/jamesagada/iserve/iserve/webapp/target/iserve-webapp-1.0-SNAPSHOT-jetty-console.war
+     [exec] 01:57:49,183  [ObjectReflectorDefault AWT-EventQueue-0 INFO ]  shutting down org.apache.isis.core.metamodel.specloader.ObjectReflectorDefault@4d20f4c8
+     [exec] 01:57:49,185  [ObjectReflectorDefault AWT-EventQueue-0 INFO ]  calling @PreDestroy on all domain services
+     [exec] 01:57:49,185  [ObjectReflectorDefault AWT-EventQueue-0 INFO ]  ... calling @PreDestroy method: org.apache.isis.objectstore.jdo.service.RegisterEntities: shutdown
+     [exec] 01:57:49,185  [ObjectReflectorDefault AWT-EventQueue-0 INFO ]  ... calling @PreDestroy method: org.apache.isis.viewer.restfulobjects.rendering.eventserializer.RestfulObjectsSpecEventSerializer: shutdown
+     [exec] 01:57:49,185  [Application          AWT-EventQueue-0 INFO ]  [WicketFilter] destroy: Wicket core library initializer
+     [exec] 01:57:49,186  [Application          AWT-EventQueue-0 INFO ]  [WicketFilter] destroy: Wicket extensions initializer
+     [exec] 1638687 [Thread-1] INFO org.simplericity.jettyconsole.DefaultJettyManager - Shutting down Quickstart Wicket/Restful/JDO Webapp 1.0-SNAPSHOT..
+[INFO] Executed tasks
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary:
+[INFO] 
+[INFO] Quickstart Wicket/Restful/JDO App ................. SUCCESS [0.508s]
+[INFO] Quickstart Wicket/Restful/JDO DOM ................. SUCCESS [0.403s]
+[INFO] Quickstart Wicket/Restful/JDO Fixtures ............ SUCCESS [0.193s]
+[INFO] Quickstart Wicket/Restful/JDO Integration Tests ... SUCCESS [0.800s]
+[INFO] Quickstart Wicket/Restful/JDO Webapp .............. SUCCESS [27:22.233s]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 27:25.926s
+[INFO] Finished at: Tue Mar 18 01:57:53 WAT 2014
+[INFO] Final Memory: 8M/81M
+[INFO] ------------------------------------------------------------------------

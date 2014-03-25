@@ -1,0 +1,1059 @@
+22:24:46,259 (main) DEBUG [DataNucleus.General] - Using PluginRegistry org.datanucleus.plugin.NonManagedPluginRegistry
+22:24:46,302 (main) DEBUG [DataNucleus.General] - Registering bundle org.datanucleus.store.types.jodatime version 3.2.1 at URL file:/Users/jamesagada/.m2/repository/org/datanucleus/datanucleus-jodatime/3.2.1/datanucleus-jodatime-3.2.1.jar.
+22:24:46,330 (main) DEBUG [DataNucleus.General] - Loading extension points from plug-in file jar:file:/Users/jamesagada/.m2/repository/org/datanucleus/datanucleus-jodatime/3.2.1/datanucleus-jodatime-3.2.1.jar!/plugin.xml.
+22:24:46,339 (main) DEBUG [DataNucleus.General] - Loading extensions from plug-in file jar:file:/Users/jamesagada/.m2/repository/org/datanucleus/datanucleus-jodatime/3.2.1/datanucleus-jodatime-3.2.1.jar!/plugin.xml.
+22:24:46,344 (main) DEBUG [DataNucleus.General] - Registering bundle org.datanucleus.api.jdo version 3.2.4 at URL file:/Users/jamesagada/.m2/repository/org/datanucleus/datanucleus-api-jdo/3.2.4/datanucleus-api-jdo-3.2.4.jar.
+22:24:46,366 (main) DEBUG [DataNucleus.General] - Loading extension points from plug-in file jar:file:/Users/jamesagada/.m2/repository/org/datanucleus/datanucleus-api-jdo/3.2.4/datanucleus-api-jdo-3.2.4.jar!/plugin.xml.
+22:24:46,393 (main) DEBUG [DataNucleus.General] - Loading extensions from plug-in file jar:file:/Users/jamesagada/.m2/repository/org/datanucleus/datanucleus-api-jdo/3.2.4/datanucleus-api-jdo-3.2.4.jar!/plugin.xml.
+22:24:46,401 (main) DEBUG [DataNucleus.General] - Registering bundle org.datanucleus version 3.2.7 at URL file:/Users/jamesagada/.m2/repository/org/datanucleus/datanucleus-core/3.2.7/datanucleus-core-3.2.7.jar.
+22:24:46,458 (main) DEBUG [DataNucleus.General] - Loading extension points from plug-in file jar:file:/Users/jamesagada/.m2/repository/org/datanucleus/datanucleus-core/3.2.7/datanucleus-core-3.2.7.jar!/plugin.xml.
+22:24:46,492 (main) DEBUG [DataNucleus.General] - Loading extensions from plug-in file jar:file:/Users/jamesagada/.m2/repository/org/datanucleus/datanucleus-core/3.2.7/datanucleus-core-3.2.7.jar!/plugin.xml.
+22:24:46,499 (main) DEBUG [DataNucleus.General] - Registering bundle org.sonatype.inject version 2.3.0 at URL file:/Users/jamesagada/.m2/repository/org/sonatype/sisu/sisu-inject-bean/2.3.0/sisu-inject-bean-2.3.0.jar.
+22:24:46,500 (main) DEBUG [DataNucleus.General] - Loading extension points from plug-in file jar:file:/Users/jamesagada/.m2/repository/org/sonatype/sisu/sisu-inject-bean/2.3.0/sisu-inject-bean-2.3.0.jar!/plugin.xml.
+22:24:46,500 (main) DEBUG [DataNucleus.General] - Loading extensions from plug-in file jar:file:/Users/jamesagada/.m2/repository/org/sonatype/sisu/sisu-inject-bean/2.3.0/sisu-inject-bean-2.3.0.jar!/plugin.xml.
+22:24:46,500 (main) WARN  [DataNucleus.General] - Extension Point "org.datanucleus.store.rdbms.sql_expression" not registered, but plugin "org.datanucleus.store.types.jodatime" defined in file:/Users/jamesagada/.m2/repository/org/datanucleus/datanucleus-jodatime/3.2.1/datanucleus-jodatime-3.2.1.jar refers to it.
+22:24:46,500 (main) WARN  [DataNucleus.General] - Extension Point "org.datanucleus.store.rdbms.sql_method" not registered, but plugin "org.datanucleus.store.types.jodatime" defined in file:/Users/jamesagada/.m2/repository/org/datanucleus/datanucleus-jodatime/3.2.1/datanucleus-jodatime-3.2.1.jar refers to it.
+22:24:46,559 (main) DEBUG [DataNucleus.Persistence] - Java types support initialising ...
+22:24:46,649 (main) DEBUG [DataNucleus.Persistence] - Java types support loaded : supported java types=java.util.TimeZone, org.joda.time.DateTime, [Ljava.lang.Byte;, [Ljava.lang.Integer;, java.util.SortedMap, char, java.lang.Boolean, [Ljava.lang.Boolean;, java.lang.Long, java.sql.Timestamp, org.joda.time.Duration, [Ljava.lang.Double;, long, java.lang.Float, float, java.util.BitSet, java.util.Stack, java.math.BigInteger, java.lang.Double, java.util.Vector, byte, java.util.Locale, java.lang.Class, [Ljava.lang.Long;, java.sql.Time, boolean, [Ljava.lang.Short;, java.util.LinkedList, java.util.PriorityQueue, [Ljava.lang.Enum;, int, java.util.List, java.util.TreeMap, java.lang.Integer, java.lang.Short, double, java.lang.Number, java.util.LinkedHashMap, java.sql.Date, [Ljava.util.Locale;, java.util.Arrays$ArrayList, org.joda.time.LocalDate, java.lang.Byte, java.util.UUID, [Ljava.lang.String;, [Ljava.util.Date;, java.util.Currency, java.util.Properties, java.util.Calendar, java.util.Map, java.awt.Color, org.joda.time.Period, org.joda.time.LocalTime, java.util.HashMap, [Ljava.lang.Character;, short, java.util.GregorianCalendar, java.util.TreeSet, java.lang.Character, java.util.SortedSet, java.util.Set, java.util.Collection, java.util.ArrayList, java.lang.StringBuffer, [Ljava.math.BigDecimal;, [B, java.util.Hashtable, [F, java.lang.String, java.net.URI, [C, java.awt.image.BufferedImage, [D, java.util.Date, [I, [J, [Ljava.lang.Number;, [Ljava.lang.Float;, [Ljava.math.BigInteger;, java.net.URL, java.util.HashSet, java.math.BigDecimal, org.joda.time.Interval, [S, [Z, java.util.Queue, java.lang.Enum, java.util.LinkedHashSet
+22:24:46,649 (main) DEBUG [DataNucleus.Persistence] - Type converter support initialising ...
+22:24:46,650 (main) DEBUG [DataNucleus.Persistence] - Added converter for java.math.BigDecimal<->java.lang.String using org.datanucleus.store.types.converters.BigDecimalStringConverter
+22:24:46,650 (main) DEBUG [DataNucleus.Persistence] - Added converter for java.math.BigInteger<->java.lang.String using org.datanucleus.store.types.converters.BigIntegerStringConverter
+22:24:46,653 (main) DEBUG [DataNucleus.Persistence] - Added converter for java.util.BitSet<->java.lang.String using org.datanucleus.store.types.converters.BitSetStringConverter
+22:24:46,654 (main) DEBUG [DataNucleus.Persistence] - Added converter for java.util.Calendar<->java.lang.String using org.datanucleus.store.types.converters.CalendarStringConverter
+22:24:46,654 (main) DEBUG [DataNucleus.Persistence] - Added converter for java.lang.Class<->java.lang.String using org.datanucleus.store.types.converters.ClassStringConverter
+22:24:46,655 (main) DEBUG [DataNucleus.Persistence] - Added converter for java.awt.Color<->java.lang.String using org.datanucleus.store.types.converters.ColorStringConverter
+22:24:46,656 (main) DEBUG [DataNucleus.Persistence] - Added converter for java.lang.Integer<->java.lang.String using org.datanucleus.store.types.converters.IntegerStringConverter
+22:24:46,656 (main) DEBUG [DataNucleus.Persistence] - Added converter for java.lang.Long<->java.lang.String using org.datanucleus.store.types.converters.LongStringConverter
+22:24:46,657 (main) DEBUG [DataNucleus.Persistence] - Added converter for java.util.Currency<->java.lang.String using org.datanucleus.store.types.converters.CurrencyStringConverter
+22:24:46,658 (main) DEBUG [DataNucleus.Persistence] - Added converter for java.util.Date<->java.lang.Long using org.datanucleus.store.types.converters.DateLongConverter
+22:24:46,658 (main) DEBUG [DataNucleus.Persistence] - Added converter for java.util.Date<->java.lang.String using org.datanucleus.store.types.converters.DateStringConverter
+22:24:46,659 (main) DEBUG [DataNucleus.Persistence] - Added converter for java.util.Locale<->java.lang.String using org.datanucleus.store.types.converters.LocaleStringConverter
+22:24:46,659 (main) DEBUG [DataNucleus.Persistence] - Added converter for java.sql.Date<->java.lang.Long using org.datanucleus.store.types.converters.SqlDateLongConverter
+22:24:46,660 (main) DEBUG [DataNucleus.Persistence] - Added converter for java.sql.Date<->java.lang.String using org.datanucleus.store.types.converters.SqlDateStringConverter
+22:24:46,660 (main) DEBUG [DataNucleus.Persistence] - Added converter for java.sql.Time<->java.lang.Long using org.datanucleus.store.types.converters.SqlTimeLongConverter
+22:24:46,661 (main) DEBUG [DataNucleus.Persistence] - Added converter for java.sql.Time<->java.lang.String using org.datanucleus.store.types.converters.SqlTimeStringConverter
+22:24:46,661 (main) DEBUG [DataNucleus.Persistence] - Added converter for java.sql.Timestamp<->java.lang.Long using org.datanucleus.store.types.converters.SqlTimestampLongConverter
+22:24:46,662 (main) DEBUG [DataNucleus.Persistence] - Added converter for java.lang.StringBuffer<->java.lang.String using org.datanucleus.store.types.converters.StringBufferStringConverter
+22:24:46,662 (main) DEBUG [DataNucleus.Persistence] - Added converter for java.util.TimeZone<->java.lang.String using org.datanucleus.store.types.converters.TimeZoneStringConverter
+22:24:46,663 (main) DEBUG [DataNucleus.Persistence] - Added converter for java.net.URI<->java.lang.String using org.datanucleus.store.types.converters.URIStringConverter
+22:24:46,663 (main) DEBUG [DataNucleus.Persistence] - Added converter for java.net.URL<->java.lang.String using org.datanucleus.store.types.converters.URLStringConverter
+22:24:46,664 (main) DEBUG [DataNucleus.Persistence] - Added converter for java.util.UUID<->java.lang.String using org.datanucleus.store.types.converters.UUIDStringConverter
+22:24:46,665 (main) DEBUG [DataNucleus.Persistence] - TypeConverter for javax.time.calendar.LocalDate<->java.lang.String ignored since java type not present in CLASSPATH
+22:24:46,665 (main) DEBUG [DataNucleus.Persistence] - TypeConverter for javax.time.calendar.LocalTime<->java.lang.String ignored since java type not present in CLASSPATH
+22:24:46,666 (main) DEBUG [DataNucleus.Persistence] - TypeConverter for javax.time.calendar.LocalTime<->java.lang.Long ignored since java type not present in CLASSPATH
+22:24:46,669 (main) DEBUG [DataNucleus.Persistence] - TypeConverter for javax.time.calendar.LocalDateTime<->java.lang.String ignored since java type not present in CLASSPATH
+22:24:46,670 (main) DEBUG [DataNucleus.Persistence] - Added converter for java.io.Serializable<->java.lang.String using org.datanucleus.store.types.converters.SerializableStringConverter
+22:24:46,671 (main) DEBUG [DataNucleus.Persistence] - Added converter for java.io.Serializable<->[B using org.datanucleus.store.types.converters.SerializableByteArrayConverter
+22:24:46,672 (main) DEBUG [DataNucleus.Persistence] - Added converter for org.joda.time.DateTime<->java.lang.String using org.datanucleus.store.types.converters.JodaDateTimeStringConverter
+22:24:46,673 (main) DEBUG [DataNucleus.Persistence] - Added converter for org.joda.time.Duration<->java.lang.String using org.datanucleus.store.types.converters.JodaDurationStringConverter
+22:24:46,674 (main) DEBUG [DataNucleus.Persistence] - Added converter for org.joda.time.Interval<->java.lang.String using org.datanucleus.store.types.converters.JodaIntervalStringConverter
+22:24:46,674 (main) DEBUG [DataNucleus.Persistence] - Added converter for org.joda.time.LocalDate<->java.lang.String using org.datanucleus.store.types.converters.JodaLocalDateStringConverter
+22:24:46,675 (main) DEBUG [DataNucleus.Persistence] - Added converter for org.joda.time.LocalTime<->java.lang.String using org.datanucleus.store.types.converters.JodaLocalTimeStringConverter
+22:24:46,676 (main) DEBUG [DataNucleus.Persistence] - Added converter for org.joda.time.Period<->java.lang.String using org.datanucleus.store.types.converters.JodaPeriodStringConverter
+22:24:46,676 (main) DEBUG [DataNucleus.Persistence] - Type converter support loaded
+22:24:46,676 (main) DEBUG [DataNucleus.MetaData] - MetaDataManager : Input=(XML,Annotations), XML-Validation=false, XML-Suffices=(persistence=*.jdo, orm=orm, query=*.jdoquery), JDO-listener=false
+22:24:46,677 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer (version 3.2.7) for API "JDO" using JRE "1.6"
+22:24:46,678 (main) DEBUG [DataNucleus.Enhancer] - DataNucleus Enhancer : Classpath
+22:24:46,678 (main) DEBUG [DataNucleus.Enhancer] - >>  /Applications/eclipse-java-kepler-R-macosx-cocoa-x86_64/eclipse/configuration/org.eclipse.osgi/bundles/231/1/.cp/jars/plexus-classworlds-2.4.jar
+22:24:46,679 (main) DEBUG [DataNucleus.Enhancer] - Enhancing classes for JRE=1.6 with stackmap-frames=false
+22:24:46,787 (main) DEBUG [DataNucleus.MetaData] - MetaData Management : Loading Metadata for classes "[app.ToDoAppDashboard, app.ToDoAppDashboardService, app.ToDoItemAnalysis$1, app.ToDoItemAnalysis$2, app.ToDoItemAnalysis$DateRange, app.ToDoItemAnalysis, app.ToDoItemAnalysisContributions, app.ToDoItemsByCategoryViewModel$1, app.ToDoItemsByCategoryViewModel, app.ToDoItemsByDateRangeViewModel$1, app.ToDoItemsByDateRangeViewModel, dom.todo.Contract$1, dom.todo.Contract, dom.todo.DailySalesTotal, dom.todo.DailySalesTotalForParty, dom.todo.Inventory$1, dom.todo.Inventory$2, dom.todo.Inventory$3, dom.todo.Inventory$4, dom.todo.Inventory$5, dom.todo.Inventory$6, dom.todo.Inventory$NotifyUserIfNone, dom.todo.Inventory, dom.todo.Party, dom.todo.PartyDatabaseRecord, dom.todo.Partytype$1, dom.todo.Partytype, dom.todo.Partytypes$1, dom.todo.Partytypes$2, dom.todo.Partytypes$NotifyUserIfNone, dom.todo.Partytypes, dom.todo.Payment$1, dom.todo.Payment, dom.todo.Permission$1, dom.todo.Permission, dom.todo.Reports$1, dom.todo.Reports$NotifyUserIfNone, dom.todo.Reports, dom.todo.Role$1, dom.todo.Role, dom.todo.Sku$1, dom.todo.Sku, dom.todo.StockLedger$1, dom.todo.StockLedger, dom.todo.StockLedgerChangedPayLoadFactory$StockLedgerPayload, dom.todo.StockLedgerChangedPayLoadFactory, dom.todo.Terminal$1, dom.todo.Terminal, dom.todo.Ticket, dom.todo.ToDoItem$1, dom.todo.ToDoItem$Category$1, dom.todo.ToDoItem$Category$2, dom.todo.ToDoItem$Category$3, dom.todo.ToDoItem$Category, dom.todo.ToDoItem$DependenciesComparator$1, dom.todo.ToDoItem$DependenciesComparator, dom.todo.ToDoItem$Predicates$1, dom.todo.ToDoItem$Predicates$2, dom.todo.ToDoItem$Predicates$3, dom.todo.ToDoItem$Predicates$4, dom.todo.ToDoItem$Predicates$5, dom.todo.ToDoItem$Predicates$6, dom.todo.ToDoItem$Predicates, dom.todo.ToDoItem$Subcategory$1, dom.todo.ToDoItem$Subcategory, dom.todo.ToDoItem, dom.todo.ToDoItemChangedPayloadFactory$ToDoItemPayload, dom.todo.ToDoItemChangedPayloadFactory, dom.todo.ToDoItemContributions$1, dom.todo.ToDoItemContributions$2, dom.todo.ToDoItemContributions$3, dom.todo.ToDoItemContributions, dom.todo.ToDoItems, dom.todo.Transaction$1, dom.todo.Transaction$TransactionType, dom.todo.Transaction, dom.todo.Transactions, dom.todo.User$1, dom.todo.User, dom.todo.UserManager$1, dom.todo.UserManager$2, dom.todo.UserManager$3, dom.todo.UserManager$NotifyUserIfNone, dom.todo.UserManager, dom.todo.VoucherClass$1, dom.todo.VoucherClass, dom.todo.VoucherDenomination$1, dom.todo.VoucherDenomination, dom.todo.XSRandom, services.ClockService]" ...
+22:24:46,802 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "app.ToDoAppDashboard" NOT found at /META-INF/package.jdo
+22:24:46,803 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "app.ToDoAppDashboard" NOT found at /WEB-INF/package.jdo
+22:24:46,803 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "app.ToDoAppDashboard" NOT found at /package.jdo
+22:24:46,804 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "app.ToDoAppDashboard" NOT found at /app/package.jdo
+22:24:46,804 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "app.ToDoAppDashboard" NOT found at /app.jdo
+22:24:46,804 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "app.ToDoAppDashboard" NOT found at /app/ToDoAppDashboard.jdo
+22:24:46,804 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "app.ToDoAppDashboard" not found
+22:24:46,804 (main) DEBUG [DataNucleus.MetaData] - Registering class "app.ToDoAppDashboard" as not having MetaData.
+22:24:46,805 (main) DEBUG [DataNucleus.MetaData] - Class "app.ToDoAppDashboard" has no MetaData or annotations.
+22:24:46,814 (main) DEBUG [DataNucleus.MetaData] - Class "app.ToDoAppDashboardService" has annotations but there is no registered AnnotationReader. Please check your CLASSPATH and the annotations in the class for validity.
+22:24:46,814 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "app.ToDoAppDashboardService" NOT found at /META-INF/package.jdo
+22:24:46,815 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "app.ToDoAppDashboardService" NOT found at /WEB-INF/package.jdo
+22:24:46,815 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "app.ToDoAppDashboardService" NOT found at /package.jdo
+22:24:46,815 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "app.ToDoAppDashboardService" NOT found at /app/package.jdo
+22:24:46,816 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "app.ToDoAppDashboardService" NOT found at /app.jdo
+22:24:46,816 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "app.ToDoAppDashboardService" NOT found at /app/ToDoAppDashboardService.jdo
+22:24:46,816 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "app.ToDoAppDashboardService" not found
+22:24:46,816 (main) DEBUG [DataNucleus.MetaData] - Class "app.ToDoAppDashboardService" has annotations but there is no registered AnnotationReader. Please check your CLASSPATH and the annotations in the class for validity.
+22:24:46,816 (main) DEBUG [DataNucleus.MetaData] - Registering class "app.ToDoAppDashboardService" as not having MetaData.
+22:24:46,816 (main) DEBUG [DataNucleus.MetaData] - Class "app.ToDoAppDashboardService" has no MetaData or annotations.
+22:24:46,819 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "app.ToDoItemAnalysis$1" NOT found at /META-INF/package.jdo
+22:24:46,819 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "app.ToDoItemAnalysis$1" NOT found at /WEB-INF/package.jdo
+22:24:46,819 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "app.ToDoItemAnalysis$1" NOT found at /package.jdo
+22:24:46,820 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "app.ToDoItemAnalysis$1" NOT found at /app/package.jdo
+22:24:46,820 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "app.ToDoItemAnalysis$1" NOT found at /app.jdo
+22:24:46,820 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "app.ToDoItemAnalysis$1" NOT found at /app/ToDoItemAnalysis$1.jdo
+22:24:46,820 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "app.ToDoItemAnalysis$1" not found
+22:24:46,820 (main) DEBUG [DataNucleus.MetaData] - Registering class "app.ToDoItemAnalysis$1" as not having MetaData.
+22:24:46,821 (main) DEBUG [DataNucleus.MetaData] - Class "app.ToDoItemAnalysis$1" has no MetaData or annotations.
+22:24:46,821 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "app.ToDoItemAnalysis$2" NOT found at /META-INF/package.jdo
+22:24:46,821 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "app.ToDoItemAnalysis$2" NOT found at /WEB-INF/package.jdo
+22:24:46,822 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "app.ToDoItemAnalysis$2" NOT found at /package.jdo
+22:24:46,822 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "app.ToDoItemAnalysis$2" NOT found at /app/package.jdo
+22:24:46,822 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "app.ToDoItemAnalysis$2" NOT found at /app.jdo
+22:24:46,823 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "app.ToDoItemAnalysis$2" NOT found at /app/ToDoItemAnalysis$2.jdo
+22:24:46,823 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "app.ToDoItemAnalysis$2" not found
+22:24:46,823 (main) DEBUG [DataNucleus.MetaData] - Registering class "app.ToDoItemAnalysis$2" as not having MetaData.
+22:24:46,823 (main) DEBUG [DataNucleus.MetaData] - Class "app.ToDoItemAnalysis$2" has no MetaData or annotations.
+22:24:46,823 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "app.ToDoItemAnalysis$DateRange" NOT found at /META-INF/package.jdo
+22:24:46,824 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "app.ToDoItemAnalysis$DateRange" NOT found at /WEB-INF/package.jdo
+22:24:46,824 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "app.ToDoItemAnalysis$DateRange" NOT found at /package.jdo
+22:24:46,824 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "app.ToDoItemAnalysis$DateRange" NOT found at /app/package.jdo
+22:24:46,825 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "app.ToDoItemAnalysis$DateRange" NOT found at /app.jdo
+22:24:46,825 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "app.ToDoItemAnalysis$DateRange" NOT found at /app/ToDoItemAnalysis$DateRange.jdo
+22:24:46,825 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "app.ToDoItemAnalysis$DateRange" not found
+22:24:46,825 (main) DEBUG [DataNucleus.MetaData] - Registering class "app.ToDoItemAnalysis$DateRange" as not having MetaData.
+22:24:46,825 (main) DEBUG [DataNucleus.MetaData] - Class "app.ToDoItemAnalysis$DateRange" has no MetaData or annotations.
+22:24:46,829 (main) DEBUG [DataNucleus.MetaData] - Class "app.ToDoItemAnalysis" has annotations but there is no registered AnnotationReader. Please check your CLASSPATH and the annotations in the class for validity.
+22:24:46,829 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "app.ToDoItemAnalysis" NOT found at /META-INF/package.jdo
+22:24:46,829 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "app.ToDoItemAnalysis" NOT found at /WEB-INF/package.jdo
+22:24:46,830 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "app.ToDoItemAnalysis" NOT found at /package.jdo
+22:24:46,830 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "app.ToDoItemAnalysis" NOT found at /app/package.jdo
+22:24:46,830 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "app.ToDoItemAnalysis" NOT found at /app.jdo
+22:24:46,831 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "app.ToDoItemAnalysis" NOT found at /app/ToDoItemAnalysis.jdo
+22:24:46,831 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "app.ToDoItemAnalysis" not found
+22:24:46,831 (main) DEBUG [DataNucleus.MetaData] - Class "app.ToDoItemAnalysis" has annotations but there is no registered AnnotationReader. Please check your CLASSPATH and the annotations in the class for validity.
+22:24:46,831 (main) DEBUG [DataNucleus.MetaData] - Registering class "app.ToDoItemAnalysis" as not having MetaData.
+22:24:46,831 (main) DEBUG [DataNucleus.MetaData] - Class "app.ToDoItemAnalysis" has no MetaData or annotations.
+22:24:46,832 (main) DEBUG [DataNucleus.MetaData] - Class "app.ToDoItemAnalysisContributions" has annotations but there is no registered AnnotationReader. Please check your CLASSPATH and the annotations in the class for validity.
+22:24:46,832 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "app.ToDoItemAnalysisContributions" NOT found at /META-INF/package.jdo
+22:24:46,832 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "app.ToDoItemAnalysisContributions" NOT found at /WEB-INF/package.jdo
+22:24:46,833 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "app.ToDoItemAnalysisContributions" NOT found at /package.jdo
+22:24:46,833 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "app.ToDoItemAnalysisContributions" NOT found at /app/package.jdo
+22:24:46,833 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "app.ToDoItemAnalysisContributions" NOT found at /app.jdo
+22:24:46,833 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "app.ToDoItemAnalysisContributions" NOT found at /app/ToDoItemAnalysisContributions.jdo
+22:24:46,834 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "app.ToDoItemAnalysisContributions" not found
+22:24:46,834 (main) DEBUG [DataNucleus.MetaData] - Class "app.ToDoItemAnalysisContributions" has annotations but there is no registered AnnotationReader. Please check your CLASSPATH and the annotations in the class for validity.
+22:24:46,834 (main) DEBUG [DataNucleus.MetaData] - Registering class "app.ToDoItemAnalysisContributions" as not having MetaData.
+22:24:46,834 (main) DEBUG [DataNucleus.MetaData] - Class "app.ToDoItemAnalysisContributions" has no MetaData or annotations.
+22:24:46,834 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "app.ToDoItemsByCategoryViewModel$1" NOT found at /META-INF/package.jdo
+22:24:46,835 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "app.ToDoItemsByCategoryViewModel$1" NOT found at /WEB-INF/package.jdo
+22:24:46,835 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "app.ToDoItemsByCategoryViewModel$1" NOT found at /package.jdo
+22:24:46,835 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "app.ToDoItemsByCategoryViewModel$1" NOT found at /app/package.jdo
+22:24:46,836 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "app.ToDoItemsByCategoryViewModel$1" NOT found at /app.jdo
+22:24:46,836 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "app.ToDoItemsByCategoryViewModel$1" NOT found at /app/ToDoItemsByCategoryViewModel$1.jdo
+22:24:46,847 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "app.ToDoItemsByCategoryViewModel$1" not found
+22:24:46,847 (main) DEBUG [DataNucleus.MetaData] - Registering class "app.ToDoItemsByCategoryViewModel$1" as not having MetaData.
+22:24:46,847 (main) DEBUG [DataNucleus.MetaData] - Class "app.ToDoItemsByCategoryViewModel$1" has no MetaData or annotations.
+22:24:46,853 (main) DEBUG [DataNucleus.MetaData] - Class "app.ToDoItemsByCategoryViewModel" has annotations but there is no registered AnnotationReader. Please check your CLASSPATH and the annotations in the class for validity.
+22:24:46,853 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "app.ToDoItemsByCategoryViewModel" NOT found at /META-INF/package.jdo
+22:24:46,857 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "app.ToDoItemsByCategoryViewModel" NOT found at /WEB-INF/package.jdo
+22:24:46,857 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "app.ToDoItemsByCategoryViewModel" NOT found at /package.jdo
+22:24:46,857 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "app.ToDoItemsByCategoryViewModel" NOT found at /app/package.jdo
+22:24:46,858 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "app.ToDoItemsByCategoryViewModel" NOT found at /app.jdo
+22:24:46,858 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "app.ToDoItemsByCategoryViewModel" NOT found at /app/ToDoItemsByCategoryViewModel.jdo
+22:24:46,858 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "app.ToDoItemsByCategoryViewModel" not found
+22:24:46,858 (main) DEBUG [DataNucleus.MetaData] - Class "app.ToDoItemsByCategoryViewModel" has annotations but there is no registered AnnotationReader. Please check your CLASSPATH and the annotations in the class for validity.
+22:24:46,858 (main) DEBUG [DataNucleus.MetaData] - Registering class "app.ToDoItemsByCategoryViewModel" as not having MetaData.
+22:24:46,858 (main) DEBUG [DataNucleus.MetaData] - Class "app.ToDoItemsByCategoryViewModel" has no MetaData or annotations.
+22:24:46,860 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "app.ToDoItemsByDateRangeViewModel$1" NOT found at /META-INF/package.jdo
+22:24:46,860 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "app.ToDoItemsByDateRangeViewModel$1" NOT found at /WEB-INF/package.jdo
+22:24:46,860 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "app.ToDoItemsByDateRangeViewModel$1" NOT found at /package.jdo
+22:24:46,860 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "app.ToDoItemsByDateRangeViewModel$1" NOT found at /app/package.jdo
+22:24:46,861 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "app.ToDoItemsByDateRangeViewModel$1" NOT found at /app.jdo
+22:24:46,861 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "app.ToDoItemsByDateRangeViewModel$1" NOT found at /app/ToDoItemsByDateRangeViewModel$1.jdo
+22:24:46,861 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "app.ToDoItemsByDateRangeViewModel$1" not found
+22:24:46,861 (main) DEBUG [DataNucleus.MetaData] - Registering class "app.ToDoItemsByDateRangeViewModel$1" as not having MetaData.
+22:24:46,861 (main) DEBUG [DataNucleus.MetaData] - Class "app.ToDoItemsByDateRangeViewModel$1" has no MetaData or annotations.
+22:24:46,862 (main) DEBUG [DataNucleus.MetaData] - Class "app.ToDoItemsByDateRangeViewModel" has annotations but there is no registered AnnotationReader. Please check your CLASSPATH and the annotations in the class for validity.
+22:24:46,862 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "app.ToDoItemsByDateRangeViewModel" NOT found at /META-INF/package.jdo
+22:24:46,863 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "app.ToDoItemsByDateRangeViewModel" NOT found at /WEB-INF/package.jdo
+22:24:46,863 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "app.ToDoItemsByDateRangeViewModel" NOT found at /package.jdo
+22:24:46,863 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "app.ToDoItemsByDateRangeViewModel" NOT found at /app/package.jdo
+22:24:46,863 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "app.ToDoItemsByDateRangeViewModel" NOT found at /app.jdo
+22:24:46,864 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "app.ToDoItemsByDateRangeViewModel" NOT found at /app/ToDoItemsByDateRangeViewModel.jdo
+22:24:46,864 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "app.ToDoItemsByDateRangeViewModel" not found
+22:24:46,864 (main) DEBUG [DataNucleus.MetaData] - Class "app.ToDoItemsByDateRangeViewModel" has annotations but there is no registered AnnotationReader. Please check your CLASSPATH and the annotations in the class for validity.
+22:24:46,864 (main) DEBUG [DataNucleus.MetaData] - Registering class "app.ToDoItemsByDateRangeViewModel" as not having MetaData.
+22:24:46,864 (main) DEBUG [DataNucleus.MetaData] - Class "app.ToDoItemsByDateRangeViewModel" has no MetaData or annotations.
+22:24:46,865 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.Contract$1" NOT found at /META-INF/package.jdo
+22:24:46,865 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.Contract$1" NOT found at /WEB-INF/package.jdo
+22:24:46,866 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.Contract$1" NOT found at /package.jdo
+22:24:46,866 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.Contract$1" NOT found at /dom/package.jdo
+22:24:46,866 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.Contract$1" NOT found at /dom.jdo
+22:24:46,866 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.Contract$1" NOT found at /dom/todo/package.jdo
+22:24:46,867 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.Contract$1" NOT found at /dom/todo.jdo
+22:24:46,867 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.Contract$1" NOT found at /dom/todo/Contract$1.jdo
+22:24:46,867 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.Contract$1" not found
+22:24:46,867 (main) DEBUG [DataNucleus.MetaData] - Registering class "dom.todo.Contract$1" as not having MetaData.
+22:24:46,867 (main) DEBUG [DataNucleus.MetaData] - Class "dom.todo.Contract$1" has no MetaData or annotations.
+22:24:46,949 (main) DEBUG [DataNucleus.MetaData] - Class "dom.todo.Contract" has been specified with JDO annotations so using those.
+22:24:47,012 (main) DEBUG [DataNucleus.MetaData] - Ignoring metadata for field dom.todo.Contract.start since we already have MetaData for the property dom.todo.Contract.start
+22:24:47,022 (main) DEBUG [DataNucleus.MetaData] - Class "dom.todo.DailySalesTotal" has been specified with JDO annotations so using those.
+22:24:47,029 (main) DEBUG [DataNucleus.MetaData] - Class "dom.todo.DailySalesTotalForParty" has been specified with JDO annotations so using those.
+22:24:47,032 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.Inventory$1" NOT found at /META-INF/package.jdo
+22:24:47,032 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.Inventory$1" NOT found at /WEB-INF/package.jdo
+22:24:47,032 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.Inventory$1" NOT found at /package.jdo
+22:24:47,033 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.Inventory$1" NOT found at /dom/package.jdo
+22:24:47,033 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.Inventory$1" NOT found at /dom.jdo
+22:24:47,033 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.Inventory$1" NOT found at /dom/todo/package.jdo
+22:24:47,033 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.Inventory$1" NOT found at /dom/todo.jdo
+22:24:47,034 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.Inventory$1" NOT found at /dom/todo/Inventory$1.jdo
+22:24:47,034 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.Inventory$1" not found
+22:24:47,034 (main) DEBUG [DataNucleus.MetaData] - Registering class "dom.todo.Inventory$1" as not having MetaData.
+22:24:47,034 (main) DEBUG [DataNucleus.MetaData] - Class "dom.todo.Inventory$1" has no MetaData or annotations.
+22:24:47,035 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.Inventory$2" NOT found at /META-INF/package.jdo
+22:24:47,035 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.Inventory$2" NOT found at /WEB-INF/package.jdo
+22:24:47,035 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.Inventory$2" NOT found at /package.jdo
+22:24:47,035 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.Inventory$2" NOT found at /dom/package.jdo
+22:24:47,036 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.Inventory$2" NOT found at /dom.jdo
+22:24:47,036 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.Inventory$2" NOT found at /dom/todo/package.jdo
+22:24:47,036 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.Inventory$2" NOT found at /dom/todo.jdo
+22:24:47,036 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.Inventory$2" NOT found at /dom/todo/Inventory$2.jdo
+22:24:47,036 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.Inventory$2" not found
+22:24:47,037 (main) DEBUG [DataNucleus.MetaData] - Registering class "dom.todo.Inventory$2" as not having MetaData.
+22:24:47,037 (main) DEBUG [DataNucleus.MetaData] - Class "dom.todo.Inventory$2" has no MetaData or annotations.
+22:24:47,037 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.Inventory$3" NOT found at /META-INF/package.jdo
+22:24:47,037 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.Inventory$3" NOT found at /WEB-INF/package.jdo
+22:24:47,038 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.Inventory$3" NOT found at /package.jdo
+22:24:47,038 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.Inventory$3" NOT found at /dom/package.jdo
+22:24:47,038 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.Inventory$3" NOT found at /dom.jdo
+22:24:47,038 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.Inventory$3" NOT found at /dom/todo/package.jdo
+22:24:47,039 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.Inventory$3" NOT found at /dom/todo.jdo
+22:24:47,039 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.Inventory$3" NOT found at /dom/todo/Inventory$3.jdo
+22:24:47,039 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.Inventory$3" not found
+22:24:47,039 (main) DEBUG [DataNucleus.MetaData] - Registering class "dom.todo.Inventory$3" as not having MetaData.
+22:24:47,039 (main) DEBUG [DataNucleus.MetaData] - Class "dom.todo.Inventory$3" has no MetaData or annotations.
+22:24:47,040 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.Inventory$4" NOT found at /META-INF/package.jdo
+22:24:47,040 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.Inventory$4" NOT found at /WEB-INF/package.jdo
+22:24:47,040 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.Inventory$4" NOT found at /package.jdo
+22:24:47,041 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.Inventory$4" NOT found at /dom/package.jdo
+22:24:47,041 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.Inventory$4" NOT found at /dom.jdo
+22:24:47,041 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.Inventory$4" NOT found at /dom/todo/package.jdo
+22:24:47,041 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.Inventory$4" NOT found at /dom/todo.jdo
+22:24:47,042 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.Inventory$4" NOT found at /dom/todo/Inventory$4.jdo
+22:24:47,042 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.Inventory$4" not found
+22:24:47,042 (main) DEBUG [DataNucleus.MetaData] - Registering class "dom.todo.Inventory$4" as not having MetaData.
+22:24:47,042 (main) DEBUG [DataNucleus.MetaData] - Class "dom.todo.Inventory$4" has no MetaData or annotations.
+22:24:47,043 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.Inventory$5" NOT found at /META-INF/package.jdo
+22:24:47,043 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.Inventory$5" NOT found at /WEB-INF/package.jdo
+22:24:47,043 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.Inventory$5" NOT found at /package.jdo
+22:24:47,043 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.Inventory$5" NOT found at /dom/package.jdo
+22:24:47,044 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.Inventory$5" NOT found at /dom.jdo
+22:24:47,044 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.Inventory$5" NOT found at /dom/todo/package.jdo
+22:24:47,044 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.Inventory$5" NOT found at /dom/todo.jdo
+22:24:47,044 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.Inventory$5" NOT found at /dom/todo/Inventory$5.jdo
+22:24:47,044 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.Inventory$5" not found
+22:24:47,045 (main) DEBUG [DataNucleus.MetaData] - Registering class "dom.todo.Inventory$5" as not having MetaData.
+22:24:47,045 (main) DEBUG [DataNucleus.MetaData] - Class "dom.todo.Inventory$5" has no MetaData or annotations.
+22:24:47,045 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.Inventory$6" NOT found at /META-INF/package.jdo
+22:24:47,045 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.Inventory$6" NOT found at /WEB-INF/package.jdo
+22:24:47,046 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.Inventory$6" NOT found at /package.jdo
+22:24:47,046 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.Inventory$6" NOT found at /dom/package.jdo
+22:24:47,046 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.Inventory$6" NOT found at /dom.jdo
+22:24:47,046 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.Inventory$6" NOT found at /dom/todo/package.jdo
+22:24:47,047 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.Inventory$6" NOT found at /dom/todo.jdo
+22:24:47,047 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.Inventory$6" NOT found at /dom/todo/Inventory$6.jdo
+22:24:47,047 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.Inventory$6" not found
+22:24:47,047 (main) DEBUG [DataNucleus.MetaData] - Registering class "dom.todo.Inventory$6" as not having MetaData.
+22:24:47,047 (main) DEBUG [DataNucleus.MetaData] - Class "dom.todo.Inventory$6" has no MetaData or annotations.
+22:24:47,048 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.Inventory$NotifyUserIfNone" NOT found at /META-INF/package.jdo
+22:24:47,048 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.Inventory$NotifyUserIfNone" NOT found at /WEB-INF/package.jdo
+22:24:47,048 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.Inventory$NotifyUserIfNone" NOT found at /package.jdo
+22:24:47,049 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.Inventory$NotifyUserIfNone" NOT found at /dom/package.jdo
+22:24:47,049 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.Inventory$NotifyUserIfNone" NOT found at /dom.jdo
+22:24:47,049 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.Inventory$NotifyUserIfNone" NOT found at /dom/todo/package.jdo
+22:24:47,049 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.Inventory$NotifyUserIfNone" NOT found at /dom/todo.jdo
+22:24:47,050 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.Inventory$NotifyUserIfNone" NOT found at /dom/todo/Inventory$NotifyUserIfNone.jdo
+22:24:47,050 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.Inventory$NotifyUserIfNone" not found
+22:24:47,050 (main) DEBUG [DataNucleus.MetaData] - Registering class "dom.todo.Inventory$NotifyUserIfNone" as not having MetaData.
+22:24:47,050 (main) DEBUG [DataNucleus.MetaData] - Class "dom.todo.Inventory$NotifyUserIfNone" has no MetaData or annotations.
+22:24:47,051 (main) DEBUG [DataNucleus.MetaData] - Class "dom.todo.Inventory" has annotations but there is no registered AnnotationReader. Please check your CLASSPATH and the annotations in the class for validity.
+22:24:47,051 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.Inventory" NOT found at /META-INF/package.jdo
+22:24:47,052 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.Inventory" NOT found at /WEB-INF/package.jdo
+22:24:47,052 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.Inventory" NOT found at /package.jdo
+22:24:47,052 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.Inventory" NOT found at /dom/package.jdo
+22:24:47,053 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.Inventory" NOT found at /dom.jdo
+22:24:47,053 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.Inventory" NOT found at /dom/todo/package.jdo
+22:24:47,053 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.Inventory" NOT found at /dom/todo.jdo
+22:24:47,053 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.Inventory" NOT found at /dom/todo/Inventory.jdo
+22:24:47,053 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.Inventory" not found
+22:24:47,053 (main) DEBUG [DataNucleus.MetaData] - Class "dom.todo.Inventory" has annotations but there is no registered AnnotationReader. Please check your CLASSPATH and the annotations in the class for validity.
+22:24:47,054 (main) DEBUG [DataNucleus.MetaData] - Registering class "dom.todo.Inventory" as not having MetaData.
+22:24:47,054 (main) DEBUG [DataNucleus.MetaData] - Class "dom.todo.Inventory" has no MetaData or annotations.
+22:24:47,060 (main) DEBUG [DataNucleus.MetaData] - Class "dom.todo.Party" has been specified with JDO annotations so using those.
+22:24:47,107 (main) DEBUG [DataNucleus.MetaData] - Class "dom.todo.PartyDatabaseRecord" has been specified with JDO annotations so using those.
+22:24:47,109 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.Partytype$1" NOT found at /META-INF/package.jdo
+22:24:47,109 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.Partytype$1" NOT found at /WEB-INF/package.jdo
+22:24:47,110 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.Partytype$1" NOT found at /package.jdo
+22:24:47,110 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.Partytype$1" NOT found at /dom/package.jdo
+22:24:47,110 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.Partytype$1" NOT found at /dom.jdo
+22:24:47,110 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.Partytype$1" NOT found at /dom/todo/package.jdo
+22:24:47,111 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.Partytype$1" NOT found at /dom/todo.jdo
+22:24:47,111 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.Partytype$1" NOT found at /dom/todo/Partytype$1.jdo
+22:24:47,111 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.Partytype$1" not found
+22:24:47,111 (main) DEBUG [DataNucleus.MetaData] - Registering class "dom.todo.Partytype$1" as not having MetaData.
+22:24:47,111 (main) DEBUG [DataNucleus.MetaData] - Class "dom.todo.Partytype$1" has no MetaData or annotations.
+22:24:47,113 (main) DEBUG [DataNucleus.MetaData] - Class "dom.todo.Partytype" has been specified with JDO annotations so using those.
+22:24:47,119 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.Partytypes$1" NOT found at /META-INF/package.jdo
+22:24:47,119 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.Partytypes$1" NOT found at /WEB-INF/package.jdo
+22:24:47,119 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.Partytypes$1" NOT found at /package.jdo
+22:24:47,120 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.Partytypes$1" NOT found at /dom/package.jdo
+22:24:47,120 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.Partytypes$1" NOT found at /dom.jdo
+22:24:47,120 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.Partytypes$1" NOT found at /dom/todo/package.jdo
+22:24:47,120 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.Partytypes$1" NOT found at /dom/todo.jdo
+22:24:47,121 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.Partytypes$1" NOT found at /dom/todo/Partytypes$1.jdo
+22:24:47,121 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.Partytypes$1" not found
+22:24:47,121 (main) DEBUG [DataNucleus.MetaData] - Registering class "dom.todo.Partytypes$1" as not having MetaData.
+22:24:47,121 (main) DEBUG [DataNucleus.MetaData] - Class "dom.todo.Partytypes$1" has no MetaData or annotations.
+22:24:47,122 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.Partytypes$2" NOT found at /META-INF/package.jdo
+22:24:47,122 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.Partytypes$2" NOT found at /WEB-INF/package.jdo
+22:24:47,122 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.Partytypes$2" NOT found at /package.jdo
+22:24:47,122 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.Partytypes$2" NOT found at /dom/package.jdo
+22:24:47,123 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.Partytypes$2" NOT found at /dom.jdo
+22:24:47,123 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.Partytypes$2" NOT found at /dom/todo/package.jdo
+22:24:47,123 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.Partytypes$2" NOT found at /dom/todo.jdo
+22:24:47,123 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.Partytypes$2" NOT found at /dom/todo/Partytypes$2.jdo
+22:24:47,123 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.Partytypes$2" not found
+22:24:47,124 (main) DEBUG [DataNucleus.MetaData] - Registering class "dom.todo.Partytypes$2" as not having MetaData.
+22:24:47,124 (main) DEBUG [DataNucleus.MetaData] - Class "dom.todo.Partytypes$2" has no MetaData or annotations.
+22:24:47,124 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.Partytypes$NotifyUserIfNone" NOT found at /META-INF/package.jdo
+22:24:47,124 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.Partytypes$NotifyUserIfNone" NOT found at /WEB-INF/package.jdo
+22:24:47,125 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.Partytypes$NotifyUserIfNone" NOT found at /package.jdo
+22:24:47,125 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.Partytypes$NotifyUserIfNone" NOT found at /dom/package.jdo
+22:24:47,125 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.Partytypes$NotifyUserIfNone" NOT found at /dom.jdo
+22:24:47,125 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.Partytypes$NotifyUserIfNone" NOT found at /dom/todo/package.jdo
+22:24:47,126 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.Partytypes$NotifyUserIfNone" NOT found at /dom/todo.jdo
+22:24:47,126 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.Partytypes$NotifyUserIfNone" NOT found at /dom/todo/Partytypes$NotifyUserIfNone.jdo
+22:24:47,126 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.Partytypes$NotifyUserIfNone" not found
+22:24:47,126 (main) DEBUG [DataNucleus.MetaData] - Registering class "dom.todo.Partytypes$NotifyUserIfNone" as not having MetaData.
+22:24:47,126 (main) DEBUG [DataNucleus.MetaData] - Class "dom.todo.Partytypes$NotifyUserIfNone" has no MetaData or annotations.
+22:24:47,126 (main) DEBUG [DataNucleus.MetaData] - Class "dom.todo.Partytypes" has annotations but there is no registered AnnotationReader. Please check your CLASSPATH and the annotations in the class for validity.
+22:24:47,127 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.Partytypes" NOT found at /META-INF/package.jdo
+22:24:47,127 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.Partytypes" NOT found at /WEB-INF/package.jdo
+22:24:47,127 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.Partytypes" NOT found at /package.jdo
+22:24:47,127 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.Partytypes" NOT found at /dom/package.jdo
+22:24:47,128 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.Partytypes" NOT found at /dom.jdo
+22:24:47,128 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.Partytypes" NOT found at /dom/todo/package.jdo
+22:24:47,128 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.Partytypes" NOT found at /dom/todo.jdo
+22:24:47,128 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.Partytypes" NOT found at /dom/todo/Partytypes.jdo
+22:24:47,129 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.Partytypes" not found
+22:24:47,129 (main) DEBUG [DataNucleus.MetaData] - Class "dom.todo.Partytypes" has annotations but there is no registered AnnotationReader. Please check your CLASSPATH and the annotations in the class for validity.
+22:24:47,129 (main) DEBUG [DataNucleus.MetaData] - Registering class "dom.todo.Partytypes" as not having MetaData.
+22:24:47,129 (main) DEBUG [DataNucleus.MetaData] - Class "dom.todo.Partytypes" has no MetaData or annotations.
+22:24:47,129 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.Payment$1" NOT found at /META-INF/package.jdo
+22:24:47,130 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.Payment$1" NOT found at /WEB-INF/package.jdo
+22:24:47,130 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.Payment$1" NOT found at /package.jdo
+22:24:47,130 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.Payment$1" NOT found at /dom/package.jdo
+22:24:47,130 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.Payment$1" NOT found at /dom.jdo
+22:24:47,131 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.Payment$1" NOT found at /dom/todo/package.jdo
+22:24:47,131 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.Payment$1" NOT found at /dom/todo.jdo
+22:24:47,131 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.Payment$1" NOT found at /dom/todo/Payment$1.jdo
+22:24:47,131 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.Payment$1" not found
+22:24:47,131 (main) DEBUG [DataNucleus.MetaData] - Registering class "dom.todo.Payment$1" as not having MetaData.
+22:24:47,131 (main) DEBUG [DataNucleus.MetaData] - Class "dom.todo.Payment$1" has no MetaData or annotations.
+22:24:47,137 (main) DEBUG [DataNucleus.MetaData] - Class "dom.todo.Payment" has been specified with JDO annotations so using those.
+22:24:47,148 (main) DEBUG [DataNucleus.MetaData] - Ignoring metadata for field dom.todo.Payment.transactionDate since we already have MetaData for the property dom.todo.Payment.transactionDate
+22:24:47,149 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.Permission$1" NOT found at /META-INF/package.jdo
+22:24:47,150 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.Permission$1" NOT found at /WEB-INF/package.jdo
+22:24:47,150 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.Permission$1" NOT found at /package.jdo
+22:24:47,150 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.Permission$1" NOT found at /dom/package.jdo
+22:24:47,150 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.Permission$1" NOT found at /dom.jdo
+22:24:47,151 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.Permission$1" NOT found at /dom/todo/package.jdo
+22:24:47,151 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.Permission$1" NOT found at /dom/todo.jdo
+22:24:47,151 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.Permission$1" NOT found at /dom/todo/Permission$1.jdo
+22:24:47,151 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.Permission$1" not found
+22:24:47,151 (main) DEBUG [DataNucleus.MetaData] - Registering class "dom.todo.Permission$1" as not having MetaData.
+22:24:47,151 (main) DEBUG [DataNucleus.MetaData] - Class "dom.todo.Permission$1" has no MetaData or annotations.
+22:24:47,157 (main) DEBUG [DataNucleus.MetaData] - Class "dom.todo.Permission" has been specified with JDO annotations so using those.
+22:24:47,161 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.Reports$1" NOT found at /META-INF/package.jdo
+22:24:47,161 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.Reports$1" NOT found at /WEB-INF/package.jdo
+22:24:47,162 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.Reports$1" NOT found at /package.jdo
+22:24:47,162 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.Reports$1" NOT found at /dom/package.jdo
+22:24:47,162 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.Reports$1" NOT found at /dom.jdo
+22:24:47,162 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.Reports$1" NOT found at /dom/todo/package.jdo
+22:24:47,163 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.Reports$1" NOT found at /dom/todo.jdo
+22:24:47,163 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.Reports$1" NOT found at /dom/todo/Reports$1.jdo
+22:24:47,163 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.Reports$1" not found
+22:24:47,163 (main) DEBUG [DataNucleus.MetaData] - Registering class "dom.todo.Reports$1" as not having MetaData.
+22:24:47,163 (main) DEBUG [DataNucleus.MetaData] - Class "dom.todo.Reports$1" has no MetaData or annotations.
+22:24:47,164 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.Reports$NotifyUserIfNone" NOT found at /META-INF/package.jdo
+22:24:47,164 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.Reports$NotifyUserIfNone" NOT found at /WEB-INF/package.jdo
+22:24:47,164 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.Reports$NotifyUserIfNone" NOT found at /package.jdo
+22:24:47,164 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.Reports$NotifyUserIfNone" NOT found at /dom/package.jdo
+22:24:47,165 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.Reports$NotifyUserIfNone" NOT found at /dom.jdo
+22:24:47,165 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.Reports$NotifyUserIfNone" NOT found at /dom/todo/package.jdo
+22:24:47,165 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.Reports$NotifyUserIfNone" NOT found at /dom/todo.jdo
+22:24:47,165 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.Reports$NotifyUserIfNone" NOT found at /dom/todo/Reports$NotifyUserIfNone.jdo
+22:24:47,166 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.Reports$NotifyUserIfNone" not found
+22:24:47,166 (main) DEBUG [DataNucleus.MetaData] - Registering class "dom.todo.Reports$NotifyUserIfNone" as not having MetaData.
+22:24:47,166 (main) DEBUG [DataNucleus.MetaData] - Class "dom.todo.Reports$NotifyUserIfNone" has no MetaData or annotations.
+22:24:47,166 (main) DEBUG [DataNucleus.MetaData] - Class "dom.todo.Reports" has annotations but there is no registered AnnotationReader. Please check your CLASSPATH and the annotations in the class for validity.
+22:24:47,167 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.Reports" NOT found at /META-INF/package.jdo
+22:24:47,167 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.Reports" NOT found at /WEB-INF/package.jdo
+22:24:47,167 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.Reports" NOT found at /package.jdo
+22:24:47,168 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.Reports" NOT found at /dom/package.jdo
+22:24:47,169 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.Reports" NOT found at /dom.jdo
+22:24:47,169 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.Reports" NOT found at /dom/todo/package.jdo
+22:24:47,170 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.Reports" NOT found at /dom/todo.jdo
+22:24:47,170 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.Reports" NOT found at /dom/todo/Reports.jdo
+22:24:47,170 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.Reports" not found
+22:24:47,170 (main) DEBUG [DataNucleus.MetaData] - Class "dom.todo.Reports" has annotations but there is no registered AnnotationReader. Please check your CLASSPATH and the annotations in the class for validity.
+22:24:47,170 (main) DEBUG [DataNucleus.MetaData] - Registering class "dom.todo.Reports" as not having MetaData.
+22:24:47,170 (main) DEBUG [DataNucleus.MetaData] - Class "dom.todo.Reports" has no MetaData or annotations.
+22:24:47,171 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.Role$1" NOT found at /META-INF/package.jdo
+22:24:47,171 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.Role$1" NOT found at /WEB-INF/package.jdo
+22:24:47,172 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.Role$1" NOT found at /package.jdo
+22:24:47,172 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.Role$1" NOT found at /dom/package.jdo
+22:24:47,172 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.Role$1" NOT found at /dom.jdo
+22:24:47,172 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.Role$1" NOT found at /dom/todo/package.jdo
+22:24:47,173 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.Role$1" NOT found at /dom/todo.jdo
+22:24:47,173 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.Role$1" NOT found at /dom/todo/Role$1.jdo
+22:24:47,173 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.Role$1" not found
+22:24:47,173 (main) DEBUG [DataNucleus.MetaData] - Registering class "dom.todo.Role$1" as not having MetaData.
+22:24:47,173 (main) DEBUG [DataNucleus.MetaData] - Class "dom.todo.Role$1" has no MetaData or annotations.
+22:24:47,176 (main) DEBUG [DataNucleus.MetaData] - Class "dom.todo.Role" has been specified with JDO annotations so using those.
+22:24:47,197 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.Sku$1" NOT found at /META-INF/package.jdo
+22:24:47,197 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.Sku$1" NOT found at /WEB-INF/package.jdo
+22:24:47,198 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.Sku$1" NOT found at /package.jdo
+22:24:47,198 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.Sku$1" NOT found at /dom/package.jdo
+22:24:47,198 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.Sku$1" NOT found at /dom.jdo
+22:24:47,198 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.Sku$1" NOT found at /dom/todo/package.jdo
+22:24:47,199 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.Sku$1" NOT found at /dom/todo.jdo
+22:24:47,199 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.Sku$1" NOT found at /dom/todo/Sku$1.jdo
+22:24:47,199 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.Sku$1" not found
+22:24:47,199 (main) DEBUG [DataNucleus.MetaData] - Registering class "dom.todo.Sku$1" as not having MetaData.
+22:24:47,199 (main) DEBUG [DataNucleus.MetaData] - Class "dom.todo.Sku$1" has no MetaData or annotations.
+22:24:47,202 (main) DEBUG [DataNucleus.MetaData] - Class "dom.todo.Sku" has been specified with JDO annotations so using those.
+22:24:47,207 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.StockLedger$1" NOT found at /META-INF/package.jdo
+22:24:47,207 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.StockLedger$1" NOT found at /WEB-INF/package.jdo
+22:24:47,207 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.StockLedger$1" NOT found at /package.jdo
+22:24:47,207 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.StockLedger$1" NOT found at /dom/package.jdo
+22:24:47,208 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.StockLedger$1" NOT found at /dom.jdo
+22:24:47,208 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.StockLedger$1" NOT found at /dom/todo/package.jdo
+22:24:47,208 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.StockLedger$1" NOT found at /dom/todo.jdo
+22:24:47,208 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.StockLedger$1" NOT found at /dom/todo/StockLedger$1.jdo
+22:24:47,208 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.StockLedger$1" not found
+22:24:47,209 (main) DEBUG [DataNucleus.MetaData] - Registering class "dom.todo.StockLedger$1" as not having MetaData.
+22:24:47,209 (main) DEBUG [DataNucleus.MetaData] - Class "dom.todo.StockLedger$1" has no MetaData or annotations.
+22:24:47,216 (main) DEBUG [DataNucleus.MetaData] - Class "dom.todo.StockLedger" has been specified with JDO annotations so using those.
+22:24:47,226 (main) DEBUG [DataNucleus.MetaData] - Class "dom.todo.StockLedgerChangedPayLoadFactory$StockLedgerPayload" has annotations but there is no registered AnnotationReader. Please check your CLASSPATH and the annotations in the class for validity.
+22:24:47,226 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.StockLedgerChangedPayLoadFactory$StockLedgerPayload" NOT found at /META-INF/package.jdo
+22:24:47,226 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.StockLedgerChangedPayLoadFactory$StockLedgerPayload" NOT found at /WEB-INF/package.jdo
+22:24:47,226 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.StockLedgerChangedPayLoadFactory$StockLedgerPayload" NOT found at /package.jdo
+22:24:47,227 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.StockLedgerChangedPayLoadFactory$StockLedgerPayload" NOT found at /dom/package.jdo
+22:24:47,227 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.StockLedgerChangedPayLoadFactory$StockLedgerPayload" NOT found at /dom.jdo
+22:24:47,227 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.StockLedgerChangedPayLoadFactory$StockLedgerPayload" NOT found at /dom/todo/package.jdo
+22:24:47,227 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.StockLedgerChangedPayLoadFactory$StockLedgerPayload" NOT found at /dom/todo.jdo
+22:24:47,228 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.StockLedgerChangedPayLoadFactory$StockLedgerPayload" NOT found at /dom/todo/StockLedgerChangedPayLoadFactory$StockLedgerPayload.jdo
+22:24:47,228 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.StockLedgerChangedPayLoadFactory$StockLedgerPayload" not found
+22:24:47,228 (main) DEBUG [DataNucleus.MetaData] - Class "dom.todo.StockLedgerChangedPayLoadFactory$StockLedgerPayload" has annotations but there is no registered AnnotationReader. Please check your CLASSPATH and the annotations in the class for validity.
+22:24:47,228 (main) DEBUG [DataNucleus.MetaData] - Registering class "dom.todo.StockLedgerChangedPayLoadFactory$StockLedgerPayload" as not having MetaData.
+22:24:47,228 (main) DEBUG [DataNucleus.MetaData] - Class "dom.todo.StockLedgerChangedPayLoadFactory$StockLedgerPayload" has no MetaData or annotations.
+22:24:47,228 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.StockLedgerChangedPayLoadFactory" NOT found at /META-INF/package.jdo
+22:24:47,229 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.StockLedgerChangedPayLoadFactory" NOT found at /WEB-INF/package.jdo
+22:24:47,229 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.StockLedgerChangedPayLoadFactory" NOT found at /package.jdo
+22:24:47,229 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.StockLedgerChangedPayLoadFactory" NOT found at /dom/package.jdo
+22:24:47,229 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.StockLedgerChangedPayLoadFactory" NOT found at /dom.jdo
+22:24:47,229 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.StockLedgerChangedPayLoadFactory" NOT found at /dom/todo/package.jdo
+22:24:47,230 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.StockLedgerChangedPayLoadFactory" NOT found at /dom/todo.jdo
+22:24:47,230 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.StockLedgerChangedPayLoadFactory" NOT found at /dom/todo/StockLedgerChangedPayLoadFactory.jdo
+22:24:47,230 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.StockLedgerChangedPayLoadFactory" not found
+22:24:47,230 (main) DEBUG [DataNucleus.MetaData] - Registering class "dom.todo.StockLedgerChangedPayLoadFactory" as not having MetaData.
+22:24:47,230 (main) DEBUG [DataNucleus.MetaData] - Class "dom.todo.StockLedgerChangedPayLoadFactory" has no MetaData or annotations.
+22:24:47,231 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.Terminal$1" NOT found at /META-INF/package.jdo
+22:24:47,231 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.Terminal$1" NOT found at /WEB-INF/package.jdo
+22:24:47,231 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.Terminal$1" NOT found at /package.jdo
+22:24:47,232 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.Terminal$1" NOT found at /dom/package.jdo
+22:24:47,232 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.Terminal$1" NOT found at /dom.jdo
+22:24:47,232 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.Terminal$1" NOT found at /dom/todo/package.jdo
+22:24:47,232 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.Terminal$1" NOT found at /dom/todo.jdo
+22:24:47,232 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.Terminal$1" NOT found at /dom/todo/Terminal$1.jdo
+22:24:47,233 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.Terminal$1" not found
+22:24:47,233 (main) DEBUG [DataNucleus.MetaData] - Registering class "dom.todo.Terminal$1" as not having MetaData.
+22:24:47,233 (main) DEBUG [DataNucleus.MetaData] - Class "dom.todo.Terminal$1" has no MetaData or annotations.
+22:24:47,236 (main) DEBUG [DataNucleus.MetaData] - Class "dom.todo.Terminal" has been specified with JDO annotations so using those.
+22:24:47,240 (main) DEBUG [DataNucleus.MetaData] - Class "dom.todo.Ticket" has annotations but there is no registered AnnotationReader. Please check your CLASSPATH and the annotations in the class for validity.
+22:24:47,241 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.Ticket" NOT found at /META-INF/package.jdo
+22:24:47,241 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.Ticket" NOT found at /WEB-INF/package.jdo
+22:24:47,241 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.Ticket" NOT found at /package.jdo
+22:24:47,241 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.Ticket" NOT found at /dom/package.jdo
+22:24:47,242 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.Ticket" NOT found at /dom.jdo
+22:24:47,242 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.Ticket" NOT found at /dom/todo/package.jdo
+22:24:47,242 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.Ticket" NOT found at /dom/todo.jdo
+22:24:47,242 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.Ticket" NOT found at /dom/todo/Ticket.jdo
+22:24:47,242 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.Ticket" not found
+22:24:47,242 (main) DEBUG [DataNucleus.MetaData] - Class "dom.todo.Ticket" has annotations but there is no registered AnnotationReader. Please check your CLASSPATH and the annotations in the class for validity.
+22:24:47,243 (main) DEBUG [DataNucleus.MetaData] - Registering class "dom.todo.Ticket" as not having MetaData.
+22:24:47,243 (main) DEBUG [DataNucleus.MetaData] - Class "dom.todo.Ticket" has no MetaData or annotations.
+22:24:47,243 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.ToDoItem$1" NOT found at /META-INF/package.jdo
+22:24:47,243 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.ToDoItem$1" NOT found at /WEB-INF/package.jdo
+22:24:47,244 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.ToDoItem$1" NOT found at /package.jdo
+22:24:47,244 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.ToDoItem$1" NOT found at /dom/package.jdo
+22:24:47,244 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.ToDoItem$1" NOT found at /dom.jdo
+22:24:47,244 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.ToDoItem$1" NOT found at /dom/todo/package.jdo
+22:24:47,245 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.ToDoItem$1" NOT found at /dom/todo.jdo
+22:24:47,245 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.ToDoItem$1" NOT found at /dom/todo/ToDoItem$1.jdo
+22:24:47,245 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.ToDoItem$1" not found
+22:24:47,245 (main) DEBUG [DataNucleus.MetaData] - Registering class "dom.todo.ToDoItem$1" as not having MetaData.
+22:24:47,245 (main) DEBUG [DataNucleus.MetaData] - Class "dom.todo.ToDoItem$1" has no MetaData or annotations.
+22:24:47,246 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.ToDoItem$Category$1" NOT found at /META-INF/package.jdo
+22:24:47,246 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.ToDoItem$Category$1" NOT found at /WEB-INF/package.jdo
+22:24:47,246 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.ToDoItem$Category$1" NOT found at /package.jdo
+22:24:47,247 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.ToDoItem$Category$1" NOT found at /dom/package.jdo
+22:24:47,247 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.ToDoItem$Category$1" NOT found at /dom.jdo
+22:24:47,247 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.ToDoItem$Category$1" NOT found at /dom/todo/package.jdo
+22:24:47,247 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.ToDoItem$Category$1" NOT found at /dom/todo.jdo
+22:24:47,248 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.ToDoItem$Category$1" NOT found at /dom/todo/ToDoItem$Category$1.jdo
+22:24:47,248 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.ToDoItem$Category$1" not found
+22:24:47,248 (main) DEBUG [DataNucleus.MetaData] - Registering class "dom.todo.ToDoItem$Category$1" as not having MetaData.
+22:24:47,248 (main) DEBUG [DataNucleus.MetaData] - Class "dom.todo.ToDoItem$Category$1" has no MetaData or annotations.
+22:24:47,248 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.ToDoItem$Category$2" NOT found at /META-INF/package.jdo
+22:24:47,249 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.ToDoItem$Category$2" NOT found at /WEB-INF/package.jdo
+22:24:47,249 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.ToDoItem$Category$2" NOT found at /package.jdo
+22:24:47,249 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.ToDoItem$Category$2" NOT found at /dom/package.jdo
+22:24:47,249 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.ToDoItem$Category$2" NOT found at /dom.jdo
+22:24:47,250 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.ToDoItem$Category$2" NOT found at /dom/todo/package.jdo
+22:24:47,250 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.ToDoItem$Category$2" NOT found at /dom/todo.jdo
+22:24:47,250 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.ToDoItem$Category$2" NOT found at /dom/todo/ToDoItem$Category$2.jdo
+22:24:47,250 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.ToDoItem$Category$2" not found
+22:24:47,250 (main) DEBUG [DataNucleus.MetaData] - Registering class "dom.todo.ToDoItem$Category$2" as not having MetaData.
+22:24:47,250 (main) DEBUG [DataNucleus.MetaData] - Class "dom.todo.ToDoItem$Category$2" has no MetaData or annotations.
+22:24:47,251 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.ToDoItem$Category$3" NOT found at /META-INF/package.jdo
+22:24:47,251 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.ToDoItem$Category$3" NOT found at /WEB-INF/package.jdo
+22:24:47,251 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.ToDoItem$Category$3" NOT found at /package.jdo
+22:24:47,252 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.ToDoItem$Category$3" NOT found at /dom/package.jdo
+22:24:47,252 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.ToDoItem$Category$3" NOT found at /dom.jdo
+22:24:47,252 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.ToDoItem$Category$3" NOT found at /dom/todo/package.jdo
+22:24:47,252 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.ToDoItem$Category$3" NOT found at /dom/todo.jdo
+22:24:47,253 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.ToDoItem$Category$3" NOT found at /dom/todo/ToDoItem$Category$3.jdo
+22:24:47,253 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.ToDoItem$Category$3" not found
+22:24:47,253 (main) DEBUG [DataNucleus.MetaData] - Registering class "dom.todo.ToDoItem$Category$3" as not having MetaData.
+22:24:47,253 (main) DEBUG [DataNucleus.MetaData] - Class "dom.todo.ToDoItem$Category$3" has no MetaData or annotations.
+22:24:47,253 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.ToDoItem$Category" NOT found at /META-INF/package.jdo
+22:24:47,253 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.ToDoItem$Category" NOT found at /WEB-INF/package.jdo
+22:24:47,254 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.ToDoItem$Category" NOT found at /package.jdo
+22:24:47,254 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.ToDoItem$Category" NOT found at /dom/package.jdo
+22:24:47,254 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.ToDoItem$Category" NOT found at /dom.jdo
+22:24:47,254 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.ToDoItem$Category" NOT found at /dom/todo/package.jdo
+22:24:47,254 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.ToDoItem$Category" NOT found at /dom/todo.jdo
+22:24:47,255 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.ToDoItem$Category" NOT found at /dom/todo/ToDoItem$Category.jdo
+22:24:47,255 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.ToDoItem$Category" not found
+22:24:47,255 (main) DEBUG [DataNucleus.MetaData] - Registering class "dom.todo.ToDoItem$Category" as not having MetaData.
+22:24:47,255 (main) DEBUG [DataNucleus.MetaData] - Class "dom.todo.ToDoItem$Category" has no MetaData or annotations.
+22:24:47,257 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.ToDoItem$DependenciesComparator$1" NOT found at /META-INF/package.jdo
+22:24:47,257 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.ToDoItem$DependenciesComparator$1" NOT found at /WEB-INF/package.jdo
+22:24:47,258 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.ToDoItem$DependenciesComparator$1" NOT found at /package.jdo
+22:24:47,258 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.ToDoItem$DependenciesComparator$1" NOT found at /dom/package.jdo
+22:24:47,258 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.ToDoItem$DependenciesComparator$1" NOT found at /dom.jdo
+22:24:47,258 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.ToDoItem$DependenciesComparator$1" NOT found at /dom/todo/package.jdo
+22:24:47,259 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.ToDoItem$DependenciesComparator$1" NOT found at /dom/todo.jdo
+22:24:47,259 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.ToDoItem$DependenciesComparator$1" NOT found at /dom/todo/ToDoItem$DependenciesComparator$1.jdo
+22:24:47,259 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.ToDoItem$DependenciesComparator$1" not found
+22:24:47,259 (main) DEBUG [DataNucleus.MetaData] - Registering class "dom.todo.ToDoItem$DependenciesComparator$1" as not having MetaData.
+22:24:47,259 (main) DEBUG [DataNucleus.MetaData] - Class "dom.todo.ToDoItem$DependenciesComparator$1" has no MetaData or annotations.
+22:24:47,288 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.ToDoItem$DependenciesComparator" NOT found at /META-INF/package.jdo
+22:24:47,288 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.ToDoItem$DependenciesComparator" NOT found at /WEB-INF/package.jdo
+22:24:47,288 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.ToDoItem$DependenciesComparator" NOT found at /package.jdo
+22:24:47,289 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.ToDoItem$DependenciesComparator" NOT found at /dom/package.jdo
+22:24:47,289 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.ToDoItem$DependenciesComparator" NOT found at /dom.jdo
+22:24:47,289 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.ToDoItem$DependenciesComparator" NOT found at /dom/todo/package.jdo
+22:24:47,290 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.ToDoItem$DependenciesComparator" NOT found at /dom/todo.jdo
+22:24:47,290 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.ToDoItem$DependenciesComparator" NOT found at /dom/todo/ToDoItem$DependenciesComparator.jdo
+22:24:47,290 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.ToDoItem$DependenciesComparator" not found
+22:24:47,290 (main) DEBUG [DataNucleus.MetaData] - Registering class "dom.todo.ToDoItem$DependenciesComparator" as not having MetaData.
+22:24:47,290 (main) DEBUG [DataNucleus.MetaData] - Class "dom.todo.ToDoItem$DependenciesComparator" has no MetaData or annotations.
+22:24:47,291 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.ToDoItem$Predicates$1" NOT found at /META-INF/package.jdo
+22:24:47,291 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.ToDoItem$Predicates$1" NOT found at /WEB-INF/package.jdo
+22:24:47,291 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.ToDoItem$Predicates$1" NOT found at /package.jdo
+22:24:47,292 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.ToDoItem$Predicates$1" NOT found at /dom/package.jdo
+22:24:47,292 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.ToDoItem$Predicates$1" NOT found at /dom.jdo
+22:24:47,292 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.ToDoItem$Predicates$1" NOT found at /dom/todo/package.jdo
+22:24:47,292 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.ToDoItem$Predicates$1" NOT found at /dom/todo.jdo
+22:24:47,293 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.ToDoItem$Predicates$1" NOT found at /dom/todo/ToDoItem$Predicates$1.jdo
+22:24:47,293 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.ToDoItem$Predicates$1" not found
+22:24:47,293 (main) DEBUG [DataNucleus.MetaData] - Registering class "dom.todo.ToDoItem$Predicates$1" as not having MetaData.
+22:24:47,293 (main) DEBUG [DataNucleus.MetaData] - Class "dom.todo.ToDoItem$Predicates$1" has no MetaData or annotations.
+22:24:47,294 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.ToDoItem$Predicates$2" NOT found at /META-INF/package.jdo
+22:24:47,294 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.ToDoItem$Predicates$2" NOT found at /WEB-INF/package.jdo
+22:24:47,294 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.ToDoItem$Predicates$2" NOT found at /package.jdo
+22:24:47,294 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.ToDoItem$Predicates$2" NOT found at /dom/package.jdo
+22:24:47,294 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.ToDoItem$Predicates$2" NOT found at /dom.jdo
+22:24:47,295 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.ToDoItem$Predicates$2" NOT found at /dom/todo/package.jdo
+22:24:47,295 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.ToDoItem$Predicates$2" NOT found at /dom/todo.jdo
+22:24:47,295 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.ToDoItem$Predicates$2" NOT found at /dom/todo/ToDoItem$Predicates$2.jdo
+22:24:47,295 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.ToDoItem$Predicates$2" not found
+22:24:47,295 (main) DEBUG [DataNucleus.MetaData] - Registering class "dom.todo.ToDoItem$Predicates$2" as not having MetaData.
+22:24:47,295 (main) DEBUG [DataNucleus.MetaData] - Class "dom.todo.ToDoItem$Predicates$2" has no MetaData or annotations.
+22:24:47,296 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.ToDoItem$Predicates$3" NOT found at /META-INF/package.jdo
+22:24:47,296 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.ToDoItem$Predicates$3" NOT found at /WEB-INF/package.jdo
+22:24:47,296 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.ToDoItem$Predicates$3" NOT found at /package.jdo
+22:24:47,297 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.ToDoItem$Predicates$3" NOT found at /dom/package.jdo
+22:24:47,297 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.ToDoItem$Predicates$3" NOT found at /dom.jdo
+22:24:47,297 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.ToDoItem$Predicates$3" NOT found at /dom/todo/package.jdo
+22:24:47,298 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.ToDoItem$Predicates$3" NOT found at /dom/todo.jdo
+22:24:47,298 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.ToDoItem$Predicates$3" NOT found at /dom/todo/ToDoItem$Predicates$3.jdo
+22:24:47,298 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.ToDoItem$Predicates$3" not found
+22:24:47,298 (main) DEBUG [DataNucleus.MetaData] - Registering class "dom.todo.ToDoItem$Predicates$3" as not having MetaData.
+22:24:47,298 (main) DEBUG [DataNucleus.MetaData] - Class "dom.todo.ToDoItem$Predicates$3" has no MetaData or annotations.
+22:24:47,299 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.ToDoItem$Predicates$4" NOT found at /META-INF/package.jdo
+22:24:47,299 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.ToDoItem$Predicates$4" NOT found at /WEB-INF/package.jdo
+22:24:47,299 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.ToDoItem$Predicates$4" NOT found at /package.jdo
+22:24:47,299 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.ToDoItem$Predicates$4" NOT found at /dom/package.jdo
+22:24:47,300 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.ToDoItem$Predicates$4" NOT found at /dom.jdo
+22:24:47,302 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.ToDoItem$Predicates$4" NOT found at /dom/todo/package.jdo
+22:24:47,303 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.ToDoItem$Predicates$4" NOT found at /dom/todo.jdo
+22:24:47,303 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.ToDoItem$Predicates$4" NOT found at /dom/todo/ToDoItem$Predicates$4.jdo
+22:24:47,303 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.ToDoItem$Predicates$4" not found
+22:24:47,303 (main) DEBUG [DataNucleus.MetaData] - Registering class "dom.todo.ToDoItem$Predicates$4" as not having MetaData.
+22:24:47,303 (main) DEBUG [DataNucleus.MetaData] - Class "dom.todo.ToDoItem$Predicates$4" has no MetaData or annotations.
+22:24:47,304 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.ToDoItem$Predicates$5" NOT found at /META-INF/package.jdo
+22:24:47,304 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.ToDoItem$Predicates$5" NOT found at /WEB-INF/package.jdo
+22:24:47,304 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.ToDoItem$Predicates$5" NOT found at /package.jdo
+22:24:47,305 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.ToDoItem$Predicates$5" NOT found at /dom/package.jdo
+22:24:47,305 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.ToDoItem$Predicates$5" NOT found at /dom.jdo
+22:24:47,305 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.ToDoItem$Predicates$5" NOT found at /dom/todo/package.jdo
+22:24:47,305 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.ToDoItem$Predicates$5" NOT found at /dom/todo.jdo
+22:24:47,305 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.ToDoItem$Predicates$5" NOT found at /dom/todo/ToDoItem$Predicates$5.jdo
+22:24:47,306 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.ToDoItem$Predicates$5" not found
+22:24:47,306 (main) DEBUG [DataNucleus.MetaData] - Registering class "dom.todo.ToDoItem$Predicates$5" as not having MetaData.
+22:24:47,306 (main) DEBUG [DataNucleus.MetaData] - Class "dom.todo.ToDoItem$Predicates$5" has no MetaData or annotations.
+22:24:47,306 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.ToDoItem$Predicates$6" NOT found at /META-INF/package.jdo
+22:24:47,306 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.ToDoItem$Predicates$6" NOT found at /WEB-INF/package.jdo
+22:24:47,307 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.ToDoItem$Predicates$6" NOT found at /package.jdo
+22:24:47,307 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.ToDoItem$Predicates$6" NOT found at /dom/package.jdo
+22:24:47,307 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.ToDoItem$Predicates$6" NOT found at /dom.jdo
+22:24:47,307 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.ToDoItem$Predicates$6" NOT found at /dom/todo/package.jdo
+22:24:47,308 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.ToDoItem$Predicates$6" NOT found at /dom/todo.jdo
+22:24:47,308 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.ToDoItem$Predicates$6" NOT found at /dom/todo/ToDoItem$Predicates$6.jdo
+22:24:47,308 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.ToDoItem$Predicates$6" not found
+22:24:47,308 (main) DEBUG [DataNucleus.MetaData] - Registering class "dom.todo.ToDoItem$Predicates$6" as not having MetaData.
+22:24:47,308 (main) DEBUG [DataNucleus.MetaData] - Class "dom.todo.ToDoItem$Predicates$6" has no MetaData or annotations.
+22:24:47,309 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.ToDoItem$Predicates" NOT found at /META-INF/package.jdo
+22:24:47,309 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.ToDoItem$Predicates" NOT found at /WEB-INF/package.jdo
+22:24:47,309 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.ToDoItem$Predicates" NOT found at /package.jdo
+22:24:47,309 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.ToDoItem$Predicates" NOT found at /dom/package.jdo
+22:24:47,310 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.ToDoItem$Predicates" NOT found at /dom.jdo
+22:24:47,310 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.ToDoItem$Predicates" NOT found at /dom/todo/package.jdo
+22:24:47,310 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.ToDoItem$Predicates" NOT found at /dom/todo.jdo
+22:24:47,310 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.ToDoItem$Predicates" NOT found at /dom/todo/ToDoItem$Predicates.jdo
+22:24:47,310 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.ToDoItem$Predicates" not found
+22:24:47,310 (main) DEBUG [DataNucleus.MetaData] - Registering class "dom.todo.ToDoItem$Predicates" as not having MetaData.
+22:24:47,311 (main) DEBUG [DataNucleus.MetaData] - Class "dom.todo.ToDoItem$Predicates" has no MetaData or annotations.
+22:24:47,311 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.ToDoItem$Subcategory$1" NOT found at /META-INF/package.jdo
+22:24:47,311 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.ToDoItem$Subcategory$1" NOT found at /WEB-INF/package.jdo
+22:24:47,312 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.ToDoItem$Subcategory$1" NOT found at /package.jdo
+22:24:47,312 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.ToDoItem$Subcategory$1" NOT found at /dom/package.jdo
+22:24:47,312 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.ToDoItem$Subcategory$1" NOT found at /dom.jdo
+22:24:47,312 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.ToDoItem$Subcategory$1" NOT found at /dom/todo/package.jdo
+22:24:47,312 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.ToDoItem$Subcategory$1" NOT found at /dom/todo.jdo
+22:24:47,313 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.ToDoItem$Subcategory$1" NOT found at /dom/todo/ToDoItem$Subcategory$1.jdo
+22:24:47,313 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.ToDoItem$Subcategory$1" not found
+22:24:47,313 (main) DEBUG [DataNucleus.MetaData] - Registering class "dom.todo.ToDoItem$Subcategory$1" as not having MetaData.
+22:24:47,313 (main) DEBUG [DataNucleus.MetaData] - Class "dom.todo.ToDoItem$Subcategory$1" has no MetaData or annotations.
+22:24:47,314 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.ToDoItem$Subcategory" NOT found at /META-INF/package.jdo
+22:24:47,314 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.ToDoItem$Subcategory" NOT found at /WEB-INF/package.jdo
+22:24:47,314 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.ToDoItem$Subcategory" NOT found at /package.jdo
+22:24:47,314 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.ToDoItem$Subcategory" NOT found at /dom/package.jdo
+22:24:47,314 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.ToDoItem$Subcategory" NOT found at /dom.jdo
+22:24:47,315 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.ToDoItem$Subcategory" NOT found at /dom/todo/package.jdo
+22:24:47,315 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.ToDoItem$Subcategory" NOT found at /dom/todo.jdo
+22:24:47,315 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.ToDoItem$Subcategory" NOT found at /dom/todo/ToDoItem$Subcategory.jdo
+22:24:47,315 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.ToDoItem$Subcategory" not found
+22:24:47,315 (main) DEBUG [DataNucleus.MetaData] - Registering class "dom.todo.ToDoItem$Subcategory" as not having MetaData.
+22:24:47,315 (main) DEBUG [DataNucleus.MetaData] - Class "dom.todo.ToDoItem$Subcategory" has no MetaData or annotations.
+22:24:47,322 (main) DEBUG [DataNucleus.MetaData] - Class "dom.todo.ToDoItem" has been specified with JDO annotations so using those.
+22:24:47,348 (main) DEBUG [DataNucleus.MetaData] - Ignoring metadata for field dom.todo.ToDoItem.dueBy since we already have MetaData for the property dom.todo.ToDoItem.dueBy
+22:24:47,349 (main) DEBUG [DataNucleus.MetaData] - Class "dom.todo.ToDoItemChangedPayloadFactory$ToDoItemPayload" has annotations but there is no registered AnnotationReader. Please check your CLASSPATH and the annotations in the class for validity.
+22:24:47,349 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.ToDoItemChangedPayloadFactory$ToDoItemPayload" NOT found at /META-INF/package.jdo
+22:24:47,349 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.ToDoItemChangedPayloadFactory$ToDoItemPayload" NOT found at /WEB-INF/package.jdo
+22:24:47,350 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.ToDoItemChangedPayloadFactory$ToDoItemPayload" NOT found at /package.jdo
+22:24:47,350 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.ToDoItemChangedPayloadFactory$ToDoItemPayload" NOT found at /dom/package.jdo
+22:24:47,350 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.ToDoItemChangedPayloadFactory$ToDoItemPayload" NOT found at /dom.jdo
+22:24:47,350 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.ToDoItemChangedPayloadFactory$ToDoItemPayload" NOT found at /dom/todo/package.jdo
+22:24:47,351 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.ToDoItemChangedPayloadFactory$ToDoItemPayload" NOT found at /dom/todo.jdo
+22:24:47,351 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.ToDoItemChangedPayloadFactory$ToDoItemPayload" NOT found at /dom/todo/ToDoItemChangedPayloadFactory$ToDoItemPayload.jdo
+22:24:47,351 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.ToDoItemChangedPayloadFactory$ToDoItemPayload" not found
+22:24:47,351 (main) DEBUG [DataNucleus.MetaData] - Class "dom.todo.ToDoItemChangedPayloadFactory$ToDoItemPayload" has annotations but there is no registered AnnotationReader. Please check your CLASSPATH and the annotations in the class for validity.
+22:24:47,351 (main) DEBUG [DataNucleus.MetaData] - Registering class "dom.todo.ToDoItemChangedPayloadFactory$ToDoItemPayload" as not having MetaData.
+22:24:47,351 (main) DEBUG [DataNucleus.MetaData] - Class "dom.todo.ToDoItemChangedPayloadFactory$ToDoItemPayload" has no MetaData or annotations.
+22:24:47,352 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.ToDoItemChangedPayloadFactory" NOT found at /META-INF/package.jdo
+22:24:47,352 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.ToDoItemChangedPayloadFactory" NOT found at /WEB-INF/package.jdo
+22:24:47,352 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.ToDoItemChangedPayloadFactory" NOT found at /package.jdo
+22:24:47,352 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.ToDoItemChangedPayloadFactory" NOT found at /dom/package.jdo
+22:24:47,352 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.ToDoItemChangedPayloadFactory" NOT found at /dom.jdo
+22:24:47,353 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.ToDoItemChangedPayloadFactory" NOT found at /dom/todo/package.jdo
+22:24:47,355 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.ToDoItemChangedPayloadFactory" NOT found at /dom/todo.jdo
+22:24:47,356 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.ToDoItemChangedPayloadFactory" NOT found at /dom/todo/ToDoItemChangedPayloadFactory.jdo
+22:24:47,356 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.ToDoItemChangedPayloadFactory" not found
+22:24:47,356 (main) DEBUG [DataNucleus.MetaData] - Registering class "dom.todo.ToDoItemChangedPayloadFactory" as not having MetaData.
+22:24:47,356 (main) DEBUG [DataNucleus.MetaData] - Class "dom.todo.ToDoItemChangedPayloadFactory" has no MetaData or annotations.
+22:24:47,359 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.ToDoItemContributions$1" NOT found at /META-INF/package.jdo
+22:24:47,359 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.ToDoItemContributions$1" NOT found at /WEB-INF/package.jdo
+22:24:47,359 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.ToDoItemContributions$1" NOT found at /package.jdo
+22:24:47,360 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.ToDoItemContributions$1" NOT found at /dom/package.jdo
+22:24:47,362 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.ToDoItemContributions$1" NOT found at /dom.jdo
+22:24:47,362 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.ToDoItemContributions$1" NOT found at /dom/todo/package.jdo
+22:24:47,363 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.ToDoItemContributions$1" NOT found at /dom/todo.jdo
+22:24:47,363 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.ToDoItemContributions$1" NOT found at /dom/todo/ToDoItemContributions$1.jdo
+22:24:47,363 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.ToDoItemContributions$1" not found
+22:24:47,363 (main) DEBUG [DataNucleus.MetaData] - Registering class "dom.todo.ToDoItemContributions$1" as not having MetaData.
+22:24:47,363 (main) DEBUG [DataNucleus.MetaData] - Class "dom.todo.ToDoItemContributions$1" has no MetaData or annotations.
+22:24:47,366 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.ToDoItemContributions$2" NOT found at /META-INF/package.jdo
+22:24:47,366 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.ToDoItemContributions$2" NOT found at /WEB-INF/package.jdo
+22:24:47,367 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.ToDoItemContributions$2" NOT found at /package.jdo
+22:24:47,367 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.ToDoItemContributions$2" NOT found at /dom/package.jdo
+22:24:47,367 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.ToDoItemContributions$2" NOT found at /dom.jdo
+22:24:47,367 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.ToDoItemContributions$2" NOT found at /dom/todo/package.jdo
+22:24:47,368 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.ToDoItemContributions$2" NOT found at /dom/todo.jdo
+22:24:47,368 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.ToDoItemContributions$2" NOT found at /dom/todo/ToDoItemContributions$2.jdo
+22:24:47,368 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.ToDoItemContributions$2" not found
+22:24:47,368 (main) DEBUG [DataNucleus.MetaData] - Registering class "dom.todo.ToDoItemContributions$2" as not having MetaData.
+22:24:47,368 (main) DEBUG [DataNucleus.MetaData] - Class "dom.todo.ToDoItemContributions$2" has no MetaData or annotations.
+22:24:47,369 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.ToDoItemContributions$3" NOT found at /META-INF/package.jdo
+22:24:47,369 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.ToDoItemContributions$3" NOT found at /WEB-INF/package.jdo
+22:24:47,369 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.ToDoItemContributions$3" NOT found at /package.jdo
+22:24:47,369 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.ToDoItemContributions$3" NOT found at /dom/package.jdo
+22:24:47,370 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.ToDoItemContributions$3" NOT found at /dom.jdo
+22:24:47,370 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.ToDoItemContributions$3" NOT found at /dom/todo/package.jdo
+22:24:47,370 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.ToDoItemContributions$3" NOT found at /dom/todo.jdo
+22:24:47,370 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.ToDoItemContributions$3" NOT found at /dom/todo/ToDoItemContributions$3.jdo
+22:24:47,370 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.ToDoItemContributions$3" not found
+22:24:47,370 (main) DEBUG [DataNucleus.MetaData] - Registering class "dom.todo.ToDoItemContributions$3" as not having MetaData.
+22:24:47,370 (main) DEBUG [DataNucleus.MetaData] - Class "dom.todo.ToDoItemContributions$3" has no MetaData or annotations.
+22:24:47,372 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.ToDoItemContributions" NOT found at /META-INF/package.jdo
+22:24:47,372 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.ToDoItemContributions" NOT found at /WEB-INF/package.jdo
+22:24:47,372 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.ToDoItemContributions" NOT found at /package.jdo
+22:24:47,372 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.ToDoItemContributions" NOT found at /dom/package.jdo
+22:24:47,373 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.ToDoItemContributions" NOT found at /dom.jdo
+22:24:47,373 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.ToDoItemContributions" NOT found at /dom/todo/package.jdo
+22:24:47,373 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.ToDoItemContributions" NOT found at /dom/todo.jdo
+22:24:47,373 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.ToDoItemContributions" NOT found at /dom/todo/ToDoItemContributions.jdo
+22:24:47,373 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.ToDoItemContributions" not found
+22:24:47,374 (main) DEBUG [DataNucleus.MetaData] - Registering class "dom.todo.ToDoItemContributions" as not having MetaData.
+22:24:47,374 (main) DEBUG [DataNucleus.MetaData] - Class "dom.todo.ToDoItemContributions" has no MetaData or annotations.
+22:24:47,374 (main) DEBUG [DataNucleus.MetaData] - Class "dom.todo.ToDoItems" has annotations but there is no registered AnnotationReader. Please check your CLASSPATH and the annotations in the class for validity.
+22:24:47,374 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.ToDoItems" NOT found at /META-INF/package.jdo
+22:24:47,374 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.ToDoItems" NOT found at /WEB-INF/package.jdo
+22:24:47,375 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.ToDoItems" NOT found at /package.jdo
+22:24:47,375 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.ToDoItems" NOT found at /dom/package.jdo
+22:24:47,375 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.ToDoItems" NOT found at /dom.jdo
+22:24:47,375 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.ToDoItems" NOT found at /dom/todo/package.jdo
+22:24:47,375 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.ToDoItems" NOT found at /dom/todo.jdo
+22:24:47,376 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.ToDoItems" NOT found at /dom/todo/ToDoItems.jdo
+22:24:47,376 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.ToDoItems" not found
+22:24:47,376 (main) DEBUG [DataNucleus.MetaData] - Class "dom.todo.ToDoItems" has annotations but there is no registered AnnotationReader. Please check your CLASSPATH and the annotations in the class for validity.
+22:24:47,376 (main) DEBUG [DataNucleus.MetaData] - Registering class "dom.todo.ToDoItems" as not having MetaData.
+22:24:47,376 (main) DEBUG [DataNucleus.MetaData] - Class "dom.todo.ToDoItems" has no MetaData or annotations.
+22:24:47,379 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.Transaction$1" NOT found at /META-INF/package.jdo
+22:24:47,379 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.Transaction$1" NOT found at /WEB-INF/package.jdo
+22:24:47,379 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.Transaction$1" NOT found at /package.jdo
+22:24:47,379 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.Transaction$1" NOT found at /dom/package.jdo
+22:24:47,380 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.Transaction$1" NOT found at /dom.jdo
+22:24:47,380 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.Transaction$1" NOT found at /dom/todo/package.jdo
+22:24:47,380 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.Transaction$1" NOT found at /dom/todo.jdo
+22:24:47,380 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.Transaction$1" NOT found at /dom/todo/Transaction$1.jdo
+22:24:47,380 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.Transaction$1" not found
+22:24:47,380 (main) DEBUG [DataNucleus.MetaData] - Registering class "dom.todo.Transaction$1" as not having MetaData.
+22:24:47,381 (main) DEBUG [DataNucleus.MetaData] - Class "dom.todo.Transaction$1" has no MetaData or annotations.
+22:24:47,381 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.Transaction$TransactionType" NOT found at /META-INF/package.jdo
+22:24:47,381 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.Transaction$TransactionType" NOT found at /WEB-INF/package.jdo
+22:24:47,382 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.Transaction$TransactionType" NOT found at /package.jdo
+22:24:47,382 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.Transaction$TransactionType" NOT found at /dom/package.jdo
+22:24:47,382 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.Transaction$TransactionType" NOT found at /dom.jdo
+22:24:47,382 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.Transaction$TransactionType" NOT found at /dom/todo/package.jdo
+22:24:47,383 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.Transaction$TransactionType" NOT found at /dom/todo.jdo
+22:24:47,383 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.Transaction$TransactionType" NOT found at /dom/todo/Transaction$TransactionType.jdo
+22:24:47,383 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.Transaction$TransactionType" not found
+22:24:47,383 (main) DEBUG [DataNucleus.MetaData] - Registering class "dom.todo.Transaction$TransactionType" as not having MetaData.
+22:24:47,383 (main) DEBUG [DataNucleus.MetaData] - Class "dom.todo.Transaction$TransactionType" has no MetaData or annotations.
+22:24:47,385 (main) DEBUG [DataNucleus.MetaData] - Class "dom.todo.Transaction" has been specified with JDO annotations so using those.
+22:24:47,395 (main) DEBUG [DataNucleus.MetaData] - Ignoring metadata for field dom.todo.Transaction.validTo since we already have MetaData for the property dom.todo.Transaction.validTo
+22:24:47,395 (main) DEBUG [DataNucleus.MetaData] - Ignoring metadata for field dom.todo.Transaction.transactionDate since we already have MetaData for the property dom.todo.Transaction.transactionDate
+22:24:47,395 (main) DEBUG [DataNucleus.MetaData] - Class "dom.todo.Transactions" has annotations but there is no registered AnnotationReader. Please check your CLASSPATH and the annotations in the class for validity.
+22:24:47,396 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.Transactions" NOT found at /META-INF/package.jdo
+22:24:47,396 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.Transactions" NOT found at /WEB-INF/package.jdo
+22:24:47,396 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.Transactions" NOT found at /package.jdo
+22:24:47,396 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.Transactions" NOT found at /dom/package.jdo
+22:24:47,397 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.Transactions" NOT found at /dom.jdo
+22:24:47,397 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.Transactions" NOT found at /dom/todo/package.jdo
+22:24:47,397 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.Transactions" NOT found at /dom/todo.jdo
+22:24:47,397 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.Transactions" NOT found at /dom/todo/Transactions.jdo
+22:24:47,397 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.Transactions" not found
+22:24:47,397 (main) DEBUG [DataNucleus.MetaData] - Class "dom.todo.Transactions" has annotations but there is no registered AnnotationReader. Please check your CLASSPATH and the annotations in the class for validity.
+22:24:47,397 (main) DEBUG [DataNucleus.MetaData] - Registering class "dom.todo.Transactions" as not having MetaData.
+22:24:47,398 (main) DEBUG [DataNucleus.MetaData] - Class "dom.todo.Transactions" has no MetaData or annotations.
+22:24:47,398 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.User$1" NOT found at /META-INF/package.jdo
+22:24:47,398 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.User$1" NOT found at /WEB-INF/package.jdo
+22:24:47,399 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.User$1" NOT found at /package.jdo
+22:24:47,399 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.User$1" NOT found at /dom/package.jdo
+22:24:47,399 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.User$1" NOT found at /dom.jdo
+22:24:47,399 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.User$1" NOT found at /dom/todo/package.jdo
+22:24:47,399 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.User$1" NOT found at /dom/todo.jdo
+22:24:47,400 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.User$1" NOT found at /dom/todo/User$1.jdo
+22:24:47,400 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.User$1" not found
+22:24:47,400 (main) DEBUG [DataNucleus.MetaData] - Registering class "dom.todo.User$1" as not having MetaData.
+22:24:47,400 (main) DEBUG [DataNucleus.MetaData] - Class "dom.todo.User$1" has no MetaData or annotations.
+22:24:47,402 (main) DEBUG [DataNucleus.MetaData] - Class "dom.todo.User" has been specified with JDO annotations so using those.
+22:24:47,406 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.UserManager$1" NOT found at /META-INF/package.jdo
+22:24:47,407 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.UserManager$1" NOT found at /WEB-INF/package.jdo
+22:24:47,407 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.UserManager$1" NOT found at /package.jdo
+22:24:47,407 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.UserManager$1" NOT found at /dom/package.jdo
+22:24:47,407 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.UserManager$1" NOT found at /dom.jdo
+22:24:47,408 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.UserManager$1" NOT found at /dom/todo/package.jdo
+22:24:47,408 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.UserManager$1" NOT found at /dom/todo.jdo
+22:24:47,408 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.UserManager$1" NOT found at /dom/todo/UserManager$1.jdo
+22:24:47,408 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.UserManager$1" not found
+22:24:47,408 (main) DEBUG [DataNucleus.MetaData] - Registering class "dom.todo.UserManager$1" as not having MetaData.
+22:24:47,408 (main) DEBUG [DataNucleus.MetaData] - Class "dom.todo.UserManager$1" has no MetaData or annotations.
+22:24:47,409 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.UserManager$2" NOT found at /META-INF/package.jdo
+22:24:47,409 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.UserManager$2" NOT found at /WEB-INF/package.jdo
+22:24:47,409 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.UserManager$2" NOT found at /package.jdo
+22:24:47,410 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.UserManager$2" NOT found at /dom/package.jdo
+22:24:47,410 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.UserManager$2" NOT found at /dom.jdo
+22:24:47,410 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.UserManager$2" NOT found at /dom/todo/package.jdo
+22:24:47,410 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.UserManager$2" NOT found at /dom/todo.jdo
+22:24:47,411 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.UserManager$2" NOT found at /dom/todo/UserManager$2.jdo
+22:24:47,411 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.UserManager$2" not found
+22:24:47,411 (main) DEBUG [DataNucleus.MetaData] - Registering class "dom.todo.UserManager$2" as not having MetaData.
+22:24:47,411 (main) DEBUG [DataNucleus.MetaData] - Class "dom.todo.UserManager$2" has no MetaData or annotations.
+22:24:47,411 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.UserManager$3" NOT found at /META-INF/package.jdo
+22:24:47,412 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.UserManager$3" NOT found at /WEB-INF/package.jdo
+22:24:47,412 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.UserManager$3" NOT found at /package.jdo
+22:24:47,412 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.UserManager$3" NOT found at /dom/package.jdo
+22:24:47,412 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.UserManager$3" NOT found at /dom.jdo
+22:24:47,413 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.UserManager$3" NOT found at /dom/todo/package.jdo
+22:24:47,413 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.UserManager$3" NOT found at /dom/todo.jdo
+22:24:47,413 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.UserManager$3" NOT found at /dom/todo/UserManager$3.jdo
+22:24:47,413 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.UserManager$3" not found
+22:24:47,413 (main) DEBUG [DataNucleus.MetaData] - Registering class "dom.todo.UserManager$3" as not having MetaData.
+22:24:47,413 (main) DEBUG [DataNucleus.MetaData] - Class "dom.todo.UserManager$3" has no MetaData or annotations.
+22:24:47,414 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.UserManager$NotifyUserIfNone" NOT found at /META-INF/package.jdo
+22:24:47,414 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.UserManager$NotifyUserIfNone" NOT found at /WEB-INF/package.jdo
+22:24:47,414 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.UserManager$NotifyUserIfNone" NOT found at /package.jdo
+22:24:47,415 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.UserManager$NotifyUserIfNone" NOT found at /dom/package.jdo
+22:24:47,415 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.UserManager$NotifyUserIfNone" NOT found at /dom.jdo
+22:24:47,415 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.UserManager$NotifyUserIfNone" NOT found at /dom/todo/package.jdo
+22:24:47,415 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.UserManager$NotifyUserIfNone" NOT found at /dom/todo.jdo
+22:24:47,416 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.UserManager$NotifyUserIfNone" NOT found at /dom/todo/UserManager$NotifyUserIfNone.jdo
+22:24:47,416 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.UserManager$NotifyUserIfNone" not found
+22:24:47,416 (main) DEBUG [DataNucleus.MetaData] - Registering class "dom.todo.UserManager$NotifyUserIfNone" as not having MetaData.
+22:24:47,416 (main) DEBUG [DataNucleus.MetaData] - Class "dom.todo.UserManager$NotifyUserIfNone" has no MetaData or annotations.
+22:24:47,416 (main) DEBUG [DataNucleus.MetaData] - Class "dom.todo.UserManager" has annotations but there is no registered AnnotationReader. Please check your CLASSPATH and the annotations in the class for validity.
+22:24:47,416 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.UserManager" NOT found at /META-INF/package.jdo
+22:24:47,417 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.UserManager" NOT found at /WEB-INF/package.jdo
+22:24:47,417 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.UserManager" NOT found at /package.jdo
+22:24:47,417 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.UserManager" NOT found at /dom/package.jdo
+22:24:47,417 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.UserManager" NOT found at /dom.jdo
+22:24:47,417 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.UserManager" NOT found at /dom/todo/package.jdo
+22:24:47,418 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.UserManager" NOT found at /dom/todo.jdo
+22:24:47,418 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.UserManager" NOT found at /dom/todo/UserManager.jdo
+22:24:47,418 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.UserManager" not found
+22:24:47,418 (main) DEBUG [DataNucleus.MetaData] - Class "dom.todo.UserManager" has annotations but there is no registered AnnotationReader. Please check your CLASSPATH and the annotations in the class for validity.
+22:24:47,418 (main) DEBUG [DataNucleus.MetaData] - Registering class "dom.todo.UserManager" as not having MetaData.
+22:24:47,418 (main) DEBUG [DataNucleus.MetaData] - Class "dom.todo.UserManager" has no MetaData or annotations.
+22:24:47,419 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.VoucherClass$1" NOT found at /META-INF/package.jdo
+22:24:47,419 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.VoucherClass$1" NOT found at /WEB-INF/package.jdo
+22:24:47,419 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.VoucherClass$1" NOT found at /package.jdo
+22:24:47,419 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.VoucherClass$1" NOT found at /dom/package.jdo
+22:24:47,420 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.VoucherClass$1" NOT found at /dom.jdo
+22:24:47,420 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.VoucherClass$1" NOT found at /dom/todo/package.jdo
+22:24:47,420 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.VoucherClass$1" NOT found at /dom/todo.jdo
+22:24:47,420 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.VoucherClass$1" NOT found at /dom/todo/VoucherClass$1.jdo
+22:24:47,421 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.VoucherClass$1" not found
+22:24:47,421 (main) DEBUG [DataNucleus.MetaData] - Registering class "dom.todo.VoucherClass$1" as not having MetaData.
+22:24:47,421 (main) DEBUG [DataNucleus.MetaData] - Class "dom.todo.VoucherClass$1" has no MetaData or annotations.
+22:24:47,423 (main) DEBUG [DataNucleus.MetaData] - Class "dom.todo.VoucherClass" has been specified with JDO annotations so using those.
+22:24:47,429 (main) DEBUG [DataNucleus.MetaData] - Ignoring metadata for field dom.todo.VoucherClass.validTo since we already have MetaData for the property dom.todo.VoucherClass.validTo
+22:24:47,429 (main) DEBUG [DataNucleus.MetaData] - Ignoring metadata for field dom.todo.VoucherClass.validFrom since we already have MetaData for the property dom.todo.VoucherClass.validFrom
+22:24:47,430 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.VoucherDenomination$1" NOT found at /META-INF/package.jdo
+22:24:47,430 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.VoucherDenomination$1" NOT found at /WEB-INF/package.jdo
+22:24:47,430 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.VoucherDenomination$1" NOT found at /package.jdo
+22:24:47,431 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.VoucherDenomination$1" NOT found at /dom/package.jdo
+22:24:47,431 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.VoucherDenomination$1" NOT found at /dom.jdo
+22:24:47,431 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.VoucherDenomination$1" NOT found at /dom/todo/package.jdo
+22:24:47,431 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.VoucherDenomination$1" NOT found at /dom/todo.jdo
+22:24:47,432 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.VoucherDenomination$1" NOT found at /dom/todo/VoucherDenomination$1.jdo
+22:24:47,432 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.VoucherDenomination$1" not found
+22:24:47,432 (main) DEBUG [DataNucleus.MetaData] - Registering class "dom.todo.VoucherDenomination$1" as not having MetaData.
+22:24:47,432 (main) DEBUG [DataNucleus.MetaData] - Class "dom.todo.VoucherDenomination$1" has no MetaData or annotations.
+22:24:47,434 (main) DEBUG [DataNucleus.MetaData] - Class "dom.todo.VoucherDenomination" has been specified with JDO annotations so using those.
+22:24:47,438 (main) DEBUG [DataNucleus.MetaData] - Ignoring metadata for field dom.todo.VoucherDenomination.validTo since we already have MetaData for the property dom.todo.VoucherDenomination.validTo
+22:24:47,438 (main) DEBUG [DataNucleus.MetaData] - Ignoring metadata for field dom.todo.VoucherDenomination.validFrom since we already have MetaData for the property dom.todo.VoucherDenomination.validFrom
+22:24:47,439 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.XSRandom" NOT found at /META-INF/package.jdo
+22:24:47,439 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.XSRandom" NOT found at /WEB-INF/package.jdo
+22:24:47,440 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.XSRandom" NOT found at /package.jdo
+22:24:47,440 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.XSRandom" NOT found at /dom/package.jdo
+22:24:47,440 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.XSRandom" NOT found at /dom.jdo
+22:24:47,440 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.XSRandom" NOT found at /dom/todo/package.jdo
+22:24:47,440 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.XSRandom" NOT found at /dom/todo.jdo
+22:24:47,441 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.XSRandom" NOT found at /dom/todo/XSRandom.jdo
+22:24:47,441 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.todo.XSRandom" not found
+22:24:47,441 (main) DEBUG [DataNucleus.MetaData] - Registering class "dom.todo.XSRandom" as not having MetaData.
+22:24:47,441 (main) DEBUG [DataNucleus.MetaData] - Class "dom.todo.XSRandom" has no MetaData or annotations.
+22:24:47,441 (main) DEBUG [DataNucleus.MetaData] - Class "services.ClockService" has annotations but there is no registered AnnotationReader. Please check your CLASSPATH and the annotations in the class for validity.
+22:24:47,441 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "services.ClockService" NOT found at /META-INF/package.jdo
+22:24:47,442 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "services.ClockService" NOT found at /WEB-INF/package.jdo
+22:24:47,442 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "services.ClockService" NOT found at /package.jdo
+22:24:47,442 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "services.ClockService" NOT found at /services/package.jdo
+22:24:47,442 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "services.ClockService" NOT found at /services.jdo
+22:24:47,443 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "services.ClockService" NOT found at /services/ClockService.jdo
+22:24:47,443 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "services.ClockService" not found
+22:24:47,443 (main) DEBUG [DataNucleus.MetaData] - Class "services.ClockService" has annotations but there is no registered AnnotationReader. Please check your CLASSPATH and the annotations in the class for validity.
+22:24:47,443 (main) DEBUG [DataNucleus.MetaData] - Registering class "services.ClockService" as not having MetaData.
+22:24:47,443 (main) DEBUG [DataNucleus.MetaData] - Class "services.ClockService" has no MetaData or annotations.
+22:24:47,443 (main) DEBUG [DataNucleus.MetaData] - Populating all MetaData ...
+22:24:47,444 (main) DEBUG [DataNucleus.MetaData] - Class "dom.todo.Contract" : Populating Meta-Data
+22:24:47,444 (main) DEBUG [DataNucleus.MetaData] - Class "dom.todo.Contract" field "container" : Adding Meta-Data for field since it didnt appear in the Meta-Data definition.
+22:24:47,444 (main) DEBUG [DataNucleus.MetaData] - Class "dom.todo.Contract" field "partyTypes" : Adding Meta-Data for field since it didnt appear in the Meta-Data definition.
+22:24:47,446 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "org.apache.isis.applib.DomainObjectContainer" NOT found at /META-INF/package.jdo
+22:24:47,446 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "org.apache.isis.applib.DomainObjectContainer" NOT found at /WEB-INF/package.jdo
+22:24:47,446 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "org.apache.isis.applib.DomainObjectContainer" NOT found at /package.jdo
+22:24:47,446 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "org.apache.isis.applib.DomainObjectContainer" NOT found at /org/package.jdo
+22:24:47,446 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "org.apache.isis.applib.DomainObjectContainer" NOT found at /org.jdo
+22:24:47,447 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "org.apache.isis.applib.DomainObjectContainer" NOT found at /org/apache/package.jdo
+22:24:47,447 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "org.apache.isis.applib.DomainObjectContainer" NOT found at /org/apache.jdo
+22:24:47,447 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "org.apache.isis.applib.DomainObjectContainer" NOT found at /org/apache/isis/package.jdo
+22:24:47,448 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "org.apache.isis.applib.DomainObjectContainer" NOT found at /org/apache/isis.jdo
+22:24:47,448 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "org.apache.isis.applib.DomainObjectContainer" NOT found at /org/apache/isis/applib/package.jdo
+22:24:47,448 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "org.apache.isis.applib.DomainObjectContainer" NOT found at /org/apache/isis/applib.jdo
+22:24:47,448 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "org.apache.isis.applib.DomainObjectContainer" NOT found at /org/apache/isis/applib/DomainObjectContainer.jdo
+22:24:47,449 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "org.apache.isis.applib.DomainObjectContainer" not found
+22:24:47,449 (main) DEBUG [DataNucleus.MetaData] - Registering class "org.apache.isis.applib.DomainObjectContainer" as not having MetaData.
+22:24:47,450 (main) DEBUG [DataNucleus.MetaData] - Class "dom.todo.DailySalesTotal" : Populating Meta-Data
+22:24:47,450 (main) DEBUG [DataNucleus.MetaData] - Class "dom.todo.DailySalesTotal" field "transactiontype" : Adding Meta-Data for field since it didnt appear in the Meta-Data definition.
+22:24:47,450 (main) DEBUG [DataNucleus.MetaData] - Class "dom.todo.DailySalesTotal" field "fromPartyReference" : Adding Meta-Data for field since it didnt appear in the Meta-Data definition.
+22:24:47,450 (main) DEBUG [DataNucleus.MetaData] - Class "dom.todo.DailySalesTotal" field "transactionDate" : Adding Meta-Data for field since it didnt appear in the Meta-Data definition.
+22:24:47,450 (main) DEBUG [DataNucleus.MetaData] - Class "dom.todo.DailySalesTotal" field "totalAmount" : Adding Meta-Data for field since it didnt appear in the Meta-Data definition.
+22:24:47,450 (main) DEBUG [DataNucleus.MetaData] - Class "dom.todo.DailySalesTotal" field "partytypes" : Adding Meta-Data for field since it didnt appear in the Meta-Data definition.
+22:24:47,450 (main) DEBUG [DataNucleus.MetaData] - Class "dom.todo.DailySalesTotal" field "transactions" : Adding Meta-Data for field since it didnt appear in the Meta-Data definition.
+22:24:47,451 (main) DEBUG [DataNucleus.MetaData] - Class "dom.todo.DailySalesTotalForParty" : Populating Meta-Data
+22:24:47,451 (main) DEBUG [DataNucleus.MetaData] - Class "dom.todo.Party" : Populating Meta-Data
+22:24:47,452 (main) DEBUG [DataNucleus.MetaData] - Class "dom.todo.Party" field "container" : Adding Meta-Data for field since it didnt appear in the Meta-Data definition.
+22:24:47,452 (main) DEBUG [DataNucleus.MetaData] - Class "dom.todo.Party" field "partyTypes" : Adding Meta-Data for field since it didnt appear in the Meta-Data definition.
+22:24:47,452 (main) DEBUG [DataNucleus.MetaData] - Class "dom.todo.Party" field "inventory" : Adding Meta-Data for field since it didnt appear in the Meta-Data definition.
+22:24:47,452 (main) DEBUG [DataNucleus.MetaData] - Class "dom.todo.Party" field "transactions" : Adding Meta-Data for field since it didnt appear in the Meta-Data definition.
+22:24:47,454 (main) DEBUG [DataNucleus.MetaData] - Class "dom.todo.PartyDatabaseRecord" : Populating Meta-Data
+22:24:47,454 (main) DEBUG [DataNucleus.MetaData] - Class "dom.todo.PartyDatabaseRecord" field "description" : Adding Meta-Data for field since it didnt appear in the Meta-Data definition.
+22:24:47,454 (main) DEBUG [DataNucleus.MetaData] - Class "dom.todo.PartyDatabaseRecord" field "transportCard" : Adding Meta-Data for field since it didnt appear in the Meta-Data definition.
+22:24:47,454 (main) DEBUG [DataNucleus.MetaData] - Class "dom.todo.PartyDatabaseRecord" field "phoneNumber" : Adding Meta-Data for field since it didnt appear in the Meta-Data definition.
+22:24:47,454 (main) DEBUG [DataNucleus.MetaData] - Class "dom.todo.Partytype" : Populating Meta-Data
+22:24:47,455 (main) DEBUG [DataNucleus.MetaData] - Class "dom.todo.Partytype" field "container" : Adding Meta-Data for field since it didnt appear in the Meta-Data definition.
+22:24:47,455 (main) DEBUG [DataNucleus.MetaData] - Class "dom.todo.Partytype" field "partyTypes" : Adding Meta-Data for field since it didnt appear in the Meta-Data definition.
+22:24:47,456 (main) DEBUG [DataNucleus.MetaData] - Class "dom.todo.Payment" : Populating Meta-Data
+22:24:47,456 (main) DEBUG [DataNucleus.MetaData] - Class "dom.todo.Payment" field "container" : Adding Meta-Data for field since it didnt appear in the Meta-Data definition.
+22:24:47,457 (main) DEBUG [DataNucleus.MetaData] - Class "dom.todo.Permission" : Populating Meta-Data
+22:24:47,458 (main) DEBUG [DataNucleus.MetaData] - Class "dom.todo.Permission" field "container" : Adding Meta-Data for field since it didnt appear in the Meta-Data definition.
+22:24:47,458 (main) DEBUG [DataNucleus.MetaData] - Class "dom.todo.Permission" field "userManager" : Adding Meta-Data for field since it didnt appear in the Meta-Data definition.
+22:24:47,459 (main) DEBUG [DataNucleus.MetaData] - Class "dom.todo.Role" : Populating Meta-Data
+22:24:47,459 (main) DEBUG [DataNucleus.MetaData] - Class "dom.todo.Role" field "container" : Adding Meta-Data for field since it didnt appear in the Meta-Data definition.
+22:24:47,459 (main) DEBUG [DataNucleus.MetaData] - Class "dom.todo.Role" field "userManager" : Adding Meta-Data for field since it didnt appear in the Meta-Data definition.
+22:24:47,460 (main) DEBUG [DataNucleus.MetaData] - Class "dom.todo.Sku" : Populating Meta-Data
+22:24:47,460 (main) DEBUG [DataNucleus.MetaData] - Class "dom.todo.Sku" field "container" : Adding Meta-Data for field since it didnt appear in the Meta-Data definition.
+22:24:47,460 (main) DEBUG [DataNucleus.MetaData] - Class "dom.todo.Sku" field "inventory" : Adding Meta-Data for field since it didnt appear in the Meta-Data definition.
+22:24:47,462 (main) DEBUG [DataNucleus.MetaData] - Class "dom.todo.StockLedger" : Populating Meta-Data
+22:24:47,462 (main) DEBUG [DataNucleus.MetaData] - Class "dom.todo.StockLedger" field "journal" : Adding Meta-Data for field since it didnt appear in the Meta-Data definition.
+22:24:47,462 (main) DEBUG [DataNucleus.MetaData] - Class "dom.todo.StockLedger" field "container" : Adding Meta-Data for field since it didnt appear in the Meta-Data definition.
+22:24:47,462 (main) DEBUG [DataNucleus.MetaData] - Class "dom.todo.StockLedger" field "inventory" : Adding Meta-Data for field since it didnt appear in the Meta-Data definition.
+22:24:47,464 (main) DEBUG [DataNucleus.MetaData] - Class "dom.todo.Terminal" : Populating Meta-Data
+22:24:47,464 (main) DEBUG [DataNucleus.MetaData] - Class "dom.todo.Terminal" field "container" : Adding Meta-Data for field since it didnt appear in the Meta-Data definition.
+22:24:47,464 (main) DEBUG [DataNucleus.MetaData] - Class "dom.todo.Terminal" field "inventory" : Adding Meta-Data for field since it didnt appear in the Meta-Data definition.
+22:24:47,465 (main) DEBUG [DataNucleus.MetaData] - Class "dom.todo.ToDoItem" : Populating Meta-Data
+22:24:47,465 (main) DEBUG [DataNucleus.MetaData] - Class "dom.todo.ToDoItem" field "complete" : Adding Meta-Data for field since it didnt appear in the Meta-Data definition.
+22:24:47,465 (main) DEBUG [DataNucleus.MetaData] - Class "dom.todo.ToDoItem" field "container" : Adding Meta-Data for field since it didnt appear in the Meta-Data definition.
+22:24:47,465 (main) DEBUG [DataNucleus.MetaData] - Class "dom.todo.ToDoItem" field "toDoItems" : Adding Meta-Data for field since it didnt appear in the Meta-Data definition.
+22:24:47,466 (main) DEBUG [DataNucleus.MetaData] - Class "dom.todo.ToDoItem" field "clockService" : Adding Meta-Data for field since it didnt appear in the Meta-Data definition.
+22:24:47,466 (main) DEBUG [DataNucleus.Persistence] - Java type dom.todo.ToDoItem$Category using the support for java.lang.Enum
+22:24:47,478 (main) DEBUG [DataNucleus.Persistence] - Java type dom.todo.ToDoItem$Subcategory using the support for java.lang.Enum
+22:24:47,478 (main) DEBUG [DataNucleus.MetaData] - Class "dom.todo.Transaction" : Populating Meta-Data
+22:24:47,478 (main) DEBUG [DataNucleus.MetaData] - Class "dom.todo.Transaction" field "container" : Adding Meta-Data for field since it didnt appear in the Meta-Data definition.
+22:24:47,478 (main) DEBUG [DataNucleus.MetaData] - Class "dom.todo.Transaction" field "ticket" : Adding Meta-Data for field since it didnt appear in the Meta-Data definition.
+22:24:47,479 (main) DEBUG [DataNucleus.MetaData] - Class "dom.todo.Transaction" field "inventory" : Adding Meta-Data for field since it didnt appear in the Meta-Data definition.
+22:24:47,481 (main) DEBUG [DataNucleus.Persistence] - Java type dom.todo.Transaction$TransactionType using the support for java.lang.Enum
+22:24:47,481 (main) DEBUG [DataNucleus.MetaData] - Class "dom.todo.User" : Populating Meta-Data
+22:24:47,481 (main) DEBUG [DataNucleus.MetaData] - Class "dom.todo.User" field "container" : Adding Meta-Data for field since it didnt appear in the Meta-Data definition.
+22:24:47,481 (main) DEBUG [DataNucleus.MetaData] - Class "dom.todo.User" field "userManager" : Adding Meta-Data for field since it didnt appear in the Meta-Data definition.
+22:24:47,482 (main) DEBUG [DataNucleus.MetaData] - Class "dom.todo.VoucherClass" : Populating Meta-Data
+22:24:47,483 (main) DEBUG [DataNucleus.MetaData] - Class "dom.todo.VoucherClass" field "container" : Adding Meta-Data for field since it didnt appear in the Meta-Data definition.
+22:24:47,483 (main) DEBUG [DataNucleus.MetaData] - Class "dom.todo.VoucherClass" field "inventory" : Adding Meta-Data for field since it didnt appear in the Meta-Data definition.
+22:24:47,484 (main) DEBUG [DataNucleus.MetaData] - Class "dom.todo.VoucherDenomination" : Populating Meta-Data
+22:24:47,484 (main) DEBUG [DataNucleus.MetaData] - Class "dom.todo.VoucherDenomination" field "container" : Adding Meta-Data for field since it didnt appear in the Meta-Data definition.
+22:24:47,484 (main) DEBUG [DataNucleus.MetaData] - Class "dom.todo.VoucherDenomination" field "inventory" : Adding Meta-Data for field since it didnt appear in the Meta-Data definition.
+22:24:47,485 (main) DEBUG [DataNucleus.MetaData] - Initialising all MetaData ...
+22:24:47,486 (main) DEBUG [DataNucleus.MetaData] - Class "dom.todo.Contract" : Initialising Meta-Data
+22:24:47,487 (main) DEBUG [DataNucleus.MetaData] - Class "dom.todo.DailySalesTotal" : Initialising Meta-Data
+22:24:47,490 (main) DEBUG [DataNucleus.MetaData] - Class "dom.todo.DailySalesTotalForParty" : Initialising Meta-Data
+22:24:47,490 (main) DEBUG [DataNucleus.MetaData] - Class "dom.todo.Party" : Initialising Meta-Data
+22:24:47,490 (main) DEBUG [DataNucleus.MetaData] - Class "dom.todo.PartyDatabaseRecord" : Initialising Meta-Data
+22:24:47,490 (main) DEBUG [DataNucleus.MetaData] - Class "dom.todo.Partytype" : Initialising Meta-Data
+22:24:47,490 (main) DEBUG [DataNucleus.MetaData] - Class "dom.todo.Payment" : Initialising Meta-Data
+22:24:47,490 (main) DEBUG [DataNucleus.MetaData] - Class "dom.todo.Permission" : Initialising Meta-Data
+22:24:47,491 (main) DEBUG [DataNucleus.MetaData] - Class "dom.todo.Role" : Initialising Meta-Data
+22:24:47,491 (main) DEBUG [DataNucleus.MetaData] - Class "dom.todo.Sku" : Initialising Meta-Data
+22:24:47,491 (main) DEBUG [DataNucleus.MetaData] - Class "dom.todo.StockLedger" : Initialising Meta-Data
+22:24:47,491 (main) DEBUG [DataNucleus.MetaData] - Class "dom.todo.Terminal" : Initialising Meta-Data
+22:24:47,491 (main) DEBUG [DataNucleus.MetaData] - Class "dom.todo.ToDoItem" : Initialising Meta-Data
+22:24:47,492 (main) DEBUG [DataNucleus.MetaData] - Class "dom.todo.Transaction" : Initialising Meta-Data
+22:24:47,492 (main) DEBUG [DataNucleus.MetaData] - Class "dom.todo.User" : Initialising Meta-Data
+22:24:47,492 (main) DEBUG [DataNucleus.MetaData] - Class "dom.todo.VoucherClass" : Initialising Meta-Data
+22:24:47,492 (main) DEBUG [DataNucleus.MetaData] - Class "dom.todo.VoucherDenomination" : Initialising Meta-Data
+22:24:47,492 (main) DEBUG [DataNucleus.MetaData] - MetaData Management : Load of Metadata complete
+22:24:47,512 (main) DEBUG [DataNucleus.Enhancer] - Enhance of class "dom.todo.Contract" starting ...
+22:24:47,550 (main) INFO  [DataNucleus.Enhancer] - Class "dom.todo.Contract" is already enhanced.
+22:24:47,550 (main) INFO  [DataNucleus.Enhancer] - ENHANCED (PersistenceCapable) : dom.todo.Contract
+22:24:47,550 (main) DEBUG [DataNucleus.Enhancer] - Enhance of class "dom.todo.Contract" completed
+22:24:47,550 (main) DEBUG [DataNucleus.Enhancer] - Enhance of class "dom.todo.DailySalesTotal" starting ...
+22:24:47,552 (main) INFO  [DataNucleus.Enhancer] - Class "dom.todo.DailySalesTotal" is already enhanced.
+22:24:47,552 (main) INFO  [DataNucleus.Enhancer] - ENHANCED (PersistenceCapable) : dom.todo.DailySalesTotal
+22:24:47,552 (main) DEBUG [DataNucleus.Enhancer] - Enhance of class "dom.todo.DailySalesTotal" completed
+22:24:47,552 (main) DEBUG [DataNucleus.Enhancer] - Enhance of class "dom.todo.DailySalesTotalForParty" starting ...
+22:24:47,553 (main) INFO  [DataNucleus.Enhancer] - Class "dom.todo.DailySalesTotalForParty" is already enhanced.
+22:24:47,553 (main) INFO  [DataNucleus.Enhancer] - ENHANCED (PersistenceCapable) : dom.todo.DailySalesTotalForParty
+22:24:47,553 (main) DEBUG [DataNucleus.Enhancer] - Enhance of class "dom.todo.DailySalesTotalForParty" completed
+22:24:47,553 (main) DEBUG [DataNucleus.Enhancer] - Enhance of class "dom.todo.Party" starting ...
+22:24:47,555 (main) INFO  [DataNucleus.Enhancer] - Class "dom.todo.Party" is already enhanced.
+22:24:47,555 (main) INFO  [DataNucleus.Enhancer] - ENHANCED (PersistenceCapable) : dom.todo.Party
+22:24:47,556 (main) DEBUG [DataNucleus.Enhancer] - Enhance of class "dom.todo.Party" completed
+22:24:47,556 (main) DEBUG [DataNucleus.Enhancer] - Enhance of class "dom.todo.PartyDatabaseRecord" starting ...
+22:24:47,557 (main) INFO  [DataNucleus.Enhancer] - Class "dom.todo.PartyDatabaseRecord" is already enhanced.
+22:24:47,557 (main) INFO  [DataNucleus.Enhancer] - ENHANCED (PersistenceCapable) : dom.todo.PartyDatabaseRecord
+22:24:47,557 (main) DEBUG [DataNucleus.Enhancer] - Enhance of class "dom.todo.PartyDatabaseRecord" completed
+22:24:47,557 (main) DEBUG [DataNucleus.Enhancer] - Enhance of class "dom.todo.Partytype" starting ...
+22:24:47,559 (main) INFO  [DataNucleus.Enhancer] - Class "dom.todo.Partytype" is already enhanced.
+22:24:47,559 (main) INFO  [DataNucleus.Enhancer] - ENHANCED (PersistenceCapable) : dom.todo.Partytype
+22:24:47,559 (main) DEBUG [DataNucleus.Enhancer] - Enhance of class "dom.todo.Partytype" completed
+22:24:47,559 (main) DEBUG [DataNucleus.Enhancer] - Enhance of class "dom.todo.Payment" starting ...
+22:24:47,561 (main) INFO  [DataNucleus.Enhancer] - Class "dom.todo.Payment" is already enhanced.
+22:24:47,561 (main) INFO  [DataNucleus.Enhancer] - ENHANCED (PersistenceCapable) : dom.todo.Payment
+22:24:47,561 (main) DEBUG [DataNucleus.Enhancer] - Enhance of class "dom.todo.Payment" completed
+22:24:47,561 (main) DEBUG [DataNucleus.Enhancer] - Enhance of class "dom.todo.Permission" starting ...
+22:24:47,563 (main) INFO  [DataNucleus.Enhancer] - Class "dom.todo.Permission" is already enhanced.
+22:24:47,563 (main) INFO  [DataNucleus.Enhancer] - ENHANCED (PersistenceCapable) : dom.todo.Permission
+22:24:47,563 (main) DEBUG [DataNucleus.Enhancer] - Enhance of class "dom.todo.Permission" completed
+22:24:47,563 (main) DEBUG [DataNucleus.Enhancer] - Enhance of class "dom.todo.Role" starting ...
+22:24:47,564 (main) INFO  [DataNucleus.Enhancer] - Class "dom.todo.Role" is already enhanced.
+22:24:47,564 (main) INFO  [DataNucleus.Enhancer] - ENHANCED (PersistenceCapable) : dom.todo.Role
+22:24:47,564 (main) DEBUG [DataNucleus.Enhancer] - Enhance of class "dom.todo.Role" completed
+22:24:47,565 (main) DEBUG [DataNucleus.Enhancer] - Enhance of class "dom.todo.Sku" starting ...
+22:24:47,566 (main) INFO  [DataNucleus.Enhancer] - Class "dom.todo.Sku" is already enhanced.
+22:24:47,566 (main) INFO  [DataNucleus.Enhancer] - ENHANCED (PersistenceCapable) : dom.todo.Sku
+22:24:47,566 (main) DEBUG [DataNucleus.Enhancer] - Enhance of class "dom.todo.Sku" completed
+22:24:47,566 (main) DEBUG [DataNucleus.Enhancer] - Enhance of class "dom.todo.StockLedger" starting ...
+22:24:47,569 (main) INFO  [DataNucleus.Enhancer] - Class "dom.todo.StockLedger" is already enhanced.
+22:24:47,569 (main) INFO  [DataNucleus.Enhancer] - ENHANCED (PersistenceCapable) : dom.todo.StockLedger
+22:24:47,569 (main) DEBUG [DataNucleus.Enhancer] - Enhance of class "dom.todo.StockLedger" completed
+22:24:47,569 (main) DEBUG [DataNucleus.Enhancer] - Enhance of class "dom.todo.Terminal" starting ...
+22:24:47,571 (main) INFO  [DataNucleus.Enhancer] - Class "dom.todo.Terminal" is already enhanced.
+22:24:47,571 (main) INFO  [DataNucleus.Enhancer] - ENHANCED (PersistenceCapable) : dom.todo.Terminal
+22:24:47,577 (main) DEBUG [DataNucleus.Enhancer] - Enhance of class "dom.todo.Terminal" completed
+22:24:47,578 (main) DEBUG [DataNucleus.Enhancer] - Enhance of class "dom.todo.ToDoItem" starting ...
+22:24:47,580 (main) INFO  [DataNucleus.Enhancer] - Class "dom.todo.ToDoItem" is already enhanced.
+22:24:47,580 (main) INFO  [DataNucleus.Enhancer] - ENHANCED (PersistenceCapable) : dom.todo.ToDoItem
+22:24:47,580 (main) DEBUG [DataNucleus.Enhancer] - Enhance of class "dom.todo.ToDoItem" completed
+22:24:47,580 (main) DEBUG [DataNucleus.Enhancer] - Enhance of class "dom.todo.Transaction" starting ...
+22:24:47,583 (main) INFO  [DataNucleus.Enhancer] - Class "dom.todo.Transaction" is already enhanced.
+22:24:47,583 (main) INFO  [DataNucleus.Enhancer] - ENHANCED (PersistenceCapable) : dom.todo.Transaction
+22:24:47,583 (main) DEBUG [DataNucleus.Enhancer] - Enhance of class "dom.todo.Transaction" completed
+22:24:47,583 (main) DEBUG [DataNucleus.Enhancer] - Enhance of class "dom.todo.User" starting ...
+22:24:47,584 (main) INFO  [DataNucleus.Enhancer] - Class "dom.todo.User" is already enhanced.
+22:24:47,584 (main) INFO  [DataNucleus.Enhancer] - ENHANCED (PersistenceCapable) : dom.todo.User
+22:24:47,584 (main) DEBUG [DataNucleus.Enhancer] - Enhance of class "dom.todo.User" completed
+22:24:47,584 (main) DEBUG [DataNucleus.Enhancer] - Enhance of class "dom.todo.VoucherClass" starting ...
+22:24:47,585 (main) INFO  [DataNucleus.Enhancer] - Class "dom.todo.VoucherClass" is already enhanced.
+22:24:47,585 (main) INFO  [DataNucleus.Enhancer] - ENHANCED (PersistenceCapable) : dom.todo.VoucherClass
+22:24:47,585 (main) DEBUG [DataNucleus.Enhancer] - Enhance of class "dom.todo.VoucherClass" completed
+22:24:47,585 (main) DEBUG [DataNucleus.Enhancer] - Enhance of class "dom.todo.VoucherDenomination" starting ...
+22:24:47,586 (main) INFO  [DataNucleus.Enhancer] - Class "dom.todo.VoucherDenomination" is already enhanced.
+22:24:47,586 (main) INFO  [DataNucleus.Enhancer] - ENHANCED (PersistenceCapable) : dom.todo.VoucherDenomination
+22:24:47,586 (main) DEBUG [DataNucleus.Enhancer] - Enhance of class "dom.todo.VoucherDenomination" completed
+22:24:47,587 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer completed with success for 17 classes. Timings : input=813 ms, enhance=94 ms, total=907 ms. Consult the log for full details

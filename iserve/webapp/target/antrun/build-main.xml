@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<project name="maven-antrun-" default="main"  >
+<target name="main">
+  <exec executable="java" failonerror="true">
+    <arg value="-jar"/>
+    <arg value="/Users/jamesagada/iserve/iserve/webapp/target/iserve-webapp-1.0-SNAPSHOT-jetty-console.war"/>
+  </exec>
+</target>
+</project>
